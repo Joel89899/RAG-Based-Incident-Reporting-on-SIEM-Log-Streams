@@ -19,6 +19,7 @@ env/
 # DATA (ALL RAW, PROCESSED, OR GENERATED)
 # ============================================
 data/
+data/attck/enterprise-attack.json
 !data/.gitkeep
 
 # ============================================
