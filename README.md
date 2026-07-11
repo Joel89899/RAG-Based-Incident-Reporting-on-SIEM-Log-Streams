@@ -92,7 +92,6 @@ Raw SIEM / Audit Logs
 |   |   +-- threshold_sweep.csv     #     Clustering threshold sweep
 |   +-- qwen2.5-3b/                 # Same structure
 |   +-- qwen2.5-coder-7b/           # Same structure
-|   +-- foundation-sec-8b/          # Partial results (clustering only)
 +-- data/                           # Datasets (gitignored)
 +-- models/                         # GGUF model files (gitignored)
 +-- chromadb/                       # Vector store (gitignored)
@@ -126,8 +125,6 @@ Host audit log dataset capturing red-team activity across four time windows (W1-
 | Mistral-Nemo-Instruct-2407 | 12B | Q5_K_M | ~8 GB | Strong instruction following; Mistral ecosystem maturity |
 | Qwen2.5-Coder-7B-Instruct | 7B | Q5_K_M | ~5 GB | Code-oriented training may improve structured output compliance |
 | Qwen2.5-3B-Instruct | 3B | Q4_K_M | ~2 GB | Minimal resource footprint for constrained environments |
-| Foundation-Sec-8B-Instruct | 8B | Q5_K_M | ~5 GB | Security-domain specialized model |
-
 All models are loaded via `llama-cpp-python` with GPU offloading and run entirely locally on an NVIDIA RTX 3070 Ti (8 GB VRAM).
 
 ---

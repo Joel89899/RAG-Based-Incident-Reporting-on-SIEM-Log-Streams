@@ -27,6 +27,8 @@ data/
 embeddings/
 models/
 results/
+!results/*/figures/
+!results/*/figures/**
 chromadb/
 
 # ============================================
