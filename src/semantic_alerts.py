@@ -81,7 +81,9 @@ def build_semantic_alert(row) -> str:
     sport = _get('SrcPort', 'sport')
     dport = _get('DstPort', 'dport') or _get('DstPort')
     proto = (_get('Protocol') or _get('protocol') or '').upper()
-    label = _get('Label') or _get('label') or _get('AlertType') or ''
+    # NOTE: label is intentionally NOT included here to prevent ground-truth
+    # leakage into the embedding/clustering stage.  Labels are used only at
+    # evaluation time, never during the unsupervised pipeline.
 
     # infer service and hint
     service = _port_to_service(dport) or _port_to_service(sport)
@@ -98,8 +100,6 @@ def build_semantic_alert(row) -> str:
         parts.append(f"proto={proto}")
     if service:
         parts.append(f"service={service}")
-    if label:
-        parts.append(f"label={label}")
 
     # Add ATT&CK hint deterministically at end if available
     if hint:
