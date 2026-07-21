@@ -66,39 +66,48 @@ Raw SIEM / Audit Logs
 
 ```
 .
-+-- src/
-|   +-- semantic_alerts.py          # Deterministic NL alert builder (port/service mapping, ATT&CK hints)
-+-- notebook_CIC-IDS/               # CIC-IDS-2017 notebooks (one per model)
-|   +-- CIC_IDS_v1.ipynb            #     Reference implementation
-|   +-- CIC_IDS_v1_mistral-nemo-12b.ipynb
-|   +-- CIC_IDS_v1_qwen2.5-3b.ipynb
-|   +-- CIC_IDS_v1_qwen2.5-coder-7b.ipynb
-+-- notebook_DARPA/                 # DARPA TC notebooks (one per model)
-|   +-- DARPA_v1.ipynb              # Reference implementation
-|   +-- DARPA_v1_mistral-nemo-12b.ipynb
-|   +-- DARPA_v1_qwen2.5-3b.ipynb
-|   +-- DARPA_v1_qwen2.5-coder-7b.ipynb
-+-- results/                        # Evaluation outputs and figures (per model)
-|   +-- mistral-nemo-12b/
-|   |   +-- figures/                #     8 plots (4 CIC-IDS + 4 DARPA)
-|   |   +-- rag_metrics.json        #     RAG evaluation metrics
-|   |   +-- clustering_metrics.json #     Clustering quality
-|   |   +-- knowledge_graph_metrics.json
-|   |   +-- knowledge_graph.graphml #     Serialized KG
-|   |   +-- triple_metrics.json     #     Triple extraction quality
-|   |   +-- report_quality.json     #     Report faithfulness scores
-|   |   +-- darpa_comparison_metrics.json
-|   |   +-- rag_reports.csv         #     Generated incident reports
-|   |   +-- threshold_sweep.csv     #     Clustering threshold sweep
-|   +-- qwen2.5-3b/                 # Same structure
-|   +-- qwen2.5-coder-7b/           # Same structure
-+-- data/                           # Datasets (gitignored)
-+-- models/                         # GGUF model files (gitignored)
-+-- chromadb/                       # Vector store (gitignored)
-+-- src/semantic_alerts.py
-+-- test.py
-+-- README.md
+├── src/
+│   └── semantic_alerts.py              # Deterministic NL alert builder (port/service mapping, ATT&CK hints)
+├── notebook_CIC-IDS/                   # CIC-IDS-2017 notebooks (one per model)
+│   ├── CIC_IDS_v1_mistral-nemo-12b.ipynb
+│   ├── CIC_IDS_v1_qwen2.5-3b.ipynb
+│   └── CIC_IDS_v1_qwen2.5-coder-7b.ipynb
+├── notebook_DARPA/                     # DARPA TC notebooks (one per model)
+│   ├── DARPA_v1_mistral-nemo-12b.ipynb
+│   ├── DARPA_v1_qwen2.5-3b.ipynb
+│   └── DARPA_v1_qwen2.5-coder-7b.ipynb
+├── results/                            # Evaluation outputs — separated by dataset × model
+│   ├── cicids/                         #   CIC-IDS-2017 results
+│   │   ├── mistral-nemo-12b/
+│   │   │   ├── figures/                #   4 plots (threshold_sweep, confusion_matrix, per_class_accuracy, metrics_comparison)
+│   │   │   ├── rag_metrics.json        #   RAG evaluation metrics
+│   │   │   ├── clustering_metrics.json #   Clustering quality
+│   │   │   ├── knowledge_graph_metrics.json
+│   │   │   ├── knowledge_graph.graphml #   Serialized KG
+│   │   │   ├── triple_metrics.json     #   Triple extraction quality
+│   │   │   ├── report_quality.json     #   Report faithfulness scores
+│   │   │   ├── rag_reports.csv         #   Generated incident reports
+│   │   │   └── threshold_sweep.csv     #   Clustering threshold sweep
+│   │   ├── qwen2.5-3b/                 #   Same structure
+│   │   └── qwen2.5-coder-7b/           #   Same structure
+│   └── darpa/                          #   DARPA TC results
+│       ├── mistral-nemo-12b/
+│       │   ├── figures/                #   4 plots (darpa_threshold_sweep, darpa_per_window_comparison, darpa_metrics_summary, darpa_alerts_per_window)
+│       │   ├── darpa_cadets_run.json   #   Full run state
+│       │   ├── darpa_cadets_emb.pt     #   Alert embeddings
+│       │   ├── darpa_comparison_metrics.json
+│       │   └── darpa_threshold_sweep.csv
+│       ├── qwen2.5-3b/                 #   Same structure
+│       └── qwen2.5-coder-7b/           #   Same structure
+├── My_thesis_document/                 # Thesis LaTeX source (synced via Overleaf Git Bridge; gitignored in this repo)
+├── data/                               # Datasets (gitignored)
+├── models/                             # GGUF model files (gitignored)
+├── chromadb/                           # Vector store (gitignored)
+├── test.py                             # GPU/CUDA sanity check
+└── README.md
 ```
+
+> **Note:** The `results/` directory is currently **empty** — notebooks need to be re-run to regenerate all outputs. The metrics tables below show historical results from prior runs for reference.
 
 ---
 
@@ -159,7 +168,7 @@ Exact match and parent match measure whether the LLM-assigned technique ID (or i
 | Retrieval Hit Rate | **0.833** | 0.111 | 0.278 |
 
 *Figure: CIC-IDS metrics comparison across models.*
-![CIC-IDS Metrics Comparison](results/mistral-nemo-12b/figures/metrics_comparison.png)
+![CIC-IDS Metrics Comparison](results/cicids/mistral-nemo-12b/figures/metrics_comparison.png)
 
 ### Report Quality (CIC-IDS-2017)
 
@@ -185,10 +194,10 @@ Macro-averaged precision, recall, and F1 across the four attack windows (W1-W4).
 | KG F1 95% CI | [0.536, 0.743] | [0.619, 0.800] | [0.595, 0.792] |
 
 *Figure: DARPA per-window comparison (KG-based vs simple retrieval).*
-![DARPA Per-Window Comparison](results/mistral-nemo-12b/figures/darpa_per_window_comparison.png)
+![DARPA Per-Window Comparison](results/darpa/mistral-nemo-12b/figures/darpa_per_window_comparison.png)
 
 *Figure: DARPA summary metrics across all windows.*
-![DARPA Metrics Summary](results/mistral-nemo-12b/figures/darpa_metrics_summary.png)
+![DARPA Metrics Summary](results/darpa/mistral-nemo-12b/figures/darpa_metrics_summary.png)
 
 ### Knowledge Graph Coverage
 
@@ -262,7 +271,7 @@ jupyter notebook notebook_CIC-IDS/CIC_IDS_v1_mistral-nemo-12b.ipynb
 jupyter notebook notebook_DARPA/DARPA_v1_qwen2.5-coder-7b.ipynb
 ```
 
-Each notebook is self-contained and runs the full pipeline end-to-end: data loading, alert construction, embedding, clustering, triple extraction, knowledge graph construction, RAG retrieval, and report generation.
+Each notebook is self-contained and runs the full pipeline end-to-end: data loading, alert construction, embedding, clustering, triple extraction, knowledge graph construction, RAG retrieval, and report generation. Results are saved to `results/{cicids|darpa}/{model_name}/`.
 
 ---
 
@@ -289,13 +298,39 @@ Each notebook is self-contained and runs the full pipeline end-to-end: data load
 If you use this work in your research, please cite:
 
 ```
-@mastersthesis{mwende2025rag,
+@mastersthesis{mwende2026incident,
   author  = {Joel Isaria Mwende},
-  title   = {RAG-Based Incident Reporting on SIEM Log Streams},
-  school  = {SRH University of Applied Sciences},
-  year    = {2025}
+  title   = {From Fragmented Alerts to Actionable Intelligence: Semantic Clustering, Knowledge Graph Construction, and RAG-Based Incident Reporting on SIEM Log Streams},
+  school  = {SRH Berlin University of Applied Sciences},
+  year    = {2026}
 }
 ```
+
+---
+
+## Current Status & Known Gaps
+
+### ✅ In place
+- 6 self-contained pipeline notebooks (3 models × 2 datasets) with seed-fixed reproducibility
+- Deterministic alert text construction (`src/semantic_alerts.py`)
+- Local LLM inference via `llama-cpp-python` with JSON grammar constraints
+- ChromaDB vector store with HyDE query expansion and KG-anchored reranking
+- Full evaluation suite: exact/parent match, macro-F1, faithfulness, evidence grounding, clustering purity
+- Results directory structure isolated by dataset and model (`results/cicids/` and `results/darpa/`)
+- Thesis LaTeX source synced to Overleaf via Git Bridge
+
+### ⚠️ Needs regeneration
+- **All results directories are currently empty.** The 6 notebooks must be re-run to populate `results/cicids/` and `results/darpa/`. Approximate run time: 2–4 hours per notebook on an RTX 3070 Ti (8 GB VRAM).
+- The metrics tables above reflect **historical benchmarks** from prior runs and will update once notebooks are re-executed.
+
+### 🔜 Planned / Missing
+- **`foundation-sec-8b`** model evaluation — notebook not yet created; empty results directory previously removed
+- **`requirements.txt`** or `environment.yml` — dependencies currently installed inline via `!pip install` cells
+- **Thesis abstract** — placeholder in `My_thesis_document/chapters/abstract.tex`
+- **`references.bib`** — thesis bibliography file is currently empty; only `ludography.bib` has entries
+- **SIEM/Wazuh integration** — `data/SIEM/WAZUH_alerts.json` and `data/windows/` exist but no notebook consumes them yet
+- **Automated test suite** — only `test.py` (GPU check) exists
+- **DVC or data versioning** — no tracking for large dataset/model files
 
 ---
 
@@ -307,7 +342,9 @@ This project is provided for academic and research purposes. See the `LICENSE` f
 
 ## Acknowledgments
 
-- Prof. Dr. Klaus Dieter Schwarz, SRH University, for supervision and methodological guidance.
+- Prof. Dr. Klaus Schwarz, SRH Berlin University of Applied Sciences, for supervision and methodological guidance.
+- Prof. Dr. Reiner Creutzburg, for co-supervision.
+- Prof. Dr. Tuğçe Ballı, for co-supervision.
 - The MITRE Corporation, for the ATT&CK framework and STIX data.
 - Canadian Institute for Cybersecurity, for the CIC-IDS-2017 dataset.
 - DARPA, for the Transparent Computing program and CADETS dataset.
