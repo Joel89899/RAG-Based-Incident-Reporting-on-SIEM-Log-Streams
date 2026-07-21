@@ -27,8 +27,8 @@ data/
 embeddings/
 models/
 results/
-!results/*/figures/
-!results/*/figures/**
+!results/**/figures/
+!results/**/figures/**
 chromadb/
 
 # ============================================
@@ -38,6 +38,11 @@ chromadb/
 *.tmp
 *.cache/
 .cache/
+
+# ============================================
+# AGENTS / SKILLS
+# ============================================
+.agents/
 
 # ============================================
 # OS FILES

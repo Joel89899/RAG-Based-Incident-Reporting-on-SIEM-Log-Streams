@@ -99,7 +99,6 @@ Raw SIEM / Audit Logs
 │       │   └── darpa_threshold_sweep.csv
 │       ├── qwen2.5-3b/                 #   Same structure
 │       └── qwen2.5-coder-7b/           #   Same structure
-├── My_thesis_document/                 # Thesis LaTeX source (synced via Overleaf Git Bridge; gitignored in this repo)
 ├── data/                               # Datasets (gitignored)
 ├── models/                             # GGUF model files (gitignored)
 ├── chromadb/                           # Vector store (gitignored)
@@ -168,7 +167,7 @@ Exact match and parent match measure whether the LLM-assigned technique ID (or i
 | Retrieval Hit Rate | **0.833** | 0.111 | 0.278 |
 
 *Figure: CIC-IDS metrics comparison across models.*
-![CIC-IDS Metrics Comparison](results/cicids/mistral-nemo-12b/figures/metrics_comparison.png)
+![CIC-IDS Metrics Comparison](https://raw.githubusercontent.com/Joel89899/RAG-Based-Incident-Reporting-on-SIEM-Log-Streams/main/results/cicids/mistral-nemo-12b/figures/metrics_comparison.png)
 
 ### Report Quality (CIC-IDS-2017)
 
@@ -194,10 +193,10 @@ Macro-averaged precision, recall, and F1 across the four attack windows (W1-W4).
 | KG F1 95% CI | [0.536, 0.743] | [0.619, 0.800] | [0.595, 0.792] |
 
 *Figure: DARPA per-window comparison (KG-based vs simple retrieval).*
-![DARPA Per-Window Comparison](results/darpa/mistral-nemo-12b/figures/darpa_per_window_comparison.png)
+![DARPA Per-Window Comparison](https://raw.githubusercontent.com/Joel89899/RAG-Based-Incident-Reporting-on-SIEM-Log-Streams/main/results/darpa/mistral-nemo-12b/figures/darpa_per_window_comparison.png)
 
 *Figure: DARPA summary metrics across all windows.*
-![DARPA Metrics Summary](results/darpa/mistral-nemo-12b/figures/darpa_metrics_summary.png)
+![DARPA Metrics Summary](https://raw.githubusercontent.com/Joel89899/RAG-Based-Incident-Reporting-on-SIEM-Log-Streams/main/results/darpa/mistral-nemo-12b/figures/darpa_metrics_summary.png)
 
 ### Knowledge Graph Coverage
 
@@ -317,17 +316,13 @@ If you use this work in your research, please cite:
 - ChromaDB vector store with HyDE query expansion and KG-anchored reranking
 - Full evaluation suite: exact/parent match, macro-F1, faithfulness, evidence grounding, clustering purity
 - Results directory structure isolated by dataset and model (`results/cicids/` and `results/darpa/`)
-- Thesis LaTeX source synced to Overleaf via Git Bridge
 
 ### ⚠️ Needs regeneration
 - **All results directories are currently empty.** The 6 notebooks must be re-run to populate `results/cicids/` and `results/darpa/`. Approximate run time: 2–4 hours per notebook on an RTX 3070 Ti (8 GB VRAM).
 - The metrics tables above reflect **historical benchmarks** from prior runs and will update once notebooks are re-executed.
 
 ### 🔜 Planned / Missing
-- **`foundation-sec-8b`** model evaluation — notebook not yet created; empty results directory previously removed
 - **`requirements.txt`** or `environment.yml` — dependencies currently installed inline via `!pip install` cells
-- **Thesis abstract** — placeholder in `My_thesis_document/chapters/abstract.tex`
-- **`references.bib`** — thesis bibliography file is currently empty; only `ludography.bib` has entries
 - **SIEM/Wazuh integration** — `data/SIEM/WAZUH_alerts.json` and `data/windows/` exist but no notebook consumes them yet
 - **Automated test suite** — only `test.py` (GPU check) exists
 - **DVC or data versioning** — no tracking for large dataset/model files
