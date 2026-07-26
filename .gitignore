@@ -76,3 +76,7 @@ the-humanizer.md
 *.lot
 *.lof
 %OUTDIR%/
+
+# IDE / Editor / Agent skills
+.claude/
+.vscode/
