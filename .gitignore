@@ -26,9 +26,6 @@ data/
 # ============================================
 embeddings/
 models/
-results/
-!results/**/figures/
-!results/**/figures/**
 chromadb/
 
 # ============================================
@@ -80,4 +77,3 @@ the-humanizer.md
 # IDE / Editor / Agent skills
 .claude/
 .vscode/
-revision_scripts/

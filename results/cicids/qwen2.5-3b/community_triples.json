@@ -1,0 +1,313 @@
+{
+  "0": [
+    {
+      "subject": "scanner_host",
+      "relation": "PERFORMS_PORT_SCAN",
+      "target": "multiple_service_ports"
+    }
+  ],
+  "1": [
+    {
+      "subject": "flood_source",
+      "relation": "CAUSES_DENIAL_OF_SERVICE",
+      "target": "ftp_port_21_service"
+    }
+  ],
+  "2": [
+    {
+      "subject": "ssh_scanner",
+      "relation": "PERFORMS_RECONNAISSANCE",
+      "target": "ssh_port_22_service"
+    }
+  ],
+  "3": [
+    {
+      "subject": "scanner_host",
+      "relation": "PERFORMS_PORT_SCAN",
+      "target": "dns_port_53_service"
+    }
+  ],
+  "4": [
+    {
+      "subject": "scanner_host",
+      "relation": "PERFORMS_PORT_SCAN",
+      "target": "multiple_service_ports"
+    }
+  ],
+  "5": [
+    {
+      "subject": "scanner_host",
+      "relation": "PERFORMS_PORT_SCAN",
+      "target": "multiple_service_ports"
+    }
+  ],
+  "6": [
+    {
+      "subject": "https_target",
+      "relation": "CAUSES_DENIAL_OF_SERVICE",
+      "target": "https_port_443_service"
+    }
+  ],
+  "7": [
+    {
+      "subject": "flood_source",
+      "relation": "CAUSES_DENIAL_OF_SERVICE",
+      "target": "https_port_443_service"
+    }
+  ],
+  "8": [
+    {
+      "subject": "scanner_host",
+      "relation": "PERFORMS_PORT_SCAN",
+      "target": "multiple_service_ports"
+    }
+  ],
+  "9": [
+    {
+      "subject": "scanner_host",
+      "relation": "PERFORMS_PORT_SCAN",
+      "target": "multiple_service_ports"
+    }
+  ],
+  "10": [
+    {
+      "subject": "scanner_host",
+      "relation": "PERFORMS_PORT_SCAN",
+      "target": "multiple_service_ports"
+    }
+  ],
+  "11": [
+    {
+      "subject": "scanner_host",
+      "relation": "PERFORMS_PORT_SCAN",
+      "target": "multiple_service_ports"
+    }
+  ],
+  "12": [
+    {
+      "subject": "scanner_host",
+      "relation": "PERFORMS_PORT_SCAN",
+      "target": "unknown_port_444_service"
+    }
+  ],
+  "13": [
+    {
+      "subject": "scanner_host",
+      "relation": "PERFORMS_PORT_SCAN",
+      "target": "multiple_service_ports"
+    }
+  ],
+  "14": [
+    {
+      "subject": "scanner_host",
+      "relation": "PERFORMS_PORT_SCAN",
+      "target": "multiple_service_ports"
+    }
+  ],
+  "15": [
+    {
+      "subject": "scanner_host",
+      "relation": "PERFORMS_PORT_SCAN",
+      "target": "multiple_service_ports"
+    }
+  ],
+  "16": [
+    {
+      "subject": "ldap_flood_client",
+      "relation": "CAUSES_DENIAL_OF_SERVICE",
+      "target": "ldap_port_389_service"
+    }
+  ],
+  "17": [
+    {
+      "subject": "scanner_host",
+      "relation": "PERFORMS_PORT_SCAN",
+      "target": "multiple_service_ports"
+    }
+  ],
+  "18": [
+    {
+      "subject": "smb_flood_source",
+      "relation": "CAUSES_DENIAL_OF_SERVICE",
+      "target": "smb_port_445_service"
+    }
+  ],
+  "19": [
+    {
+      "subject": "scanner_host",
+      "relation": "PERFORMS_PORT_SCAN",
+      "target": "netbios_name_port_137_service"
+    },
+    {
+      "subject": "flood_source",
+      "relation": "CAUSES_DENIAL_OF_SERVICE",
+      "target": "netbios_name_port_137_service"
+    }
+  ],
+  "20": [
+    {
+      "subject": "flood_source",
+      "relation": "CAUSES_DENIAL_OF_SERVICE",
+      "target": "https_web_server"
+    }
+  ],
+  "21": [
+    {
+      "subject": "scanner_host",
+      "relation": "PERFORMS_PORT_SCAN",
+      "target": "multiple_service_ports"
+    }
+  ],
+  "22": [
+    {
+      "subject": "unknown_port_3546_flood_source",
+      "relation": "CAUSES_DENIAL_OF_SERVICE",
+      "target": "unknown_port_3546_service"
+    }
+  ],
+  "23": [
+    {
+      "subject": "scanner_host",
+      "relation": "PERFORMS_PORT_SCAN",
+      "target": "netbios_session_port_139"
+    }
+  ],
+  "24": [
+    {
+      "subject": "scanner_host",
+      "relation": "PERFORMS_PORT_SCAN",
+      "target": "multiple_service_ports"
+    }
+  ],
+  "25": [
+    {
+      "subject": "mssql_flood_client",
+      "relation": "CAUSES_DENIAL_OF_SERVICE",
+      "target": "mssql_port_1433"
+    }
+  ],
+  "26": [
+    {
+      "subject": "scanner_host",
+      "relation": "PERFORMS_PORT_SCAN",
+      "target": "multiple_service_ports"
+    }
+  ],
+  "27": [
+    {
+      "subject": "flood_source",
+      "relation": "CAUSES_DENIAL_OF_SERVICE",
+      "target": "nntp_port_119_service"
+    }
+  ],
+  "28": [
+    {
+      "subject": "smtp_submission_spammer",
+      "relation": "CAUSES_DENIAL_OF_SERVICE",
+      "target": "smtp_port_587_service"
+    }
+  ],
+  "29": [
+    {
+      "subject": "rdp_flood_client",
+      "relation": "CAUSES_DENIAL_OF_SERVICE",
+      "target": "rdp_port_3389_service"
+    }
+  ],
+  "30": [
+    {
+      "subject": "imap_spammer",
+      "relation": "CAUSES_DENIAL_OF_SERVICE",
+      "target": "imap_port_143_service"
+    }
+  ],
+  "31": [
+    {
+      "subject": "unknown_port_873_flood_source",
+      "relation": "CAUSES_DENIAL_OF_SERVICE",
+      "target": "unknown_port_873_service"
+    }
+  ],
+  "32": [
+    {
+      "subject": "https_attacker",
+      "relation": "CAUSES_DENIAL_OF_SERVICE",
+      "target": "https_port_443_service"
+    }
+  ],
+  "33": [
+    {
+      "subject": "scanner_host",
+      "relation": "PERFORMS_PORT_SCAN",
+      "target": "multiple_service_ports"
+    }
+  ],
+  "34": [
+    {
+      "subject": "unknown_port_666_flood_source",
+      "relation": "CAUSES_DENIAL_OF_SERVICE",
+      "target": "unknown_port_666_service"
+    }
+  ],
+  "35": [
+    {
+      "subject": "smtps_flood_source",
+      "relation": "CAUSES_DENIAL_OF_SERVICE",
+      "target": "smtps_port_465_service"
+    }
+  ],
+  "36": [
+    {
+      "subject": "scanner_host",
+      "relation": "PERFORMS_PORT_SCAN",
+      "target": "unknown_port_4343_service"
+    }
+  ],
+  "37": [
+    {
+      "subject": "smtps_spy_host",
+      "relation": "PERFORMS_RECONNAISSANCE",
+      "target": "smtps_port_465_service"
+    }
+  ],
+  "38": [
+    {
+      "subject": "scanner_host",
+      "relation": "PERFORMS_PORT_SCAN",
+      "target": "netbios_name_port_137"
+    }
+  ],
+  "39": [
+    {
+      "subject": "scanner_host",
+      "relation": "PERFORMS_PORT_SCAN",
+      "target": "mysql_port_3306_service"
+    }
+  ],
+  "40": [
+    {
+      "subject": "smtp_spammer",
+      "relation": "CAUSES_DENIAL_OF_SERVICE",
+      "target": "smtp_port_25_service"
+    }
+  ],
+  "41": [
+    {
+      "subject": "scanner_host",
+      "relation": "PERFORMS_PORT_SCAN",
+      "target": "pptp_port_1723_service"
+    }
+  ],
+  "42": [],
+  "43": [],
+  "44": [],
+  "45": [],
+  "46": [],
+  "47": [],
+  "48": [],
+  "49": [],
+  "50": [],
+  "51": [],
+  "52": [],
+  "53": []
+}

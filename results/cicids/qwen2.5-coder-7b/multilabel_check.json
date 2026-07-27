@@ -1,0 +1,187 @@
+{
+  "condition": "set-widening: GT-in-set over all reachable techniques + assigned ID",
+  "n_communities": 18,
+  "gt_in_set_exact": 0.1111,
+  "gt_in_set_parent": 0.1111,
+  "mean_set_size": 2.89,
+  "per_community": [
+    {
+      "community_id": 1,
+      "ground_truth": "T1110.001",
+      "prediction_set": [
+        "T1498",
+        "T1499",
+        "T1499.001"
+      ],
+      "gt_in_set": false
+    },
+    {
+      "community_id": 2,
+      "ground_truth": "T1110.001",
+      "prediction_set": [
+        "T1110",
+        "T1110.001",
+        "T1110.003"
+      ],
+      "gt_in_set": true
+    },
+    {
+      "community_id": 12,
+      "ground_truth": "T1203",
+      "prediction_set": [
+        "T1071",
+        "T1071.001",
+        "T1071.004"
+      ],
+      "gt_in_set": false
+    },
+    {
+      "community_id": 13,
+      "ground_truth": "T1046",
+      "prediction_set": [
+        "T1046"
+      ],
+      "gt_in_set": true
+    },
+    {
+      "community_id": 15,
+      "ground_truth": "T1046",
+      "prediction_set": [
+        "T1498",
+        "T1499",
+        "T1499.001"
+      ],
+      "gt_in_set": false
+    },
+    {
+      "community_id": 17,
+      "ground_truth": "T1046",
+      "prediction_set": [
+        "T1498",
+        "T1499",
+        "T1499.001"
+      ],
+      "gt_in_set": false
+    },
+    {
+      "community_id": 21,
+      "ground_truth": "T1071.001",
+      "prediction_set": [
+        "T1498",
+        "T1499",
+        "T1499.001"
+      ],
+      "gt_in_set": false
+    },
+    {
+      "community_id": 22,
+      "ground_truth": "T1046",
+      "prediction_set": [
+        "T1498",
+        "T1499",
+        "T1499.001"
+      ],
+      "gt_in_set": false
+    },
+    {
+      "community_id": 25,
+      "ground_truth": "T1046",
+      "prediction_set": [
+        "T1498",
+        "T1499",
+        "T1499.001"
+      ],
+      "gt_in_set": false
+    },
+    {
+      "community_id": 26,
+      "ground_truth": "T1046",
+      "prediction_set": [
+        "T1498",
+        "T1499",
+        "T1499.001"
+      ],
+      "gt_in_set": false
+    },
+    {
+      "community_id": 27,
+      "ground_truth": "T1046",
+      "prediction_set": [
+        "T1498",
+        "T1499",
+        "T1499.001"
+      ],
+      "gt_in_set": false
+    },
+    {
+      "community_id": 28,
+      "ground_truth": "T1046",
+      "prediction_set": [
+        "T1498",
+        "T1499",
+        "T1499.001"
+      ],
+      "gt_in_set": false
+    },
+    {
+      "community_id": 29,
+      "ground_truth": "T1046",
+      "prediction_set": [
+        "T1498",
+        "T1499",
+        "T1499.001"
+      ],
+      "gt_in_set": false
+    },
+    {
+      "community_id": 30,
+      "ground_truth": "T1046",
+      "prediction_set": [
+        "T1498",
+        "T1499",
+        "T1499.001"
+      ],
+      "gt_in_set": false
+    },
+    {
+      "community_id": 31,
+      "ground_truth": "T1046",
+      "prediction_set": [
+        "T1498",
+        "T1499",
+        "T1499.001"
+      ],
+      "gt_in_set": false
+    },
+    {
+      "community_id": 34,
+      "ground_truth": "T1046",
+      "prediction_set": [
+        "T1498",
+        "T1499",
+        "T1499.001"
+      ],
+      "gt_in_set": false
+    },
+    {
+      "community_id": 39,
+      "ground_truth": "T1046",
+      "prediction_set": [
+        "T1498",
+        "T1499",
+        "T1499.001"
+      ],
+      "gt_in_set": false
+    },
+    {
+      "community_id": 40,
+      "ground_truth": "T1046",
+      "prediction_set": [
+        "T1498",
+        "T1499",
+        "T1499.001"
+      ],
+      "gt_in_set": false
+    }
+  ]
+}

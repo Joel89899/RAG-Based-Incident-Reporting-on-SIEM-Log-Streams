@@ -1,0 +1,15 @@
+{
+  "n_communities": 54,
+  "total_triples": 43,
+  "valid_triples": 43,
+  "valid_ratio": 1.0,
+  "unique_subjects": 17,
+  "unique_targets": 25,
+  "unique_entities_total": 42,
+  "relation_counts": {
+    "PERFORMS_PORT_SCAN": 23,
+    "CAUSES_DENIAL_OF_SERVICE": 18,
+    "PERFORMS_RECONNAISSANCE": 2
+  },
+  "relation_coverage": "3/7 ontology relations used"
+}

@@ -1,0 +1,18 @@
+{
+  "n_communities": 54,
+  "total_triples": 46,
+  "valid_triples": 46,
+  "valid_ratio": 1.0,
+  "unique_subjects": 26,
+  "unique_targets": 41,
+  "unique_entities_total": 67,
+  "relation_counts": {
+    "ESTABLISHES_C2": 3,
+    "CAUSES_DENIAL_OF_SERVICE": 34,
+    "BRUTE_FORCES_CREDENTIAL": 1,
+    "PERFORMS_RECONNAISSANCE": 5,
+    "EXPLOITS_VULNERABILITY": 1,
+    "PERFORMS_BEACONING": 2
+  },
+  "relation_coverage": "6/7 ontology relations used"
+}

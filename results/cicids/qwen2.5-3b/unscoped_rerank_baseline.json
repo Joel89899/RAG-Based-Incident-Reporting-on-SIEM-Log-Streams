@@ -1,0 +1,117 @@
+{
+  "condition": "unscoped rerank (same max-of-three cosine scoring, no KG candidate restriction)",
+  "n_communities": 18,
+  "exact_match_rate": 0.0556,
+  "parent_match_rate": 0.0556,
+  "exact_macro": 0.0179,
+  "per_community": [
+    {
+      "community_id": 1,
+      "ground_truth": "T1110.001",
+      "unscoped_pred": "T1071.002",
+      "exact": false
+    },
+    {
+      "community_id": 2,
+      "ground_truth": "T1110.001",
+      "unscoped_pred": "T1563.001",
+      "exact": false
+    },
+    {
+      "community_id": 12,
+      "ground_truth": "T1203",
+      "unscoped_pred": "T1016.001",
+      "exact": false
+    },
+    {
+      "community_id": 13,
+      "ground_truth": "T1046",
+      "unscoped_pred": "T1571",
+      "exact": false
+    },
+    {
+      "community_id": 15,
+      "ground_truth": "T1046",
+      "unscoped_pred": "T1571",
+      "exact": false
+    },
+    {
+      "community_id": 17,
+      "ground_truth": "T1046",
+      "unscoped_pred": "T1571",
+      "exact": false
+    },
+    {
+      "community_id": 21,
+      "ground_truth": "T1071.001",
+      "unscoped_pred": "T1571",
+      "exact": false
+    },
+    {
+      "community_id": 22,
+      "ground_truth": "T1046",
+      "unscoped_pred": "T1498",
+      "exact": false
+    },
+    {
+      "community_id": 25,
+      "ground_truth": "T1046",
+      "unscoped_pred": "T1499",
+      "exact": false
+    },
+    {
+      "community_id": 26,
+      "ground_truth": "T1046",
+      "unscoped_pred": "T1571",
+      "exact": false
+    },
+    {
+      "community_id": 27,
+      "ground_truth": "T1046",
+      "unscoped_pred": "T1499.002",
+      "exact": false
+    },
+    {
+      "community_id": 28,
+      "ground_truth": "T1046",
+      "unscoped_pred": "T1071.003",
+      "exact": false
+    },
+    {
+      "community_id": 29,
+      "ground_truth": "T1046",
+      "unscoped_pred": "T1563.002",
+      "exact": false
+    },
+    {
+      "community_id": 30,
+      "ground_truth": "T1046",
+      "unscoped_pred": "T1071.003",
+      "exact": false
+    },
+    {
+      "community_id": 31,
+      "ground_truth": "T1046",
+      "unscoped_pred": "T1499.002",
+      "exact": false
+    },
+    {
+      "community_id": 34,
+      "ground_truth": "T1046",
+      "unscoped_pred": "T1498",
+      "exact": false
+    },
+    {
+      "community_id": 39,
+      "ground_truth": "T1046",
+      "unscoped_pred": "T1046",
+      "exact": true
+    },
+    {
+      "community_id": 40,
+      "ground_truth": "T1046",
+      "unscoped_pred": "T1071.003",
+      "exact": false
+    }
+  ]
+}

@@ -1,0 +1,328 @@
+{
+  "0": [
+    {
+      "subject": "unknown_port_59408_client",
+      "relation": "ESTABLISHES_C2",
+      "target": "unknown_port_59408_service"
+    }
+  ],
+  "1": [
+    {
+      "subject": "ftp_flood_source",
+      "relation": "CAUSES_DENIAL_OF_SERVICE",
+      "target": "ftp_port_21_service"
+    }
+  ],
+  "2": [
+    {
+      "subject": "ssh_brute_force_client",
+      "relation": "BRUTE_FORCES_CREDENTIAL",
+      "target": "ssh_port_22_service"
+    }
+  ],
+  "3": [
+    {
+      "subject": "dns_flood_source",
+      "relation": "CAUSES_DENIAL_OF_SERVICE",
+      "target": "dns_port_53_service"
+    }
+  ],
+  "4": [
+    {
+      "subject": "unknown_port_52020_client",
+      "relation": "ESTABLISHES_C2",
+      "target": "unknown_port_52020_service"
+    }
+  ],
+  "5": [
+    {
+      "subject": "flood_source",
+      "relation": "CAUSES_DENIAL_OF_SERVICE",
+      "target": "unknown_ports_7815_54879_6850_58908_57214_53839"
+    }
+  ],
+  "6": [
+    {
+      "subject": "https_flood_source",
+      "relation": "CAUSES_DENIAL_OF_SERVICE",
+      "target": "https_port_443_server"
+    }
+  ],
+  "7": [
+    {
+      "subject": "flood_source",
+      "relation": "CAUSES_DENIAL_OF_SERVICE",
+      "target": "https_port_443_server"
+    }
+  ],
+  "8": [
+    {
+      "subject": "flood_source",
+      "relation": "CAUSES_DENIAL_OF_SERVICE",
+      "target": "unknown_ports_50505_51462"
+    }
+  ],
+  "9": [
+    {
+      "subject": "flood_source",
+      "relation": "CAUSES_DENIAL_OF_SERVICE",
+      "target": "unknown_ports_52993_911_6699_53998_52972_52926"
+    }
+  ],
+  "10": [
+    {
+      "subject": "flood_source",
+      "relation": "CAUSES_DENIAL_OF_SERVICE",
+      "target": "unknown_ports"
+    }
+  ],
+  "11": [
+    {
+      "subject": "unknown_port_35143_client",
+      "relation": "PERFORMS_RECONNAISSANCE",
+      "target": "unknown_port_35143_service"
+    }
+  ],
+  "12": [
+    {
+      "subject": "unknown_port_444_client",
+      "relation": "ESTABLISHES_C2",
+      "target": "unknown_port_444_service"
+    }
+  ],
+  "13": [
+    {
+      "subject": "unknown_port_5906_client",
+      "relation": "PERFORMS_RECONNAISSANCE",
+      "target": "unknown_port_5906_service"
+    },
+    {
+      "subject": "unknown_port_5904_client",
+      "relation": "PERFORMS_RECONNAISSANCE",
+      "target": "unknown_port_5904_service"
+    },
+    {
+      "subject": "unknown_port_5903_client",
+      "relation": "PERFORMS_RECONNAISSANCE",
+      "target": "unknown_port_5903_service"
+    }
+  ],
+  "14": [
+    {
+      "subject": "unknown_port_9766_client",
+      "relation": "PERFORMS_RECONNAISSANCE",
+      "target": "unknown_port_9766_service"
+    }
+  ],
+  "15": [
+    {
+      "subject": "unknown_port_flood_source",
+      "relation": "CAUSES_DENIAL_OF_SERVICE",
+      "target": "multiple_ports"
+    }
+  ],
+  "16": [
+    {
+      "subject": "ldap_flood_source",
+      "relation": "CAUSES_DENIAL_OF_SERVICE",
+      "target": "ldap_port_389_service"
+    }
+  ],
+  "17": [
+    {
+      "subject": "unknown_port_9207_traffic",
+      "relation": "CAUSES_DENIAL_OF_SERVICE",
+      "target": "unknown_port_9207"
+    },
+    {
+      "subject": "unknown_port_4443_traffic",
+      "relation": "CAUSES_DENIAL_OF_SERVICE",
+      "target": "unknown_port_4443"
+    },
+    {
+      "subject": "unknown_port_9220_traffic",
+      "relation": "CAUSES_DENIAL_OF_SERVICE",
+      "target": "unknown_port_9220"
+    }
+  ],
+  "18": [
+    {
+      "subject": "smb_exploit_client",
+      "relation": "EXPLOITS_VULNERABILITY",
+      "target": "smb_port_445_service"
+    }
+  ],
+  "19": [
+    {
+      "subject": "flood_source",
+      "relation": "CAUSES_DENIAL_OF_SERVICE",
+      "target": "netbios_name_service"
+    }
+  ],
+  "20": [
+    {
+      "subject": "flood_source",
+      "relation": "CAUSES_DENIAL_OF_SERVICE",
+      "target": "https_port_443_server"
+    }
+  ],
+  "21": [
+    {
+      "subject": "flood_source",
+      "relation": "CAUSES_DENIAL_OF_SERVICE",
+      "target": "unknown_ports"
+    }
+  ],
+  "22": [
+    {
+      "subject": "flood_source",
+      "relation": "CAUSES_DENIAL_OF_SERVICE",
+      "target": "unknown_port_3546"
+    }
+  ],
+  "23": [
+    {
+      "subject": "netbios_flood_source",
+      "relation": "CAUSES_DENIAL_OF_SERVICE",
+      "target": "netbios_session_port_139"
+    }
+  ],
+  "24": [
+    {
+      "subject": "flood_source",
+      "relation": "CAUSES_DENIAL_OF_SERVICE",
+      "target": "multiple_service_ports"
+    }
+  ],
+  "25": [
+    {
+      "subject": "flood_source",
+      "relation": "CAUSES_DENIAL_OF_SERVICE",
+      "target": "mssql_port_1433_service"
+    }
+  ],
+  "26": [
+    {
+      "subject": "flood_source",
+      "relation": "CAUSES_DENIAL_OF_SERVICE",
+      "target": "unknown_ports_2959_4321_43"
+    }
+  ],
+  "27": [
+    {
+      "subject": "flood_source",
+      "relation": "CAUSES_DENIAL_OF_SERVICE",
+      "target": "nntp_port_119"
+    }
+  ],
+  "28": [
+    {
+      "subject": "flood_source",
+      "relation": "CAUSES_DENIAL_OF_SERVICE",
+      "target": "smtp_submission_port_587"
+    }
+  ],
+  "29": [
+    {
+      "subject": "rdp_flood_source",
+      "relation": "CAUSES_DENIAL_OF_SERVICE",
+      "target": "rdp_port_3389_service"
+    }
+  ],
+  "30": [
+    {
+      "subject": "flood_source",
+      "relation": "CAUSES_DENIAL_OF_SERVICE",
+      "target": "imap_port_143_service"
+    }
+  ],
+  "31": [
+    {
+      "subject": "flood_source",
+      "relation": "CAUSES_DENIAL_OF_SERVICE",
+      "target": "unknown_port_873"
+    }
+  ],
+  "32": [
+    {
+      "subject": "beaconing_client",
+      "relation": "PERFORMS_BEACONING",
+      "target": "https_port_443_server"
+    }
+  ],
+  "33": [
+    {
+      "subject": "flood_source",
+      "relation": "CAUSES_DENIAL_OF_SERVICE",
+      "target": "unknown_port_7443_service"
+    }
+  ],
+  "34": [
+    {
+      "subject": "flood_source",
+      "relation": "CAUSES_DENIAL_OF_SERVICE",
+      "target": "unknown_port_666"
+    }
+  ],
+  "35": [
+    {
+      "subject": "smtps_flood_source",
+      "relation": "CAUSES_DENIAL_OF_SERVICE",
+      "target": "smtps_port_465_service"
+    }
+  ],
+  "36": [
+    {
+      "subject": "flood_source",
+      "relation": "CAUSES_DENIAL_OF_SERVICE",
+      "target": "unknown_port_4343"
+    }
+  ],
+  "37": [
+    {
+      "subject": "smtps_flood_source",
+      "relation": "CAUSES_DENIAL_OF_SERVICE",
+      "target": "smtps_port_465_service"
+    }
+  ],
+  "38": [
+    {
+      "subject": "beaconing_client",
+      "relation": "PERFORMS_BEACONING",
+      "target": "netbios_name_port_137"
+    }
+  ],
+  "39": [
+    {
+      "subject": "mysql_flood_source",
+      "relation": "CAUSES_DENIAL_OF_SERVICE",
+      "target": "mysql_port_3306"
+    }
+  ],
+  "40": [
+    {
+      "subject": "smtp_flood_source",
+      "relation": "CAUSES_DENIAL_OF_SERVICE",
+      "target": "smtp_port_25_service"
+    }
+  ],
+  "41": [
+    {
+      "subject": "pptp_flood_source",
+      "relation": "CAUSES_DENIAL_OF_SERVICE",
+      "target": "pptp_port_1723_service"
+    }
+  ],
+  "42": [],
+  "43": [],
+  "44": [],
+  "45": [],
+  "46": [],
+  "47": [],
+  "48": [],
+  "49": [],
+  "50": [],
+  "51": [],
+  "52": [],
+  "53": []
+}

@@ -1,0 +1,19 @@
+{
+  "kg_macro_precision": 1.0,
+  "kg_macro_recall": 0.5583,
+  "kg_macro_f1": 0.7095,
+  "kg_f1_ci95": [
+    0.619,
+    0.8
+  ],
+  "baseline_macro_precision": 0.2327,
+  "baseline_macro_recall": 0.3417,
+  "baseline_macro_f1": 0.2718,
+  "baseline_f1_ci95": [
+    0.2214,
+    0.3083
+  ],
+  "delta_precision": 0.7673,
+  "delta_recall": 0.2167,
+  "delta_f1": 0.4377
+}

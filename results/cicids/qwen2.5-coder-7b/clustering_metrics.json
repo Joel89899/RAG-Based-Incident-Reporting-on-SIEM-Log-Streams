@@ -1,0 +1,7 @@
+{
+  "threshold": 0.8,
+  "n_communities": 54,
+  "n_unclustered": 5,
+  "label_purity": 0.837,
+  "intra_cluster_similarity": 0.9383
+}

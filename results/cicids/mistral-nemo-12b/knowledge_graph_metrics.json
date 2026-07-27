@@ -1,0 +1,17 @@
+{
+  "total_triples_processed": 45,
+  "invalid_triples_skipped": 0,
+  "behavioral_nodes": 52,
+  "attck_technique_nodes": 691,
+  "total_nodes": 743,
+  "behavioral_edges": 31,
+  "bridge_edges": 27,
+  "total_edges": 58,
+  "attck_nodes_reachable": 7,
+  "relation_distribution": {
+    "PERFORMS_PORT_SCAN": 27,
+    "ASSOCIATED_WITH": 27,
+    "CAUSES_DENIAL_OF_SERVICE": 3,
+    "BRUTE_FORCES_CREDENTIAL": 1
+  }
+}

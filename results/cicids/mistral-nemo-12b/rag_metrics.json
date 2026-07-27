@@ -1,0 +1,37 @@
+{
+  "model": "Mistral-Nemo-Instruct-2407-Q5_K_M.gguf",
+  "model_key": "mistral-nemo-12b",
+  "retrieval_strategy": "HyDE + KG-anchored candidate set (relation bridge)",
+  "embed_model": "all-MiniLM-L6-v2",
+  "n_communities_evaluated": 18,
+  "top_k_retrieval": 10,
+  "retrieval_hit_rate": 0.8333,
+  "rag_grounding_rate": 1.0,
+  "rag_exact_match_rate": 0.8333,
+  "rag_parent_match_rate": 0.8333,
+  "rag_exact_macro": 0.375,
+  "rag_faithfulness_mean": 0.4779,
+  "baseline_exact_match_rate": 0.5556,
+  "baseline_parent_match_rate": 0.6667,
+  "baseline_exact_macro": 0.1786,
+  "majority_class_label": "T1046",
+  "majority_class_accuracy": 0.7778,
+  "delta_exact_match": 0.2777,
+  "delta_parent_match": 0.1666,
+  "delta_exact_macro": 0.1964,
+  "n_kg_grounded": 18,
+  "rag_grounded_exact_match": 0.8333,
+  "rag_grounded_parent_match": 0.8333,
+  "rag_grounded_exact_macro": 0.375,
+  "rag_exact_ci95": [
+    0.6667,
+    1.0
+  ],
+  "baseline_exact_ci95": [
+    0.3333,
+    0.7778
+  ],
+  "rag_macro_f1": 0.4,
+  "baseline_macro_f1": 0.2,
+  "majority_macro_f1": 0.2188
+}

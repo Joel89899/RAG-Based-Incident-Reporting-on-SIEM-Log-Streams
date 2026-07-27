@@ -1,0 +1,7351 @@
+{
+  "seed": 42,
+  "best_threshold": 0.75,
+  "alerts": [
+    {
+      "window": "W1",
+      "label": "benign",
+      "ts": 1523023318866280139,
+      "text": "Process sshd accepted inbound connection from 128.55.12.122 (42 packets)"
+    },
+    {
+      "window": "W1",
+      "label": "benign",
+      "ts": 1523023319426279122,
+      "text": "Process fortune wrote to /dev/tty"
+    },
+    {
+      "window": "W1",
+      "label": "benign",
+      "ts": 1523023410986275536,
+      "text": "Process wget connected to 69.20.49.234 (3 packets)"
+    },
+    {
+      "window": "W1",
+      "label": "benign",
+      "ts": 1523023470226277071,
+      "text": "Process smtpd accepted inbound connection from 128.55.12.56 (16 packets)"
+    },
+    {
+      "window": "W1",
+      "label": "benign",
+      "ts": 1523023739776272571,
+      "text": "Process sshd forked a socket/pipe"
+    },
+    {
+      "window": "W1",
+      "label": "benign",
+      "ts": 1523023760816268210,
+      "text": "Process python2.7 created a socket/pipe"
+    },
+    {
+      "window": "W1",
+      "label": "benign",
+      "ts": 1523023818806268756,
+      "text": "Process python2.7 created a socket/pipe"
+    },
+    {
+      "window": "W1",
+      "label": "benign",
+      "ts": 1523023860196271901,
+      "text": "Process mv renamed /var/db/entropy/saved-entropy.1"
+    },
+    {
+      "window": "W1",
+      "label": "benign",
+      "ts": 1523023868806266641,
+      "text": "Process python2.7 created a socket/pipe"
+    },
+    {
+      "window": "W1",
+      "label": "benign",
+      "ts": 1523024125006261471,
+      "text": "Process mlock deleted /var/mail/bob.lock.1523024125.75500.ta1-cadets"
+    },
+    {
+      "window": "W1",
+      "label": "benign",
+      "ts": 1523024204806260524,
+      "text": "Process python2.7 created a socket/pipe"
+    },
+    {
+      "window": "W1",
+      "label": "benign",
+      "ts": 1523024398086251708,
+      "text": "Process nginx accepted inbound connection from 128.55.12.122 (106 packets)"
+    },
+    {
+      "window": "W1",
+      "label": "benign",
+      "ts": 1523024398096255169,
+      "text": "Process nginx connected to 127.0.0.1 (55 packets)"
+    },
+    {
+      "window": "W1",
+      "label": "benign",
+      "ts": 1523024411816254316,
+      "text": "Process python2.7 created a socket/pipe"
+    },
+    {
+      "window": "W1",
+      "label": "benign",
+      "ts": 1523024631046250146,
+      "text": "Process alpine changed permissions on /var/mail/user"
+    },
+    {
+      "window": "W1",
+      "label": "benign",
+      "ts": 1523024644816250403,
+      "text": "Process python2.7 created a socket/pipe"
+    },
+    {
+      "window": "W1",
+      "label": "benign",
+      "ts": 1523024661286246018,
+      "text": "Process alpine wrote to /dev/tty"
+    },
+    {
+      "window": "W1",
+      "label": "benign",
+      "ts": 1523024700276247693,
+      "text": "Process bash forked a socket/pipe"
+    },
+    {
+      "window": "W1",
+      "label": "benign",
+      "ts": 1523024708486246657,
+      "text": "Process alpine wrote to /dev/tty"
+    },
+    {
+      "window": "W1",
+      "label": "benign",
+      "ts": 1523024742466247462,
+      "text": "Process alpine wrote to /home/user/mail/sent-mail"
+    },
+    {
+      "window": "W1",
+      "label": "benign",
+      "ts": 1523024757746248133,
+      "text": "Process alpine wrote to /dev/tty"
+    },
+    {
+      "window": "W1",
+      "label": "benign",
+      "ts": 1523024768876248304,
+      "text": "Process bash changed permissions on /home/user/.bash_history"
+    },
+    {
+      "window": "W1",
+      "label": "benign",
+      "ts": 1523024856796242746,
+      "text": "Process smtpd accepted inbound connection from 118.22.3.141 (1 packets)"
+    },
+    {
+      "window": "W1",
+      "label": "benign",
+      "ts": 1523024857126243526,
+      "text": "Process smtpd wrote to <unknown>"
+    },
+    {
+      "window": "W1",
+      "label": "benign",
+      "ts": 1523024945856244720,
+      "text": "Process master wrote to <unknown>"
+    },
+    {
+      "window": "W1",
+      "label": "benign",
+      "ts": 1523024970566239396,
+      "text": "Process php-fpm modified process /usr/local/www/nginx (web server process)"
+    },
+    {
+      "window": "W1",
+      "label": "benign",
+      "ts": 1523024974606242249,
+      "text": "Process php-fpm modified process /"
+    },
+    {
+      "window": "W1",
+      "label": "benign",
+      "ts": 1523025096566240167,
+      "text": "Process imapd wrote to <unknown>"
+    },
+    {
+      "window": "W1",
+      "label": "benign",
+      "ts": 1523025133156237696,
+      "text": "Process imapd changed permissions on /var/mail/george"
+    },
+    {
+      "window": "W1",
+      "label": "benign",
+      "ts": 1523025420816229921,
+      "text": "Process python2.7 created a socket/pipe"
+    },
+    {
+      "window": "W1",
+      "label": "benign",
+      "ts": 1523025511676230387,
+      "text": "Process local created a socket/pipe"
+    },
+    {
+      "window": "W1",
+      "label": "benign",
+      "ts": 1523025521036232031,
+      "text": "Process alpine deleted /tmp/.31.29ad6 (file in temp directory)"
+    },
+    {
+      "window": "W1",
+      "label": "benign",
+      "ts": 1523025606566227984,
+      "text": "Process top wrote to <unknown>"
+    },
+    {
+      "window": "W1",
+      "label": "benign",
+      "ts": 1523025631806227226,
+      "text": "Process python2.7 created a socket/pipe"
+    },
+    {
+      "window": "W1",
+      "label": "benign",
+      "ts": 1523025675016224328,
+      "text": "Process wget connected to 66.252.21.131 (4 packets)"
+    },
+    {
+      "window": "W1",
+      "label": "benign",
+      "ts": 1523025840026224344,
+      "text": "Process cron changed privilege via a socket/pipe"
+    },
+    {
+      "window": "W1",
+      "label": "benign",
+      "ts": 1523026042486217915,
+      "text": "Process alpine wrote to /home/user/#pico75987#"
+    },
+    {
+      "window": "W1",
+      "label": "benign",
+      "ts": 1523026065906217234,
+      "text": "Process alpine wrote to /home/user/mail/sent-mail"
+    },
+    {
+      "window": "W1",
+      "label": "benign",
+      "ts": 1523026210376214243,
+      "text": "Process trivial-rewrite wrote to <unknown>"
+    },
+    {
+      "window": "W1",
+      "label": "benign",
+      "ts": 1523026211026215037,
+      "text": "Process local changed privilege via a socket/pipe"
+    },
+    {
+      "window": "W1",
+      "label": "benign",
+      "ts": 1523026349486209944,
+      "text": "Process sshd created a socket/pipe"
+    },
+    {
+      "window": "W1",
+      "label": "benign",
+      "ts": 1523026360846212389,
+      "text": "Process alpine wrote to /dev/tty"
+    },
+    {
+      "window": "W1",
+      "label": "benign",
+      "ts": 1523026361466212730,
+      "text": "Process master executed /usr/local/libexec/postfix/cleanup"
+    },
+    {
+      "window": "W1",
+      "label": "benign",
+      "ts": 1523026361856211932,
+      "text": "Process trivial-rewrite wrote to <unknown>"
+    },
+    {
+      "window": "W1",
+      "label": "benign",
+      "ts": 1523026380856209975,
+      "text": "Process alpine wrote to /dev/tty"
+    },
+    {
+      "window": "W1",
+      "label": "benign",
+      "ts": 1523026418086209374,
+      "text": "Process alpine wrote to /dev/tty"
+    },
+    {
+      "window": "W1",
+      "label": "benign",
+      "ts": 1523026429346208638,
+      "text": "Process alpine wrote to /dev/tty"
+    },
+    {
+      "window": "W1",
+      "label": "benign",
+      "ts": 1523026456266218045,
+      "text": "Process alpine wrote to /dev/tty"
+    },
+    {
+      "window": "W1",
+      "label": "benign",
+      "ts": 1523026457446208942,
+      "text": "Process alpine wrote to /dev/tty"
+    },
+    {
+      "window": "W1",
+      "label": "benign",
+      "ts": 1523026495186208924,
+      "text": "Process netstat wrote to /dev/tty"
+    },
+    {
+      "window": "W1",
+      "label": "benign",
+      "ts": 1523026495186208924,
+      "text": "Process netstat wrote to /dev/tty"
+    },
+    {
+      "window": "W1",
+      "label": "benign",
+      "ts": 1523026693676200569,
+      "text": "Process alpine wrote to /dev/tty"
+    },
+    {
+      "window": "W1",
+      "label": "benign",
+      "ts": 1523026712406201699,
+      "text": "Process alpine wrote to /dev/tty"
+    },
+    {
+      "window": "W1",
+      "label": "benign",
+      "ts": 1523026720176202350,
+      "text": "Process alpine wrote to /dev/tty"
+    },
+    {
+      "window": "W1",
+      "label": "benign",
+      "ts": 1523026739926200992,
+      "text": "Process alpine wrote to /dev/tty"
+    },
+    {
+      "window": "W1",
+      "label": "benign",
+      "ts": 1523026754306207468,
+      "text": "Process alpine wrote to /home/user/mail/sent-mail"
+    },
+    {
+      "window": "W1",
+      "label": "benign",
+      "ts": 1523026754816212029,
+      "text": "Process alpine wrote to /home/user/mail/sent-mail"
+    },
+    {
+      "window": "W1",
+      "label": "benign",
+      "ts": 1523026754846209302,
+      "text": "Process alpine wrote to /home/user/mail/sent-mail"
+    },
+    {
+      "window": "W1",
+      "label": "benign",
+      "ts": 1523026754866204643,
+      "text": "Process alpine wrote to /dev/tty"
+    },
+    {
+      "window": "W1",
+      "label": "benign",
+      "ts": 1523026937086197076,
+      "text": "Process bash executed /bin/sleep"
+    },
+    {
+      "window": "W1",
+      "label": "benign",
+      "ts": 1523027028806194022,
+      "text": "Process python2.7 created a socket/pipe"
+    },
+    {
+      "window": "W1",
+      "label": "benign",
+      "ts": 1523027047596198898,
+      "text": "Process wget created /usr/home/user/eraseme/www.hbo.com/zone"
+    },
+    {
+      "window": "W1",
+      "label": "benign",
+      "ts": 1523027048096198362,
+      "text": "Process wget wrote to /dev/tty"
+    },
+    {
+      "window": "W1",
+      "label": "benign",
+      "ts": 1523027048906196808,
+      "text": "Process wget wrote to /dev/tty"
+    },
+    {
+      "window": "W1",
+      "label": "benign",
+      "ts": 1523027049056202858,
+      "text": "Process wget wrote to /dev/tty"
+    },
+    {
+      "window": "W1",
+      "label": "benign",
+      "ts": 1523027049216201029,
+      "text": "Process wget wrote to /dev/tty"
+    },
+    {
+      "window": "W1",
+      "label": "benign",
+      "ts": 1523027050036196996,
+      "text": "Process wget wrote to <unknown>"
+    },
+    {
+      "window": "W1",
+      "label": "benign",
+      "ts": 1523027050206195538,
+      "text": "Process wget wrote to /dev/tty"
+    },
+    {
+      "window": "W1",
+      "label": "benign",
+      "ts": 1523027050316196715,
+      "text": "Process wget wrote to /dev/tty"
+    },
+    {
+      "window": "W1",
+      "label": "benign",
+      "ts": 1523027050516198049,
+      "text": "Process wget wrote to www.hbo.com/docs/upcoming/index.html"
+    },
+    {
+      "window": "W1",
+      "label": "benign",
+      "ts": 1523027050866200423,
+      "text": "Process wget wrote to /dev/tty"
+    },
+    {
+      "window": "W1",
+      "label": "benign",
+      "ts": 1523027051446201213,
+      "text": "Process wget wrote to /dev/tty"
+    },
+    {
+      "window": "W1",
+      "label": "benign",
+      "ts": 1523027051506199517,
+      "text": "Process wget changed permissions on /usr/home/user/eraseme/www.hbo.com/docs/programs/murder_sunday/index.html"
+    },
+    {
+      "window": "W1",
+      "label": "benign",
+      "ts": 1523027051536196599,
+      "text": "Process wget wrote to /dev/tty"
+    },
+    {
+      "window": "W1",
+      "label": "benign",
+      "ts": 1523027051556197851,
+      "text": "Process wget wrote to /dev/tty"
+    },
+    {
+      "window": "W1",
+      "label": "benign",
+      "ts": 1523027052886198692,
+      "text": "Process wget wrote to /dev/tty"
+    },
+    {
+      "window": "W1",
+      "label": "benign",
+      "ts": 1523027053786200814,
+      "text": "Process wget wrote to /dev/tty"
+    },
+    {
+      "window": "W1",
+      "label": "benign",
+      "ts": 1523027053906201983,
+      "text": "Process wget wrote to www.hbo.com/apps/schedule/ScheduleServlet@ACTION_DETAIL=DETAIL&ID=99473"
+    },
+    {
+      "window": "W1",
+      "label": "benign",
+      "ts": 1523027053936201605,
+      "text": "Process wget wrote to www.hbo.com/apps/schedule/ScheduleServlet@ACTION_DETAIL=DETAIL&ID=87256"
+    },
+    {
+      "window": "W1",
+      "label": "benign",
+      "ts": 1523027055276199427,
+      "text": "Process local changed privilege via a socket/pipe"
+    },
+    {
+      "window": "W1",
+      "label": "benign",
+      "ts": 1523027055456195479,
+      "text": "Process wget wrote to /dev/tty"
+    },
+    {
+      "window": "W1",
+      "label": "benign",
+      "ts": 1523027055736200229,
+      "text": "Process wget wrote to www.hbo.com/sopranos/social_club/index.shtml"
+    },
+    {
+      "window": "W1",
+      "label": "benign",
+      "ts": 1523027055926198052,
+      "text": "Process wget wrote to /dev/tty"
+    },
+    {
+      "window": "W1",
+      "label": "benign",
+      "ts": 1523027059266213612,
+      "text": "Process wget wrote to www.hbo.com/oz/episode/season6a/56_exeunt.shtml"
+    },
+    {
+      "window": "W1",
+      "label": "benign",
+      "ts": 1523027063166199371,
+      "text": "Process wget wrote to www.hbo.com/guidepdf/2003-07/hbo_july03_ce.pdf"
+    },
+    {
+      "window": "W1",
+      "label": "benign",
+      "ts": 1523027063276202988,
+      "text": "Process wget wrote to www.hbo.com/guidepdf/2003-07/hbo_july03_ce.pdf"
+    },
+    {
+      "window": "W1",
+      "label": "benign",
+      "ts": 1523027063766203142,
+      "text": "Process wget wrote to www.hbo.com/guidepdf/2003-07/hbo_july03_mw.pdf"
+    },
+    {
+      "window": "W1",
+      "label": "benign",
+      "ts": 1523027063786198223,
+      "text": "Process wget wrote to www.hbo.com/guidepdf/2003-07/hbo_july03_mw.pdf"
+    },
+    {
+      "window": "W1",
+      "label": "benign",
+      "ts": 1523027064166198760,
+      "text": "Process wget wrote to www.hbo.com/guidepdf/2003-07/hbo_july03_pw.pdf"
+    },
+    {
+      "window": "W1",
+      "label": "benign",
+      "ts": 1523027064546205656,
+      "text": "Process wget wrote to www.hbo.com/guidepdf/2003-06/hbo_June03_ee.pdf"
+    },
+    {
+      "window": "W1",
+      "label": "benign",
+      "ts": 1523027064906195981,
+      "text": "Process wget wrote to www.hbo.com/guidepdf/2003-06/hbo_June03_ce.pdf"
+    },
+    {
+      "window": "W1",
+      "label": "benign",
+      "ts": 1523027066296194466,
+      "text": "Process wget wrote to /dev/tty"
+    },
+    {
+      "window": "W1",
+      "label": "benign",
+      "ts": 1523027066856194315,
+      "text": "Process wget wrote to /dev/tty"
+    },
+    {
+      "window": "W1",
+      "label": "benign",
+      "ts": 1523027066926194650,
+      "text": "Process wget wrote to <unknown>"
+    },
+    {
+      "window": "W1",
+      "label": "benign",
+      "ts": 1523027068066197898,
+      "text": "Process rm modified process a socket/pipe"
+    },
+    {
+      "window": "W1",
+      "label": "benign",
+      "ts": 1523027068286196704,
+      "text": "Process rm deleted /usr/home/user/eraseme/www.hbo.com/films/livefrombaghdad/interviews"
+    },
+    {
+      "window": "W1",
+      "label": "benign",
+      "ts": 1523027069026194864,
+      "text": "Process rm modified process a socket/pipe"
+    },
+    {
+      "window": "W1",
+      "label": "benign",
+      "ts": 1523027112996194971,
+      "text": "Process mlock modified process /var/mail"
+    },
+    {
+      "window": "W1",
+      "label": "benign",
+      "ts": 1523027188636192816,
+      "text": "Process alpine deleted /home/user/#pico76374#"
+    },
+    {
+      "window": "W1",
+      "label": "benign",
+      "ts": 1523027189766191904,
+      "text": "Process alpine wrote to /dev/tty"
+    },
+    {
+      "window": "W1",
+      "label": "benign",
+      "ts": 1523027202806192178,
+      "text": "Process python2.7 created a socket/pipe"
+    },
+    {
+      "window": "W1",
+      "label": "benign",
+      "ts": 1523027278816190973,
+      "text": "Process python2.7 created a socket/pipe"
+    },
+    {
+      "window": "W1",
+      "label": "benign",
+      "ts": 1523027300086190207,
+      "text": "Process bash forked a socket/pipe"
+    },
+    {
+      "window": "W1",
+      "label": "benign",
+      "ts": 1523027460056186270,
+      "text": "Process cron modified process /"
+    },
+    {
+      "window": "W1",
+      "label": "benign",
+      "ts": 1523027495806184248,
+      "text": "Process python2.7 created a socket/pipe"
+    },
+    {
+      "window": "W1",
+      "label": "benign",
+      "ts": 1523027666316182132,
+      "text": "Process sshd accepted inbound connection from 10.0.4.1 (1 packets)"
+    },
+    {
+      "window": "W1",
+      "label": "benign",
+      "ts": 1523027685436193222,
+      "text": "Process smtpd accepted inbound connection from 116.218.249.211 (1 packets)"
+    },
+    {
+      "window": "W1",
+      "label": "benign",
+      "ts": 1523027699806184681,
+      "text": "Process screen wrote to /dev/tty"
+    },
+    {
+      "window": "W1",
+      "label": "benign",
+      "ts": 1523027700126183353,
+      "text": "Process links connected to 207.138.235.231 (3 packets)"
+    },
+    {
+      "window": "W1",
+      "label": "benign",
+      "ts": 1523027710616183510,
+      "text": "Process links connected to 64.236.91.22 (3 packets)"
+    },
+    {
+      "window": "W1",
+      "label": "benign",
+      "ts": 1523027725976182485,
+      "text": "Process bash forked a socket/pipe"
+    },
+    {
+      "window": "W1",
+      "label": "benign",
+      "ts": 1523027739146182092,
+      "text": "Process links connected to 207.25.80.123 (3 packets)"
+    },
+    {
+      "window": "W1",
+      "label": "benign",
+      "ts": 1523027741446178827,
+      "text": "Process bash wrote to /home/user/.bash_history-76558.tmp"
+    },
+    {
+      "window": "W1",
+      "label": "benign",
+      "ts": 1523027767936176120,
+      "text": "Process bash wrote to /dev/tty"
+    },
+    {
+      "window": "W1",
+      "label": "benign",
+      "ts": 1523027786206179088,
+      "text": "Process date wrote to /data/gather_stats_uma.txt"
+    },
+    {
+      "window": "W1",
+      "label": "benign",
+      "ts": 1523027866356175080,
+      "text": "Process imapd wrote to <unknown>"
+    },
+    {
+      "window": "W1",
+      "label": "benign",
+      "ts": 1523027956616175624,
+      "text": "Process screen wrote to /dev/tty"
+    },
+    {
+      "window": "W1",
+      "label": "benign",
+      "ts": 1523027956626175464,
+      "text": "Process links connected to 209.88.90.8 (3 packets)"
+    },
+    {
+      "window": "W1",
+      "label": "benign",
+      "ts": 1523027999816172910,
+      "text": "Process python2.7 created a socket/pipe"
+    },
+    {
+      "window": "W1",
+      "label": "benign",
+      "ts": 1523028001816173633,
+      "text": "Process python2.7 created a socket/pipe"
+    },
+    {
+      "window": "W1",
+      "label": "malicious",
+      "ts": 1523028012096172059,
+      "text": "Process nginx connected to 78.205.235.65 (302 packets)"
+    },
+    {
+      "window": "W1",
+      "label": "malicious",
+      "ts": 1523028012096172059,
+      "text": "Process nginx accepted inbound connection from 81.49.200.166 (6 packets)"
+    },
+    {
+      "window": "W1",
+      "label": "malicious",
+      "ts": 1523028012186179155,
+      "text": "Process nginx wrote to <unknown>"
+    },
+    {
+      "window": "W1",
+      "label": "benign",
+      "ts": 1523028085806171552,
+      "text": "Process python2.7 created a socket/pipe"
+    },
+    {
+      "window": "W1",
+      "label": "malicious",
+      "ts": 1523028173596169278,
+      "text": "Process nginx wrote to <unknown>"
+    },
+    {
+      "window": "W1",
+      "label": "malicious",
+      "ts": 1523028173596169278,
+      "text": "Process nginx connected to 200.36.109.214 (89 packets)"
+    },
+    {
+      "window": "W1",
+      "label": "benign",
+      "ts": 1523028286526165280,
+      "text": "Process imapd wrote to <unknown>"
+    },
+    {
+      "window": "W1",
+      "label": "benign",
+      "ts": 1523028600036162096,
+      "text": "Process cron changed privilege via a socket/pipe"
+    },
+    {
+      "window": "W1",
+      "label": "benign",
+      "ts": 1523028617686161591,
+      "text": "Process proxymap changed memory protection on a socket/pipe"
+    },
+    {
+      "window": "W1",
+      "label": "malicious",
+      "ts": 1523028709886158284,
+      "text": "Process nginx wrote to /tmp/vUgefal (file in temp directory)"
+    },
+    {
+      "window": "W1",
+      "label": "malicious",
+      "ts": 1523028709896164074,
+      "text": "Process nginx changed permissions on /tmp/vUgefal (file in temp directory)"
+    },
+    {
+      "window": "W1",
+      "label": "benign",
+      "ts": 1523028765806155357,
+      "text": "Process python2.7 created a socket/pipe"
+    },
+    {
+      "window": "W1",
+      "label": "malicious",
+      "ts": 1523028796536154997,
+      "text": "Process master executed /tmp/vUgefal (file in temp directory)"
+    },
+    {
+      "window": "W1",
+      "label": "malicious",
+      "ts": 1523028796546159758,
+      "text": "Process vUgefal connected to 139.123.0.113 (157 packets)"
+    },
+    {
+      "window": "W1",
+      "label": "malicious",
+      "ts": 1523028823506157091,
+      "text": "Process nginx deleted /tmp/vUgefal (file in temp directory)"
+    },
+    {
+      "window": "W1",
+      "label": "benign",
+      "ts": 1523028883806153695,
+      "text": "Process python2.7 created a socket/pipe"
+    },
+    {
+      "window": "W1",
+      "label": "benign",
+      "ts": 1523028912816155576,
+      "text": "Process python2.7 created a socket/pipe"
+    },
+    {
+      "window": "W1",
+      "label": "benign",
+      "ts": 1523029357516144933,
+      "text": "Process vmstat wrote to kernel_zones.txt"
+    },
+    {
+      "window": "W1",
+      "label": "malicious",
+      "ts": 1523029384976142609,
+      "text": "Process vUgefal connected to 61.167.39.128 (2 packets)"
+    },
+    {
+      "window": "W1",
+      "label": "benign",
+      "ts": 1523029486816138176,
+      "text": "Process python2.7 created a socket/pipe"
+    },
+    {
+      "window": "W1",
+      "label": "benign",
+      "ts": 1523029590256138827,
+      "text": "Process sshd created a socket/pipe"
+    },
+    {
+      "window": "W1",
+      "label": "benign",
+      "ts": 1523029608936138267,
+      "text": "Process alpine wrote to /dev/tty"
+    },
+    {
+      "window": "W1",
+      "label": "benign",
+      "ts": 1523029636386134846,
+      "text": "Process alpine wrote to /dev/tty"
+    },
+    {
+      "window": "W1",
+      "label": "benign",
+      "ts": 1523030196856124628,
+      "text": "Process imapd executed /usr/local/libexec/mlock"
+    },
+    {
+      "window": "W1",
+      "label": "benign",
+      "ts": 1523030206656124064,
+      "text": "Process lsof modified process a socket/pipe"
+    },
+    {
+      "window": "W1",
+      "label": "benign",
+      "ts": 1523030212806125047,
+      "text": "Process python2.7 created a socket/pipe"
+    },
+    {
+      "window": "W1",
+      "label": "benign",
+      "ts": 1523030300066122191,
+      "text": "Process sshd created a socket/pipe"
+    },
+    {
+      "window": "W1",
+      "label": "benign",
+      "ts": 1523030386026122143,
+      "text": "Process vmstat wrote to kernel_zones.txt"
+    },
+    {
+      "window": "W1",
+      "label": "benign",
+      "ts": 1523030426536117733,
+      "text": "Process alpine wrote to /dev/tty"
+    },
+    {
+      "window": "W1",
+      "label": "benign",
+      "ts": 1523030443166120642,
+      "text": "Process sshd changed privilege via a socket/pipe"
+    },
+    {
+      "window": "W1",
+      "label": "benign",
+      "ts": 1523030589236115728,
+      "text": "Process rm modified process a socket/pipe"
+    },
+    {
+      "window": "W1",
+      "label": "malicious",
+      "ts": 1523030692046111295,
+      "text": "Process vUgefal changed permissions on /var/log/devc (file under system log directory)"
+    },
+    {
+      "window": "W1",
+      "label": "malicious",
+      "ts": 1523030692046111295,
+      "text": "Process vUgefal wrote to /var/log/devc (file under system log directory)"
+    },
+    {
+      "window": "W1",
+      "label": "benign",
+      "ts": 1523030728156122302,
+      "text": "Process imapd changed permissions on /tmp/.31.29ada (file in temp directory)"
+    },
+    {
+      "window": "W1",
+      "label": "benign",
+      "ts": 1523030810946119651,
+      "text": "Process imapd modified process a socket/pipe"
+    },
+    {
+      "window": "W1",
+      "label": "benign",
+      "ts": 1523030908386108517,
+      "text": "Process imapd wrote to <unknown>"
+    },
+    {
+      "window": "W2",
+      "label": "benign",
+      "ts": 1523471400049885226,
+      "text": "Process atrun modified process /var/at/jobs/"
+    },
+    {
+      "window": "W2",
+      "label": "benign",
+      "ts": 1523471414669890396,
+      "text": "Process imapd connected to 128.55.12.10 (321 packets)"
+    },
+    {
+      "window": "W2",
+      "label": "benign",
+      "ts": 1523471415579885727,
+      "text": "Process imapd wrote to <unknown>"
+    },
+    {
+      "window": "W2",
+      "label": "benign",
+      "ts": 1523471421899886807,
+      "text": "Process lsof connected to 128.55.12.10 (138 packets)"
+    },
+    {
+      "window": "W2",
+      "label": "benign",
+      "ts": 1523471539539884101,
+      "text": "Process bash executed /bin/sleep"
+    },
+    {
+      "window": "W2",
+      "label": "benign",
+      "ts": 1523471580149883863,
+      "text": "Process sh executed /bin/mv"
+    },
+    {
+      "window": "W2",
+      "label": "benign",
+      "ts": 1523471625319890802,
+      "text": "Process local changed privilege via a socket/pipe"
+    },
+    {
+      "window": "W2",
+      "label": "benign",
+      "ts": 1523471680619879844,
+      "text": "Process qmgr renamed /var/spool/postfix/active/74FE629D15"
+    },
+    {
+      "window": "W2",
+      "label": "benign",
+      "ts": 1523471710149877232,
+      "text": "Process inetd accepted inbound connection from 128.55.12.118 (3 packets)"
+    },
+    {
+      "window": "W2",
+      "label": "benign",
+      "ts": 1523471748529876545,
+      "text": "Process anvil wrote to <unknown>"
+    },
+    {
+      "window": "W2",
+      "label": "benign",
+      "ts": 1523471749069880130,
+      "text": "Process local wrote to /var/mail/root"
+    },
+    {
+      "window": "W2",
+      "label": "benign",
+      "ts": 1523471760469879391,
+      "text": "Process imapd executed /usr/local/libexec/mlock"
+    },
+    {
+      "window": "W2",
+      "label": "benign",
+      "ts": 1523471772569878426,
+      "text": "Process php-fpm modified process /"
+    },
+    {
+      "window": "W2",
+      "label": "benign",
+      "ts": 1523471774119876251,
+      "text": "Process qmgr wrote to <unknown>"
+    },
+    {
+      "window": "W2",
+      "label": "benign",
+      "ts": 1523471787669884192,
+      "text": "Process php-fpm modified process /"
+    },
+    {
+      "window": "W2",
+      "label": "benign",
+      "ts": 1523471864059873263,
+      "text": "Process ntpd connected to 10.0.4.1 (10 packets)"
+    },
+    {
+      "window": "W2",
+      "label": "benign",
+      "ts": 1523472015349871148,
+      "text": "Process imapd wrote to /tmp/.31.29d0a (file in temp directory)"
+    },
+    {
+      "window": "W2",
+      "label": "benign",
+      "ts": 1523472035449943653,
+      "text": "Process imapd modified process a socket/pipe"
+    },
+    {
+      "window": "W2",
+      "label": "benign",
+      "ts": 1523472035719874582,
+      "text": "Process local changed privilege via a socket/pipe"
+    },
+    {
+      "window": "W2",
+      "label": "benign",
+      "ts": 1523472035769915931,
+      "text": "Process local changed privilege via a socket/pipe"
+    },
+    {
+      "window": "W2",
+      "label": "benign",
+      "ts": 1523472035799874421,
+      "text": "Process local changed privilege via a socket/pipe"
+    },
+    {
+      "window": "W2",
+      "label": "benign",
+      "ts": 1523472057789873196,
+      "text": "Process imapd linked /home/henry/Sent.lock"
+    },
+    {
+      "window": "W2",
+      "label": "benign",
+      "ts": 1523472084849873644,
+      "text": "Process trivial-rewrite wrote to <unknown>"
+    },
+    {
+      "window": "W2",
+      "label": "benign",
+      "ts": 1523472104899871178,
+      "text": "Process netstat wrote to /dev/tty"
+    },
+    {
+      "window": "W2",
+      "label": "benign",
+      "ts": 1523472286519870600,
+      "text": "Process sshd changed privilege via a socket/pipe"
+    },
+    {
+      "window": "W2",
+      "label": "benign",
+      "ts": 1523472363899863580,
+      "text": "Process master wrote to <unknown>"
+    },
+    {
+      "window": "W2",
+      "label": "benign",
+      "ts": 1523472530719860913,
+      "text": "Process python2.7 created a socket/pipe"
+    },
+    {
+      "window": "W2",
+      "label": "benign",
+      "ts": 1523472535519860967,
+      "text": "Process imapd wrote to <unknown>"
+    },
+    {
+      "window": "W2",
+      "label": "benign",
+      "ts": 1523472541229862107,
+      "text": "Process imapd wrote to <unknown>"
+    },
+    {
+      "window": "W2",
+      "label": "benign",
+      "ts": 1523472578709868557,
+      "text": "Process local changed privilege via a socket/pipe"
+    },
+    {
+      "window": "W2",
+      "label": "benign",
+      "ts": 1523472578829871796,
+      "text": "Process local wrote to <unknown>"
+    },
+    {
+      "window": "W2",
+      "label": "benign",
+      "ts": 1523472594189863354,
+      "text": "Process proxymap wrote to <unknown>"
+    },
+    {
+      "window": "W2",
+      "label": "benign",
+      "ts": 1523472595929866345,
+      "text": "Process local deleted /var/mail/david.lock"
+    },
+    {
+      "window": "W2",
+      "label": "benign",
+      "ts": 1523472641119867603,
+      "text": "Process smtpd wrote to <unknown>"
+    },
+    {
+      "window": "W2",
+      "label": "benign",
+      "ts": 1523472643099859952,
+      "text": "Process local changed privilege via a socket/pipe"
+    },
+    {
+      "window": "W2",
+      "label": "benign",
+      "ts": 1523472644299855046,
+      "text": "Process smtpd wrote to <unknown>"
+    },
+    {
+      "window": "W2",
+      "label": "benign",
+      "ts": 1523472706559858072,
+      "text": "Process proxymap wrote to <unknown>"
+    },
+    {
+      "window": "W2",
+      "label": "benign",
+      "ts": 1523472709189857818,
+      "text": "Process proxymap wrote to <unknown>"
+    },
+    {
+      "window": "W2",
+      "label": "benign",
+      "ts": 1523472709479858847,
+      "text": "Process trivial-rewrite wrote to <unknown>"
+    },
+    {
+      "window": "W2",
+      "label": "benign",
+      "ts": 1523472711579856515,
+      "text": "Process trivial-rewrite wrote to <unknown>"
+    },
+    {
+      "window": "W2",
+      "label": "benign",
+      "ts": 1523472781019860602,
+      "text": "Process trivial-rewrite wrote to <unknown>"
+    },
+    {
+      "window": "W2",
+      "label": "benign",
+      "ts": 1523472783069854421,
+      "text": "Process syslogd wrote to /var/log/maillog (file under system log directory)"
+    },
+    {
+      "window": "W2",
+      "label": "benign",
+      "ts": 1523472783779857107,
+      "text": "Process trivial-rewrite wrote to <unknown>"
+    },
+    {
+      "window": "W2",
+      "label": "benign",
+      "ts": 1523472835729856868,
+      "text": "Process python2.7 created a socket/pipe"
+    },
+    {
+      "window": "W2",
+      "label": "benign",
+      "ts": 1523472873599857283,
+      "text": "Process lsof wrote to /data/gather_stats_uma.txt"
+    },
+    {
+      "window": "W2",
+      "label": "benign",
+      "ts": 1523472999369853393,
+      "text": "Process cleanup wrote to <unknown>"
+    },
+    {
+      "window": "W2",
+      "label": "benign",
+      "ts": 1523472999639851050,
+      "text": "Process local changed privilege via a socket/pipe"
+    },
+    {
+      "window": "W2",
+      "label": "benign",
+      "ts": 1523472999869854698,
+      "text": "Process local changed privilege via a socket/pipe"
+    },
+    {
+      "window": "W2",
+      "label": "benign",
+      "ts": 1523473052719849660,
+      "text": "Process bash executed /bin/sleep"
+    },
+    {
+      "window": "W2",
+      "label": "benign",
+      "ts": 1523473059029851146,
+      "text": "Process sshd created a socket/pipe"
+    },
+    {
+      "window": "W2",
+      "label": "benign",
+      "ts": 1523473288399843794,
+      "text": "Process wget connected to 212.190.125.38 (4 packets)"
+    },
+    {
+      "window": "W2",
+      "label": "benign",
+      "ts": 1523473288759842311,
+      "text": "Process bash forked a socket/pipe"
+    },
+    {
+      "window": "W2",
+      "label": "benign",
+      "ts": 1523473294679844971,
+      "text": "Process bash executed /bin/sleep"
+    },
+    {
+      "window": "W2",
+      "label": "benign",
+      "ts": 1523473390909843055,
+      "text": "Process mlock deleted /var/mail/bob.lock"
+    },
+    {
+      "window": "W2",
+      "label": "benign",
+      "ts": 1523473414559842215,
+      "text": "Process vmstat wrote to kernel_mem.txt"
+    },
+    {
+      "window": "W2",
+      "label": "benign",
+      "ts": 1523473416639839284,
+      "text": "Process bash executed /usr/bin/head"
+    },
+    {
+      "window": "W2",
+      "label": "benign",
+      "ts": 1523473567709839034,
+      "text": "Process imapd changed permissions on /home/henry/Archives"
+    },
+    {
+      "window": "W2",
+      "label": "benign",
+      "ts": 1523473659779838653,
+      "text": "Process lsof changed privilege via a socket/pipe"
+    },
+    {
+      "window": "W2",
+      "label": "benign",
+      "ts": 1523473683899834119,
+      "text": "Process pickup wrote to <unknown>"
+    },
+    {
+      "window": "W2",
+      "label": "malicious",
+      "ts": 1523473712359835172,
+      "text": "Process nginx accepted inbound connection from 25.159.96.207 (3 packets)"
+    },
+    {
+      "window": "W2",
+      "label": "malicious",
+      "ts": 1523473712359835172,
+      "text": "Process nginx connected to 76.56.184.25 (161 packets)"
+    },
+    {
+      "window": "W2",
+      "label": "malicious",
+      "ts": 1523473712639832849,
+      "text": "Process nginx connected to 155.162.39.48 (194 packets)"
+    },
+    {
+      "window": "W2",
+      "label": "malicious",
+      "ts": 1523473712659834179,
+      "text": "Process nginx wrote to <unknown>"
+    },
+    {
+      "window": "W2",
+      "label": "benign",
+      "ts": 1523473828729830207,
+      "text": "Process python2.7 created a socket/pipe"
+    },
+    {
+      "window": "W2",
+      "label": "benign",
+      "ts": 1523473839029831773,
+      "text": "Process bash forked a socket/pipe"
+    },
+    {
+      "window": "W2",
+      "label": "benign",
+      "ts": 1523473860119831361,
+      "text": "Process sh executed /bin/mv"
+    },
+    {
+      "window": "W2",
+      "label": "malicious",
+      "ts": 1523473953709828247,
+      "text": "Process nginx wrote to grain"
+    },
+    {
+      "window": "W2",
+      "label": "malicious",
+      "ts": 1523473953709828247,
+      "text": "Process nginx changed permissions on /tmp/grain (file in temp directory)"
+    },
+    {
+      "window": "W2",
+      "label": "benign",
+      "ts": 1523474020459826707,
+      "text": "Process bash executed /usr/bin/vmstat"
+    },
+    {
+      "window": "W2",
+      "label": "benign",
+      "ts": 1523474143719831155,
+      "text": "Process python2.7 created a socket/pipe"
+    },
+    {
+      "window": "W2",
+      "label": "benign",
+      "ts": 1523474163829826293,
+      "text": "Process netstat connected to 128.55.12.10 (54 packets)"
+    },
+    {
+      "window": "W2",
+      "label": "benign",
+      "ts": 1523474163939823419,
+      "text": "Process netstat wrote to /dev/tty"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523554231266232315,
+      "text": "Process python2.7 created a socket/pipe"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523554233986230195,
+      "text": "Process sshd accepted inbound connection from 128.55.12.122 (36 packets)"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523554234046229801,
+      "text": "Process sshd created a socket/pipe"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523554234166229661,
+      "text": "Process sshd connected to 128.55.12.10 (78 packets)"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523554236076228613,
+      "text": "Process bash wrote to /dev/tty"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523554242226230653,
+      "text": "Process alpine wrote to /dev/tty"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523554243766228804,
+      "text": "Process alpine wrote to /dev/tty"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523554249016231918,
+      "text": "Process alpine wrote to /dev/tty"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523554250606230833,
+      "text": "Process alpine wrote to /dev/tty"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523554258296230653,
+      "text": "Process lsof connected to 128.55.12.10 (267 packets)"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523554270306228399,
+      "text": "Process alpine wrote to /dev/tty"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523554287436227698,
+      "text": "Process inetd accepted inbound connection from 128.55.12.55 (34 packets)"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523554287486230032,
+      "text": "Process imapd connected to 128.55.12.10 (333 packets)"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523554288426237282,
+      "text": "Process mlock deleted /var/mail/charles.lock"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523554293336232327,
+      "text": "Process inetd changed privilege via a socket/pipe"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523554293646229223,
+      "text": "Process imapd modified process /home/charles"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523554294186228189,
+      "text": "Process inetd changed privilege via a socket/pipe"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523554306396227881,
+      "text": "Process alpine wrote to /dev/tty"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523554323256228405,
+      "text": "Process python2.7 created a socket/pipe"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523554333266227151,
+      "text": "Process python2.7 created a socket/pipe"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523554333716228719,
+      "text": "Process proxymap wrote to <unknown>"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523554333736228421,
+      "text": "Process smtpd accepted inbound connection from 128.55.12.55 (10 packets)"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523554334316227030,
+      "text": "Process trivial-rewrite changed privilege via a socket/pipe"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523554334326231200,
+      "text": "Process trivial-rewrite wrote to <unknown>"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523554334666228899,
+      "text": "Process cleanup wrote to <unknown>"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523554334696230222,
+      "text": "Process trivial-rewrite wrote to <unknown>"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523554334946229263,
+      "text": "Process alpine wrote to /dev/tty"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523554335456229746,
+      "text": "Process local connected to 127.0.0.1 (216 packets)"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523554335526253842,
+      "text": "Process syslogd wrote to /var/log/maillog (file under system log directory)"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523554335536231192,
+      "text": "Process local changed privilege via a socket/pipe"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523554335536231192,
+      "text": "Process local wrote to <unknown>"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523554335616230569,
+      "text": "Process local changed privilege via a socket/pipe"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523554335666228234,
+      "text": "Process syslogd wrote to /var/log/maillog (file under system log directory)"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523554336036228405,
+      "text": "Process imapd modified process a socket/pipe"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523554337036226649,
+      "text": "Process alpine wrote to /dev/tty"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523554337496226568,
+      "text": "Process alpine wrote to /dev/tty"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523554338886227765,
+      "text": "Process alpine wrote to /dev/tty"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523554343146232095,
+      "text": "Process imapd wrote to <unknown>"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523554343156227716,
+      "text": "Process mlock deleted /var/mail/charles.lock.1523554343.19405.ta1-cadets"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523554349436227356,
+      "text": "Process imapd wrote to <unknown>"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523554354586229231,
+      "text": "Process imapd modified process /home/charles"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523554354636226935,
+      "text": "Process inetd changed privilege via a socket/pipe"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523554354756226345,
+      "text": "Process imapd wrote to <unknown>"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523554354766228136,
+      "text": "Process imapd wrote to <unknown>"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523554354886227026,
+      "text": "Process imapd modified process a socket/pipe"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523554354906226638,
+      "text": "Process inetd changed privilege via a socket/pipe"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523554355326227313,
+      "text": "Process inetd forked a socket/pipe"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523554355336227854,
+      "text": "Process inetd modified process a socket/pipe"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523554357076227241,
+      "text": "Process alpine wrote to /dev/tty"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523554360786229104,
+      "text": "Process alpine wrote to /dev/tty"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523554369046227601,
+      "text": "Process alpine truncated a socket/pipe"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523554369436228414,
+      "text": "Process alpine wrote to /dev/tty"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523554373096229313,
+      "text": "Process cleanup wrote to <unknown>"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523554373126229475,
+      "text": "Process qmgr wrote to <unknown>"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523554373306235220,
+      "text": "Process local wrote to active/0B02529D17"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523554374306227415,
+      "text": "Process alpine wrote to /dev/tty"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523554377056234187,
+      "text": "Process alpine wrote to /dev/tty"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523554380106227884,
+      "text": "Process alpine wrote to /dev/tty"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523554380276226698,
+      "text": "Process alpine connected to 127.0.0.1 (4 packets)"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523554380286229899,
+      "text": "Process sendmail accepted inbound connection from 127.0.0.1 (4 packets)"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523554380306226911,
+      "text": "Process sendmail wrote to <unknown>"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523554380356219775,
+      "text": "Process alpine wrote to /dev/tty"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523554384986232195,
+      "text": "Process imapd wrote to <unknown>"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523554408476228166,
+      "text": "Process ntpd connected to 10.0.4.1 (20 packets)"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523554411796226636,
+      "text": "Process inetd accepted inbound connection from 128.55.12.166 (14 packets)"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523554411866232891,
+      "text": "Process inetd modified process a socket/pipe"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523554411996231322,
+      "text": "Process imapd wrote to <unknown>"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523554432096224436,
+      "text": "Process syslogd wrote to /var/log/debug.log (file under system log directory)"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523554433256224773,
+      "text": "Process python2.7 created a socket/pipe"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523554436446224472,
+      "text": "Process bash executed /bin/sleep"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523554439626227690,
+      "text": "Process lsof changed privilege via a socket/pipe"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523554448596226235,
+      "text": "Process imapd changed permissions on /var/mail/bob"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523554500066227265,
+      "text": "Process atrun changed privilege via a socket/pipe"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523554500076224736,
+      "text": "Process lsof changed privilege via a socket/pipe"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523554500486223650,
+      "text": "Process inetd changed privilege via a socket/pipe"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523554557426224483,
+      "text": "Process bash executed /bin/sleep"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523554568266224483,
+      "text": "Process python2.7 created a socket/pipe"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523554605296221098,
+      "text": "Process imapd wrote to <unknown>"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523554605596222354,
+      "text": "Process imapd wrote to <unknown>"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523554610356224653,
+      "text": "Process inetd changed privilege via a socket/pipe"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523554610846222824,
+      "text": "Process imapd modified process a socket/pipe"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523554610866222875,
+      "text": "Process imapd wrote to <unknown>"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523554618946224552,
+      "text": "Process bash executed /bin/sleep"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523554619266219459,
+      "text": "Process python2.7 created a socket/pipe"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523554626466225212,
+      "text": "Process sshd logged in via a socket/pipe"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523554635086221345,
+      "text": "Process alpine wrote to /dev/tty"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523554664236220395,
+      "text": "Process smtpd connected to 128.55.12.10 (39 packets)"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523554664816219394,
+      "text": "Process trivial-rewrite changed memory protection on a socket/pipe"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523554665036218772,
+      "text": "Process trivial-rewrite wrote to <unknown>"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523554665816220797,
+      "text": "Process qmgr wrote to <unknown>"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523554665816220797,
+      "text": "Process qmgr wrote to <unknown>"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523554665916230506,
+      "text": "Process local changed privilege via a socket/pipe"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523554666006220133,
+      "text": "Process local changed privilege via a socket/pipe"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523554666026220755,
+      "text": "Process qmgr wrote to <unknown>"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523554666196224829,
+      "text": "Process local wrote to <unknown>"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523554666236222082,
+      "text": "Process local changed privilege via a socket/pipe"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523554666246230073,
+      "text": "Process local changed privilege via a socket/pipe"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523554666286224057,
+      "text": "Process imapd modified process a socket/pipe"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523554666296230358,
+      "text": "Process local wrote to <unknown>"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523554666326230280,
+      "text": "Process mlock wrote to <unknown>"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523554702826221273,
+      "text": "Process alpine wrote to /dev/tty"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523554709296218604,
+      "text": "Process alpine wrote to /dev/tty"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523554711766231521,
+      "text": "Process sendmail created a socket/pipe"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523554730766218398,
+      "text": "Process imapd wrote to <unknown>"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523554735986219294,
+      "text": "Process fortune wrote to /dev/tty"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523554740746219472,
+      "text": "Process alpine wrote to /dev/tty"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523554740916220406,
+      "text": "Process bash forked a socket/pipe"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523554740986221572,
+      "text": "Process bash forked a socket/pipe"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523554742006217537,
+      "text": "Process bash forked a socket/pipe"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523554743446216057,
+      "text": "Process alpine wrote to /dev/tty"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523554750086218612,
+      "text": "Process alpine wrote to /dev/tty"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523554772886215915,
+      "text": "Process inetd accepted inbound connection from 128.55.12.110 (21 packets)"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523554773196225581,
+      "text": "Process imapd wrote to <unknown>"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523554773316220191,
+      "text": "Process imapd wrote to /var/mail/frank"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523554780016218600,
+      "text": "Process alpine wrote to /home/user/#pico19575#"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523554782976218547,
+      "text": "Process alpine wrote to /dev/tty"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523554797856216508,
+      "text": "Process alpine wrote to /dev/tty"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523554799496214955,
+      "text": "Process alpine wrote to /dev/tty"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523554801466218879,
+      "text": "Process bash executed /usr/bin/head"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523554805536218969,
+      "text": "Process alpine wrote to /dev/tty"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523554807256216312,
+      "text": "Process python2.7 created a socket/pipe"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523554809256216359,
+      "text": "Process python2.7 created a socket/pipe"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523554824836218787,
+      "text": "Process proxymap modified process /var/spool/postfix"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523554824866216810,
+      "text": "Process smtpd accepted inbound connection from 128.55.12.110 (8 packets)"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523554825436217377,
+      "text": "Process trivial-rewrite wrote to <unknown>"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523554825466216850,
+      "text": "Process trivial-rewrite wrote to <unknown>"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523554825476220611,
+      "text": "Process cleanup changed permissions on a socket/pipe"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523554825516219864,
+      "text": "Process trivial-rewrite wrote to <unknown>"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523554825656219726,
+      "text": "Process local changed privilege via a socket/pipe"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523554825756217624,
+      "text": "Process local wrote to <unknown>"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523554825846220172,
+      "text": "Process local changed privilege via a socket/pipe"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523554825966219371,
+      "text": "Process local changed privilege via a socket/pipe"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523554825986221323,
+      "text": "Process local changed privilege via a socket/pipe"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523554825996223954,
+      "text": "Process local wrote to <unknown>"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523554826606216395,
+      "text": "Process mlock wrote to <unknown>"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523554826636219807,
+      "text": "Process imapd modified process a socket/pipe"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523554843436216637,
+      "text": "Process alpine wrote to /dev/tty"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523554847226215213,
+      "text": "Process imapd wrote to /var/mail/henry"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523554862056215457,
+      "text": "Process bash executed /usr/bin/top"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523554888146219079,
+      "text": "Process pickup modified process /var/spool/postfix"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523554892266213741,
+      "text": "Process python2.7 created a socket/pipe"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523554907346213625,
+      "text": "Process imapd wrote to <unknown>"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523554921266213233,
+      "text": "Process python2.7 created a socket/pipe"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523554922526212477,
+      "text": "Process bash executed /usr/bin/top"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523554939256212977,
+      "text": "Process python2.7 created a socket/pipe"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523554971266211576,
+      "text": "Process python2.7 created a socket/pipe"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523555043266210477,
+      "text": "Process python2.7 created a socket/pipe"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523555044636212625,
+      "text": "Process bash forked a socket/pipe"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523555063266209577,
+      "text": "Process python2.7 created a socket/pipe"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523555100056212608,
+      "text": "Process sh executed /usr/libexec/atrun"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523555102986210081,
+      "text": "Process vmstat wrote to kernel_zones.txt"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523555105116210635,
+      "text": "Process bash forked a socket/pipe"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523555105356210336,
+      "text": "Process bash forked a socket/pipe"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523555112266209203,
+      "text": "Process python2.7 created a socket/pipe"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523555117266211724,
+      "text": "Process python2.7 created a socket/pipe"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523555147506219625,
+      "text": "Process imapd wrote to <unknown>"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523555181916210493,
+      "text": "Process alpine modified process a socket/pipe"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523555191166206580,
+      "text": "Process alpine wrote to /dev/tty"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523555199906207063,
+      "text": "Process alpine wrote to /dev/tty"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523555200266209034,
+      "text": "Process python2.7 created a socket/pipe"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523555200426209108,
+      "text": "Process alpine wrote to /dev/tty"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523555203216208079,
+      "text": "Process imapd wrote to <unknown>"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523555212396207220,
+      "text": "Process alpine wrote to /dev/tty"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523555225476209786,
+      "text": "Process alpine wrote to /home/user/#pico19714#"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523555226116208161,
+      "text": "Process bash executed /usr/local/sbin/lsof"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523555275706204618,
+      "text": "Process alpine wrote to /dev/tty"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523555285606205199,
+      "text": "Process bash executed /usr/bin/head"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523555286816207153,
+      "text": "Process alpine wrote to /dev/tty"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523555296896206790,
+      "text": "Process alpine wrote to /dev/tty"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523555311606203734,
+      "text": "Process sshd created a socket/pipe"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523555323306205939,
+      "text": "Process imapd wrote to <unknown>"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523555386266206400,
+      "text": "Process python2.7 created a socket/pipe"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523555406836203113,
+      "text": "Process bash created a socket/pipe"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523555406886206428,
+      "text": "Process bash executed /bin/sleep"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523555410266201847,
+      "text": "Process python2.7 created a socket/pipe"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523555461266200833,
+      "text": "Process python2.7 created a socket/pipe"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523555465216205701,
+      "text": "Process vmstat wrote to kernel_mem.txt"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523555564256214251,
+      "text": "Process python2.7 created a socket/pipe"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523555598266198921,
+      "text": "Process python2.7 created a socket/pipe"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523555618256198774,
+      "text": "Process python2.7 created a socket/pipe"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523555642256202268,
+      "text": "Process python2.7 created a socket/pipe"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523555654266197040,
+      "text": "Process python2.7 created a socket/pipe"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523555708226196238,
+      "text": "Process bash executed /usr/bin/vmstat"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523555722266195321,
+      "text": "Process python2.7 created a socket/pipe"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523555763166196103,
+      "text": "Process imapd wrote to <unknown>"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523555781826194835,
+      "text": "Process imapd changed privilege via a socket/pipe"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523555787096195742,
+      "text": "Process imapd changed permissions on /tmp/.31.29adb (file in temp directory)"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523555787156196647,
+      "text": "Process imapd wrote to <unknown>"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523555788766197224,
+      "text": "Process master wrote to <unknown>"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523555792476196038,
+      "text": "Process inetd changed privilege via a socket/pipe"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523555792596193828,
+      "text": "Process imapd changed permissions on /tmp/.31.29d10 (file in temp directory)"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523555803786194867,
+      "text": "Process smtpd wrote to <unknown>"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523555804086197902,
+      "text": "Process trivial-rewrite wrote to <unknown>"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523555804336196484,
+      "text": "Process local changed privilege via a socket/pipe"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523555804336196484,
+      "text": "Process local changed privilege via a socket/pipe"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523555804456200274,
+      "text": "Process local changed privilege via a socket/pipe"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523555812306193089,
+      "text": "Process smtpd wrote to <unknown>"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523555812466197802,
+      "text": "Process cleanup wrote to <unknown>"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523555812526199017,
+      "text": "Process smtpd wrote to <unknown>"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523555812616198765,
+      "text": "Process local changed privilege via a socket/pipe"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523555812696209042,
+      "text": "Process local changed privilege via a socket/pipe"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523555824396195473,
+      "text": "Process imapd modified process a socket/pipe"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523555828196194685,
+      "text": "Process bash forked a socket/pipe"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523555830406198502,
+      "text": "Process bash forked a socket/pipe"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523555860266204510,
+      "text": "Process python2.7 created a socket/pipe"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523555867266192762,
+      "text": "Process python2.7 created a socket/pipe"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523555884096197115,
+      "text": "Process syslogd wrote to /var/log/auth.log (file under system log directory)"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523555884526200752,
+      "text": "Process netstat wrote to /dev/tty"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523555884526200752,
+      "text": "Process netstat wrote to /dev/tty"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523555884536193093,
+      "text": "Process netstat wrote to /dev/tty"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523555891996193983,
+      "text": "Process lsof modified process a socket/pipe"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523555908096190954,
+      "text": "Process master wrote to <unknown>"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523555915256191009,
+      "text": "Process python2.7 created a socket/pipe"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523555975096192561,
+      "text": "Process wget connected to 128.55.12.10 (36 packets)"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523555975106205922,
+      "text": "Process wget connected to 193.40.5.73 (3 packets)"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523555979266188783,
+      "text": "Process python2.7 created a socket/pipe"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523556000096191869,
+      "text": "Process sh created a socket/pipe"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523556001266191388,
+      "text": "Process python2.7 created a socket/pipe"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523556005266190475,
+      "text": "Process python2.7 created a socket/pipe"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523556010956191964,
+      "text": "Process vmstat wrote to kernel_zones.txt"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523556021266189503,
+      "text": "Process python2.7 created a socket/pipe"
+    },
+    {
+      "window": "W3",
+      "label": "malicious",
+      "ts": 1523556022876190369,
+      "text": "Process nginx accepted inbound connection from 25.159.96.207 (3 packets)"
+    },
+    {
+      "window": "W3",
+      "label": "malicious",
+      "ts": 1523556022876190369,
+      "text": "Process nginx connected to 76.56.184.25 (158 packets)"
+    },
+    {
+      "window": "W3",
+      "label": "malicious",
+      "ts": 1523556023166196193,
+      "text": "Process nginx connected to 155.162.39.48 (263 packets)"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523556023166196193,
+      "text": "Process php-fpm accepted inbound connection from 127.0.0.1 (3 packets)"
+    },
+    {
+      "window": "W3",
+      "label": "malicious",
+      "ts": 1523556023176197934,
+      "text": "Process nginx wrote to <unknown>"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523556023176197934,
+      "text": "Process nginx connected to 127.0.0.1 (1 packets)"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523556054266191262,
+      "text": "Process python2.7 created a socket/pipe"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523556072426188030,
+      "text": "Process bash executed /usr/bin/top"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523556091256187934,
+      "text": "Process python2.7 created a socket/pipe"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523556111446186281,
+      "text": "Process imapd wrote to <unknown>"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523556118266186954,
+      "text": "Process python2.7 created a socket/pipe"
+    },
+    {
+      "window": "W3",
+      "label": "malicious",
+      "ts": 1523556130376185722,
+      "text": "Process nginx wrote to tmux-1002"
+    },
+    {
+      "window": "W3",
+      "label": "malicious",
+      "ts": 1523556130376185722,
+      "text": "Process nginx changed permissions on /tmp/tmux-1002 (file in temp directory)"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523556140076186266,
+      "text": "Process inetd changed privilege via a socket/pipe"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523556140076186266,
+      "text": "Process inetd logged in via a socket/pipe"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523556149266185448,
+      "text": "Process python2.7 created a socket/pipe"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523556159266186707,
+      "text": "Process inetd modified process a socket/pipe"
+    },
+    {
+      "window": "W3",
+      "label": "malicious",
+      "ts": 1523556194106186440,
+      "text": "Process master executed /tmp/tmux-1002 (file in temp directory)"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523556227266184070,
+      "text": "Process python2.7 created a socket/pipe"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523556254586185068,
+      "text": "Process trivial-rewrite changed privilege via a socket/pipe"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523556254776190004,
+      "text": "Process trivial-rewrite wrote to <unknown>"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523556254826190258,
+      "text": "Process trivial-rewrite wrote to <unknown>"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523556254836199579,
+      "text": "Process trivial-rewrite wrote to <unknown>"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523556254986185271,
+      "text": "Process qmgr wrote to <unknown>"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523556255076185949,
+      "text": "Process local changed privilege via a socket/pipe"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523556255196194779,
+      "text": "Process local changed privilege via a socket/pipe"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523556260796188098,
+      "text": "Process imapd changed permissions on /var/mail/frank"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523556283896183941,
+      "text": "Process imapd wrote to <unknown>"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523556285236183963,
+      "text": "Process sshd forked a socket/pipe"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523556285836184743,
+      "text": "Process netstat wrote to /dev/tty"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523556285856185405,
+      "text": "Process netstat wrote to /dev/tty"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523556313656184609,
+      "text": "Process bash executed /usr/bin/vmstat"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523556352736184004,
+      "text": "Process sshd executed /usr/local/bin/bash"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523556352766182446,
+      "text": "Process bash executed /usr/bin/fortune"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523556353176183240,
+      "text": "Process wget wrote to /dev/tty"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523556353196182712,
+      "text": "Process wget connected to 194.90.181.242 (4 packets)"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523556353556180152,
+      "text": "Process bash executed /bin/rm"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523556364806187121,
+      "text": "Process local changed privilege via a socket/pipe"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523556364876193317,
+      "text": "Process local changed privilege via a socket/pipe"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523556364886190378,
+      "text": "Process local changed privilege via a socket/pipe"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523556364926188142,
+      "text": "Process local wrote to /var/mail/root"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523556366016188842,
+      "text": "Process imapd linked /home/frank/Sent.lock"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523556374246191559,
+      "text": "Process bash forked a socket/pipe"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523556405386181317,
+      "text": "Process sshd created a socket/pipe"
+    },
+    {
+      "window": "W3",
+      "label": "malicious",
+      "ts": 1523556405396185538,
+      "text": "Process sshd executed /tmp/tmux-1002 (file in temp directory)"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523556425956179682,
+      "text": "Process bash wrote to /dev/tty"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523556426176184440,
+      "text": "Process ps wrote to /dev/tty"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523556454266182150,
+      "text": "Process python2.7 created a socket/pipe"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523556487266178987,
+      "text": "Process python2.7 created a socket/pipe"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523556497676181613,
+      "text": "Process lsof wrote to /data/gather_stats_uma.txt"
+    },
+    {
+      "window": "W3",
+      "label": "malicious",
+      "ts": 1523556506236177824,
+      "text": "Process nginx deleted /tmp/tmux-1002 (file in temp directory)"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523556551256176766,
+      "text": "Process python2.7 created a socket/pipe"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523556567256176585,
+      "text": "Process python2.7 created a socket/pipe"
+    },
+    {
+      "window": "W3",
+      "label": "malicious",
+      "ts": 1523556600036180575,
+      "text": "Process cron executed /tmp/tmux-1002 (file in temp directory)"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523556618756176427,
+      "text": "Process bash forked a socket/pipe"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523556620256175342,
+      "text": "Process python2.7 created a socket/pipe"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523556623576178767,
+      "text": "Process imapd wrote to /tmp/.31.29ade (file in temp directory)"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523556629556176472,
+      "text": "Process pickup wrote to <unknown>"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523556629556176472,
+      "text": "Process pickup wrote to <unknown>"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523556642436180130,
+      "text": "Process inetd modified process a socket/pipe"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523556643526175720,
+      "text": "Process imapd wrote to <unknown>"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523556660046178059,
+      "text": "Process cron changed privilege via a socket/pipe"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523556670346181811,
+      "text": "Process smtpd wrote to <unknown>"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523556670896177267,
+      "text": "Process cleanup wrote to <unknown>"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523556670906175638,
+      "text": "Process trivial-rewrite wrote to <unknown>"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523556670936177550,
+      "text": "Process qmgr wrote to <unknown>"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523556670946180941,
+      "text": "Process qmgr wrote to <unknown>"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523556670976184484,
+      "text": "Process imapd modified process a socket/pipe"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523556671026182768,
+      "text": "Process local changed privilege via a socket/pipe"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523556671046183079,
+      "text": "Process qmgr wrote to <unknown>"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523556671086178633,
+      "text": "Process local wrote to /var/mail/alice"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523556671316183622,
+      "text": "Process local changed privilege via a socket/pipe"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523556671346183554,
+      "text": "Process local wrote to <unknown>"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523556671376187297,
+      "text": "Process local wrote to <unknown>"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523556672156179281,
+      "text": "Process inetd wrote to <unknown>"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523556711696175283,
+      "text": "Process imapd wrote to <unknown>"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523556724986174522,
+      "text": "Process imapd wrote to <unknown>"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523556730416174341,
+      "text": "Process imapd modified process a socket/pipe"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523556730536178291,
+      "text": "Process imapd modified process a socket/pipe"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523556736276180255,
+      "text": "Process bash executed /usr/bin/vmstat"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523556737366177255,
+      "text": "Process vmstat wrote to kernel_zones.txt"
+    },
+    {
+      "window": "W3",
+      "label": "malicious",
+      "ts": 1523556751146174254,
+      "text": "Process nginx changed permissions on /tmp/minions (file in temp directory)"
+    },
+    {
+      "window": "W3",
+      "label": "malicious",
+      "ts": 1523556751146174254,
+      "text": "Process nginx wrote to minions"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523556755266173565,
+      "text": "Process python2.7 created a socket/pipe"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523556762246174821,
+      "text": "Process cleanup wrote to <unknown>"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523556762256177202,
+      "text": "Process trivial-rewrite wrote to <unknown>"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523556762256177202,
+      "text": "Process trivial-rewrite wrote to <unknown>"
+    },
+    {
+      "window": "W3",
+      "label": "malicious",
+      "ts": 1523556762536176905,
+      "text": "Process master executed /tmp/minions (file in temp directory)"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523556762536176905,
+      "text": "Process local changed privilege via a socket/pipe"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523556762546185526,
+      "text": "Process local deleted /var/mail/alice.lock"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523556762616183222,
+      "text": "Process local wrote to <unknown>"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523556762626187273,
+      "text": "Process local changed privilege via a socket/pipe"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523556762636186553,
+      "text": "Process local changed privilege via a socket/pipe"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523556826196172049,
+      "text": "Process inetd changed privilege via a socket/pipe"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523556826536173976,
+      "text": "Process imapd modified process a socket/pipe"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523556826586172981,
+      "text": "Process mlock deleted /var/mail/frank.lock"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523556858276171463,
+      "text": "Process python2.7 created a socket/pipe"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523556867076171387,
+      "text": "Process trivial-rewrite wrote to <unknown>"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523556867096173889,
+      "text": "Process trivial-rewrite wrote to <unknown>"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523556867116187951,
+      "text": "Process imapd deleted /home/frank/Sent.lock.1523556867.20252.ta1-cadets"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523556867646176094,
+      "text": "Process local wrote to <unknown>"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523556870096170496,
+      "text": "Process anvil wrote to <unknown>"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523556870346170877,
+      "text": "Process smtpd wrote to <unknown>"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523556870746173070,
+      "text": "Process trivial-rewrite wrote to <unknown>"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523556871366174341,
+      "text": "Process local changed privilege via a socket/pipe"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523556871426180016,
+      "text": "Process local changed privilege via a socket/pipe"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523556871426180016,
+      "text": "Process qmgr wrote to <unknown>"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523556871486180461,
+      "text": "Process anvil wrote to <unknown>"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523556875386170292,
+      "text": "Process bash wrote to /dev/tty"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523556880246173632,
+      "text": "Process ssh connected to 128.55.12.73 (1 packets)"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523556880316171548,
+      "text": "Process sshd modified process /var/empty/"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523556884016170592,
+      "text": "Process imapd modified process a socket/pipe"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523556900056172443,
+      "text": "Process atrun changed privilege via a socket/pipe"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523556903106180654,
+      "text": "Process bash wrote to /dev/tty"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523556903416172389,
+      "text": "Process syslogd wrote to /var/log/auth.log (file under system log directory)"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523556906856170962,
+      "text": "Process bash wrote to /dev/tty"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523556926266168799,
+      "text": "Process python2.7 created a socket/pipe"
+    },
+    {
+      "window": "W3",
+      "label": "malicious",
+      "ts": 1523556929346168722,
+      "text": "Process sshd executed /tmp/minions (file in temp directory)"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523556951516170945,
+      "text": "Process sshd modified process /var/empty/"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523556979356174292,
+      "text": "Process bash forked a socket/pipe"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523556988266168263,
+      "text": "Process python2.7 created a socket/pipe"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523557017266168014,
+      "text": "Process python2.7 created a socket/pipe"
+    },
+    {
+      "window": "W3",
+      "label": "malicious",
+      "ts": 1523557036346166139,
+      "text": "Process nginx wrote to font"
+    },
+    {
+      "window": "W3",
+      "label": "malicious",
+      "ts": 1523557036356168889,
+      "text": "Process nginx changed permissions on /tmp/font (file in temp directory)"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523557038836165273,
+      "text": "Process bash executed /usr/bin/vmstat"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523557039946166844,
+      "text": "Process bash executed /usr/bin/vmstat"
+    },
+    {
+      "window": "W3",
+      "label": "malicious",
+      "ts": 1523557044046166780,
+      "text": "Process sshd executed /tmp/font (file in temp directory)"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523557049756164658,
+      "text": "Process pickup wrote to <unknown>"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523557053306166299,
+      "text": "Process bash wrote to /dev/tty"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523557079266165036,
+      "text": "Process python2.7 created a socket/pipe"
+    },
+    {
+      "window": "W3",
+      "label": "malicious",
+      "ts": 1523557144506167105,
+      "text": "Process nginx deleted /tmp/font (file in temp directory)"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523557159936164395,
+      "text": "Process bash executed /usr/bin/vmstat"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523557189596162811,
+      "text": "Process imapd wrote to <unknown>"
+    },
+    {
+      "window": "W3",
+      "label": "malicious",
+      "ts": 1523557197146165314,
+      "text": "Process nginx wrote to XIM"
+    },
+    {
+      "window": "W3",
+      "label": "malicious",
+      "ts": 1523557197146165314,
+      "text": "Process nginx changed permissions on /tmp/XIM (file in temp directory)"
+    },
+    {
+      "window": "W3",
+      "label": "malicious",
+      "ts": 1523557208576163772,
+      "text": "Process inetd executed /tmp/XIM (file in temp directory)"
+    },
+    {
+      "window": "W3",
+      "label": "malicious",
+      "ts": 1523557208586166333,
+      "text": "Process XIM connected to 53.158.101.118 (274 packets)"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523557210256164394,
+      "text": "Process python2.7 created a socket/pipe"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523557219266161628,
+      "text": "Process python2.7 created a socket/pipe"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523557222716162974,
+      "text": "Process bash forked a socket/pipe"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523557234386166254,
+      "text": "Process trivial-rewrite wrote to <unknown>"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523557234546163476,
+      "text": "Process local wrote to <unknown>"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523557234636164249,
+      "text": "Process local changed privilege via a socket/pipe"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523557234766164347,
+      "text": "Process local changed privilege via a socket/pipe"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523557234836169276,
+      "text": "Process qmgr wrote to <unknown>"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523557234856164719,
+      "text": "Process local changed privilege via a socket/pipe"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523557235656159569,
+      "text": "Process mlock deleted /var/mail/frank.lock"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523557244086174623,
+      "text": "Process imapd modified process a socket/pipe"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523557262666165236,
+      "text": "Process inetd changed privilege via a socket/pipe"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523557262846166051,
+      "text": "Process inetd changed privilege via a socket/pipe"
+    },
+    {
+      "window": "W3",
+      "label": "malicious",
+      "ts": 1523557273216165672,
+      "text": "Process sshd executed /tmp/XIM (file in temp directory)"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523557296556160940,
+      "text": "Process cleanup wrote to <unknown>"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523557296916163910,
+      "text": "Process anvil wrote to <unknown>"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523557296926162371,
+      "text": "Process local wrote to <unknown>"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523557296936170353,
+      "text": "Process local changed privilege via a socket/pipe"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523557296946169364,
+      "text": "Process local changed privilege via a socket/pipe"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523557296956165525,
+      "text": "Process local changed privilege via a socket/pipe"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523557297036180836,
+      "text": "Process local wrote to /var/mail/george"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523557297046176728,
+      "text": "Process local changed privilege via a socket/pipe"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523557297066173851,
+      "text": "Process local changed privilege via a socket/pipe"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523557299256160982,
+      "text": "Process python2.7 created a socket/pipe"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523557309266159363,
+      "text": "Process python2.7 created a socket/pipe"
+    },
+    {
+      "window": "W3",
+      "label": "malicious",
+      "ts": 1523557332326160011,
+      "text": "Process XIM deleted /tmp/XIM (file in temp directory)"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523557385286160197,
+      "text": "Process python2.7 created a socket/pipe"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523557404076158685,
+      "text": "Process top wrote to <unknown>"
+    },
+    {
+      "window": "W3",
+      "label": "malicious",
+      "ts": 1523557424536159661,
+      "text": "Process XIM wrote to netlog (file under system log directory)"
+    },
+    {
+      "window": "W3",
+      "label": "malicious",
+      "ts": 1523557424536159661,
+      "text": "Process XIM changed permissions on /var/log/netlog (file under system log directory)"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523557459266157560,
+      "text": "Process python2.7 created a socket/pipe"
+    },
+    {
+      "window": "W3",
+      "label": "malicious",
+      "ts": 1523557462436157527,
+      "text": "Process XIM deleted /var/log/netlog (file under system log directory)"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523557477266158707,
+      "text": "Process python2.7 created a socket/pipe"
+    },
+    {
+      "window": "W3",
+      "label": "malicious",
+      "ts": 1523557500026158747,
+      "text": "Process cron executed /var/log/netlog (file under system log directory)"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523557505256156706,
+      "text": "Process python2.7 created a socket/pipe"
+    },
+    {
+      "window": "W3",
+      "label": "malicious",
+      "ts": 1523557597066156701,
+      "text": "Process XIM wrote to sendmail"
+    },
+    {
+      "window": "W3",
+      "label": "malicious",
+      "ts": 1523557597066156701,
+      "text": "Process XIM changed permissions on /var/log/sendmail (file under system log directory)"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523557598266154116,
+      "text": "Process python2.7 created a socket/pipe"
+    },
+    {
+      "window": "W3",
+      "label": "malicious",
+      "ts": 1523557617136153757,
+      "text": "Process sshd executed /var/log/sendmail (file under system log directory)"
+    },
+    {
+      "window": "W3",
+      "label": "malicious",
+      "ts": 1523557630696154168,
+      "text": "Process sshd executed /var/log/sendmail (file under system log directory)"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523557669256151710,
+      "text": "Process python2.7 created a socket/pipe"
+    },
+    {
+      "window": "W3",
+      "label": "malicious",
+      "ts": 1523557700926150134,
+      "text": "Process XIM deleted /var/log/sendmail (file under system log directory)"
+    },
+    {
+      "window": "W3",
+      "label": "malicious",
+      "ts": 1523557727956150660,
+      "text": "Process XIM wrote to main"
+    },
+    {
+      "window": "W3",
+      "label": "malicious",
+      "ts": 1523557727956150660,
+      "text": "Process XIM changed permissions on /tmp/main (file in temp directory)"
+    },
+    {
+      "window": "W3",
+      "label": "malicious",
+      "ts": 1523557737406150415,
+      "text": "Process sshd executed /tmp/main (file in temp directory)"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523557751266150045,
+      "text": "Process python2.7 created a socket/pipe"
+    },
+    {
+      "window": "W3",
+      "label": "malicious",
+      "ts": 1523557775646149315,
+      "text": "Process XIM deleted /tmp/main (file in temp directory)"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523557782256148911,
+      "text": "Process python2.7 created a socket/pipe"
+    },
+    {
+      "window": "W3",
+      "label": "malicious",
+      "ts": 1523557800036163296,
+      "text": "Process cron executed /root/main"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523557830086148660,
+      "text": "Process master wrote to <unknown>"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523557881236148880,
+      "text": "Process sshd created a socket/pipe"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523557881616152482,
+      "text": "Process sshd changed privilege via a socket/pipe"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523557881696151573,
+      "text": "Process fortune wrote to /dev/tty"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523557882126158462,
+      "text": "Process wget wrote to /dev/tty"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523557887236157451,
+      "text": "Process bash forked a socket/pipe"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523557897536147860,
+      "text": "Process bash modified process /home/user"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523557897886150548,
+      "text": "Process sshd wrote to /var/log/utx.log (file under system log directory)"
+    },
+    {
+      "window": "W3",
+      "label": "malicious",
+      "ts": 1523557941296153503,
+      "text": "Process XIM changed permissions on /tmp/test (file in temp directory)"
+    },
+    {
+      "window": "W3",
+      "label": "malicious",
+      "ts": 1523557941296153503,
+      "text": "Process XIM wrote to test"
+    },
+    {
+      "window": "W3",
+      "label": "malicious",
+      "ts": 1523557951986146784,
+      "text": "Process sshd executed /tmp/test (file in temp directory)"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523557990316146062,
+      "text": "Process bash wrote to /dev/tty"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523557993796147177,
+      "text": "Process bash wrote to /dev/tty"
+    },
+    {
+      "window": "W3",
+      "label": "malicious",
+      "ts": 1523558011166147460,
+      "text": "Process sshd executed /tmp/test (file in temp directory)"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523558032296143495,
+      "text": "Process master forked a socket/pipe"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523558032656144124,
+      "text": "Process anvil modified process /var/spool/postfix"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523558032926147131,
+      "text": "Process cleanup wrote to <unknown>"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523558033006145252,
+      "text": "Process trivial-rewrite wrote to <unknown>"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523558033016146203,
+      "text": "Process trivial-rewrite wrote to <unknown>"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523558033026149044,
+      "text": "Process trivial-rewrite wrote to <unknown>"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523558033286156340,
+      "text": "Process imapd modified process a socket/pipe"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523558033286156340,
+      "text": "Process local wrote to <unknown>"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523558033406154306,
+      "text": "Process local changed privilege via a socket/pipe"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523558033416152418,
+      "text": "Process local wrote to <unknown>"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523558033426154599,
+      "text": "Process local changed privilege via a socket/pipe"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523558034436146437,
+      "text": "Process mlock linked /var/mail/henry.lock"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523558085766144853,
+      "text": "Process sshd changed memory protection on a socket/pipe"
+    },
+    {
+      "window": "W3",
+      "label": "malicious",
+      "ts": 1523558095816150254,
+      "text": "Process sshd executed /tmp/test (file in temp directory)"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523558101266141937,
+      "text": "Process python2.7 created a socket/pipe"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523558110266142335,
+      "text": "Process python2.7 created a socket/pipe"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523558130496143083,
+      "text": "Process master wrote to <unknown>"
+    },
+    {
+      "window": "W3",
+      "label": "malicious",
+      "ts": 1523558131776142868,
+      "text": "Process XIM executed /tmp/test (file in temp directory)"
+    },
+    {
+      "window": "W3",
+      "label": "malicious",
+      "ts": 1523558131806155232,
+      "text": "Process test connected to 192.113.144.28 (35 packets)"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523558260646158081,
+      "text": "Process imapd changed privilege via a socket/pipe"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523558265716139565,
+      "text": "Process inetd executed /usr/local/libexec/imapd"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523558266346138873,
+      "text": "Process syslogd wrote to /var/log/maillog (file under system log directory)"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523558305266138473,
+      "text": "Process python2.7 created a socket/pipe"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523558313316141108,
+      "text": "Process python2.7 created a socket/pipe"
+    },
+    {
+      "window": "W3",
+      "label": "malicious",
+      "ts": 1523558316606138179,
+      "text": "Process XIM deleted /tmp/test (file in temp directory)"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523558317126140624,
+      "text": "Process smtpd changed memory protection on a socket/pipe"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523558318296138200,
+      "text": "Process trivial-rewrite wrote to <unknown>"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523558318346141436,
+      "text": "Process cleanup wrote to <unknown>"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523558318886144554,
+      "text": "Process trivial-rewrite wrote to <unknown>"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523558318956148072,
+      "text": "Process local changed memory protection on a socket/pipe"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523558319016142040,
+      "text": "Process local changed privilege via a socket/pipe"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523558319036142562,
+      "text": "Process local wrote to <unknown>"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523558319056138725,
+      "text": "Process local changed privilege via a socket/pipe"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523558319116139602,
+      "text": "Process local changed privilege via a socket/pipe"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523558319126146893,
+      "text": "Process local changed privilege via a socket/pipe"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523558319136150155,
+      "text": "Process local changed privilege via a socket/pipe"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523558319136150155,
+      "text": "Process local wrote to /var/mail/david"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523558319136150155,
+      "text": "Process syslogd wrote to /var/log/maillog (file under system log directory)"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523558319786137726,
+      "text": "Process imapd deleted /tmp/tmp.cl0jkd (file in temp directory)"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523558319856137395,
+      "text": "Process imapd wrote to <unknown>"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523558321056141844,
+      "text": "Process imapd forked a socket/pipe"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523558356546137654,
+      "text": "Process nginx changed memory protection on a socket/pipe"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523558363256137421,
+      "text": "Process python2.7 created a socket/pipe"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523558374356138856,
+      "text": "Process trivial-rewrite wrote to <unknown>"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523558374366137597,
+      "text": "Process trivial-rewrite wrote to <unknown>"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523558374386144420,
+      "text": "Process trivial-rewrite wrote to <unknown>"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523558374726145062,
+      "text": "Process trivial-rewrite wrote to <unknown>"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523558374736148974,
+      "text": "Process trivial-rewrite wrote to <unknown>"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523558374746152075,
+      "text": "Process imapd modified process a socket/pipe"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523558374756141976,
+      "text": "Process local changed privilege via a socket/pipe"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523558374776139519,
+      "text": "Process local changed privilege via a socket/pipe"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523558374876149371,
+      "text": "Process local changed privilege via a socket/pipe"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523558374886145832,
+      "text": "Process local changed privilege via a socket/pipe"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523558440276137259,
+      "text": "Process python2.7 created a socket/pipe"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523558442266137397,
+      "text": "Process python2.7 created a socket/pipe"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523558459256135535,
+      "text": "Process python2.7 created a socket/pipe"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523558463256137374,
+      "text": "Process python2.7 created a socket/pipe"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523558508266133315,
+      "text": "Process python2.7 created a socket/pipe"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523558551436133094,
+      "text": "Process bash executed /usr/bin/vmstat"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523558567266131676,
+      "text": "Process python2.7 created a socket/pipe"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523558569256133454,
+      "text": "Process python2.7 created a socket/pipe"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523558619266131192,
+      "text": "Process python2.7 created a socket/pipe"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523558693736130341,
+      "text": "Process imapd changed permissions on /home/charles/Archives.lock"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523558694006131325,
+      "text": "Process imapd modified process a socket/pipe"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523558709876136219,
+      "text": "Process inetd changed privilege via a socket/pipe"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523558710196136679,
+      "text": "Process imapd changed permissions on /tmp/.31.29ada (file in temp directory)"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523558713256130970,
+      "text": "Process python2.7 created a socket/pipe"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523558725936131037,
+      "text": "Process smtpd modified process /var/spool/postfix"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523558726056136962,
+      "text": "Process proxymap modified process /var/spool/postfix"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523558727016133242,
+      "text": "Process smtpd wrote to <unknown>"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523558727016133242,
+      "text": "Process smtpd wrote to <unknown>"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523558727036130744,
+      "text": "Process trivial-rewrite wrote to <unknown>"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523558727046129635,
+      "text": "Process cleanup wrote to <unknown>"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523558727066133958,
+      "text": "Process trivial-rewrite wrote to <unknown>"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523558727096128471,
+      "text": "Process trivial-rewrite wrote to <unknown>"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523558727106134623,
+      "text": "Process trivial-rewrite wrote to <unknown>"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523558727236131889,
+      "text": "Process imapd deleted /home/charles/Sent.lock"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523558727256129571,
+      "text": "Process imapd truncated a socket/pipe"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523558727266140443,
+      "text": "Process local changed privilege via a socket/pipe"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523558727356131534,
+      "text": "Process local wrote to <unknown>"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523558727366131605,
+      "text": "Process local changed privilege via a socket/pipe"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523558727416132491,
+      "text": "Process local wrote to <unknown>"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523558727476131439,
+      "text": "Process local changed privilege via a socket/pipe"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523558733836127540,
+      "text": "Process imapd deleted /tmp/.31.29ada (file in temp directory)"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523558893256126816,
+      "text": "Process python2.7 created a socket/pipe"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523558966266124913,
+      "text": "Process python2.7 created a socket/pipe"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523558988256124813,
+      "text": "Process python2.7 created a socket/pipe"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523559028266124978,
+      "text": "Process python2.7 created a socket/pipe"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523559071276120344,
+      "text": "Process qmgr wrote to <unknown>"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523559099426122525,
+      "text": "Process date wrote to /data/gather_stats_uma.txt"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523559104266118475,
+      "text": "Process python2.7 created a socket/pipe"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523559150256119997,
+      "text": "Process python2.7 created a socket/pipe"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523559172266119145,
+      "text": "Process python2.7 created a socket/pipe"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523559217276123222,
+      "text": "Process bash executed /bin/sleep"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523559268266115888,
+      "text": "Process python2.7 created a socket/pipe"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523559290266115481,
+      "text": "Process python2.7 created a socket/pipe"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523559300146167885,
+      "text": "Process sh forked a socket/pipe"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523559319266115901,
+      "text": "Process python2.7 created a socket/pipe"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523559361286115782,
+      "text": "Process python2.7 created a socket/pipe"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523559371256116905,
+      "text": "Process python2.7 created a socket/pipe"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523559378266114413,
+      "text": "Process python2.7 created a socket/pipe"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523559380256112799,
+      "text": "Process python2.7 created a socket/pipe"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523559399686119343,
+      "text": "Process bash forked a socket/pipe"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523559442266112479,
+      "text": "Process python2.7 created a socket/pipe"
+    },
+    {
+      "window": "W3",
+      "label": "benign",
+      "ts": 1523559594266108343,
+      "text": "Process python2.7 created a socket/pipe"
+    },
+    {
+      "window": "W4",
+      "label": "benign",
+      "ts": 1523622600044701071,
+      "text": "Process cron executed /bin/sh"
+    },
+    {
+      "window": "W4",
+      "label": "benign",
+      "ts": 1523622623524714406,
+      "text": "Process lsof connected to 128.55.12.10 (267 packets)"
+    },
+    {
+      "window": "W4",
+      "label": "benign",
+      "ts": 1523622680584701869,
+      "text": "Process bash executed /usr/bin/vmstat"
+    },
+    {
+      "window": "W4",
+      "label": "benign",
+      "ts": 1523622955254694312,
+      "text": "Process python2.7 created a socket/pipe"
+    },
+    {
+      "window": "W4",
+      "label": "benign",
+      "ts": 1523623139474691723,
+      "text": "Process ntpd connected to 10.0.4.1 (20 packets)"
+    },
+    {
+      "window": "W4",
+      "label": "benign",
+      "ts": 1523623288794688540,
+      "text": "Process bash forked a socket/pipe"
+    },
+    {
+      "window": "W4",
+      "label": "benign",
+      "ts": 1523623357274684846,
+      "text": "Process python2.7 created a socket/pipe"
+    },
+    {
+      "window": "W4",
+      "label": "benign",
+      "ts": 1523623528624682120,
+      "text": "Process bash executed /bin/sleep"
+    },
+    {
+      "window": "W4",
+      "label": "benign",
+      "ts": 1523623559254681630,
+      "text": "Process python2.7 created a socket/pipe"
+    },
+    {
+      "window": "W4",
+      "label": "benign",
+      "ts": 1523623698264677191,
+      "text": "Process python2.7 created a socket/pipe"
+    },
+    {
+      "window": "W4",
+      "label": "benign",
+      "ts": 1523623772914673556,
+      "text": "Process bash executed /bin/date"
+    },
+    {
+      "window": "W4",
+      "label": "benign",
+      "ts": 1523623812264675472,
+      "text": "Process python2.7 created a socket/pipe"
+    },
+    {
+      "window": "W4",
+      "label": "benign",
+      "ts": 1523623878274673140,
+      "text": "Process python2.7 created a socket/pipe"
+    },
+    {
+      "window": "W4",
+      "label": "benign",
+      "ts": 1523624016274669104,
+      "text": "Process python2.7 created a socket/pipe"
+    },
+    {
+      "window": "W4",
+      "label": "benign",
+      "ts": 1523624201274665911,
+      "text": "Process python2.7 created a socket/pipe"
+    },
+    {
+      "window": "W4",
+      "label": "benign",
+      "ts": 1523624400164669488,
+      "text": "Process sh executed /bin/mv"
+    },
+    {
+      "window": "W4",
+      "label": "benign",
+      "ts": 1523624490304659715,
+      "text": "Process sshd accepted inbound connection from 128.55.12.122 (7 packets)"
+    },
+    {
+      "window": "W4",
+      "label": "benign",
+      "ts": 1523624490494658984,
+      "text": "Process sshd connected to 128.55.12.10 (21 packets)"
+    },
+    {
+      "window": "W4",
+      "label": "benign",
+      "ts": 1523624499984659360,
+      "text": "Process alpine wrote to /dev/tty"
+    },
+    {
+      "window": "W4",
+      "label": "benign",
+      "ts": 1523624519264656540,
+      "text": "Process python2.7 created a socket/pipe"
+    },
+    {
+      "window": "W4",
+      "label": "benign",
+      "ts": 1523624558274657201,
+      "text": "Process bash executed /bin/sleep"
+    },
+    {
+      "window": "W4",
+      "label": "benign",
+      "ts": 1523624558404664977,
+      "text": "Process alpine wrote to /dev/tty"
+    },
+    {
+      "window": "W4",
+      "label": "benign",
+      "ts": 1523624570264657379,
+      "text": "Process python2.7 created a socket/pipe"
+    },
+    {
+      "window": "W4",
+      "label": "benign",
+      "ts": 1523624578494659189,
+      "text": "Process alpine wrote to /dev/tty"
+    },
+    {
+      "window": "W4",
+      "label": "benign",
+      "ts": 1523624594514659965,
+      "text": "Process alpine connected to 127.0.0.1 (2 packets)"
+    },
+    {
+      "window": "W4",
+      "label": "benign",
+      "ts": 1523624594524657184,
+      "text": "Process sendmail accepted inbound connection from 127.0.0.1 (2 packets)"
+    },
+    {
+      "window": "W4",
+      "label": "benign",
+      "ts": 1523624617634656162,
+      "text": "Process bash forked a socket/pipe"
+    },
+    {
+      "window": "W4",
+      "label": "malicious",
+      "ts": 1523624690974654171,
+      "text": "Process XIM connected to 53.158.101.118 (25 packets)"
+    },
+    {
+      "window": "W4",
+      "label": "benign",
+      "ts": 1523624775264651488,
+      "text": "Process python2.7 created a socket/pipe"
+    },
+    {
+      "window": "W4",
+      "label": "malicious",
+      "ts": 1523624830574650037,
+      "text": "Process nginx accepted inbound connection from 25.159.96.207 (3 packets)"
+    },
+    {
+      "window": "W4",
+      "label": "malicious",
+      "ts": 1523624830584651435,
+      "text": "Process nginx connected to 76.56.184.25 (155 packets)"
+    },
+    {
+      "window": "W4",
+      "label": "malicious",
+      "ts": 1523624830834653379,
+      "text": "Process nginx connected to 155.162.39.48 (122 packets)"
+    },
+    {
+      "window": "W4",
+      "label": "benign",
+      "ts": 1523624830854650896,
+      "text": "Process php-fpm accepted inbound connection from 127.0.0.1 (45 packets)"
+    },
+    {
+      "window": "W4",
+      "label": "malicious",
+      "ts": 1523624830874650564,
+      "text": "Process nginx wrote to <unknown>"
+    },
+    {
+      "window": "W4",
+      "label": "benign",
+      "ts": 1523624830874650564,
+      "text": "Process nginx connected to 127.0.0.1 (15 packets)"
+    },
+    {
+      "window": "W4",
+      "label": "benign",
+      "ts": 1523624847264652316,
+      "text": "Process python2.7 created a socket/pipe"
+    },
+    {
+      "window": "W4",
+      "label": "benign",
+      "ts": 1523624866374664435,
+      "text": "Process imapd wrote to <unknown>"
+    },
+    {
+      "window": "W4",
+      "label": "benign",
+      "ts": 1523625007144651511,
+      "text": "Process imapd wrote to <unknown>"
+    },
+    {
+      "window": "W4",
+      "label": "malicious",
+      "ts": 1523625007794656242,
+      "text": "Process nginx wrote to pEja72mA"
+    },
+    {
+      "window": "W4",
+      "label": "malicious",
+      "ts": 1523625007794656242,
+      "text": "Process nginx changed permissions on /tmp/pEja72mA (file in temp directory)"
+    },
+    {
+      "window": "W4",
+      "label": "benign",
+      "ts": 1523625020134650795,
+      "text": "Process bash changed permissions on /home/user/.bash_history"
+    },
+    {
+      "window": "W4",
+      "label": "malicious",
+      "ts": 1523625020254646772,
+      "text": "Process mkdir created /usr/home/user/eraseme"
+    },
+    {
+      "window": "W4",
+      "label": "malicious",
+      "ts": 1523625020354646751,
+      "text": "Process bash modified process /home/user/eraseme"
+    },
+    {
+      "window": "W4",
+      "label": "benign",
+      "ts": 1523625020534646632,
+      "text": "Process wget connected to 207.25.80.123 (2 packets)"
+    },
+    {
+      "window": "W4",
+      "label": "benign",
+      "ts": 1523625020534646632,
+      "text": "Process wget connected to 128.55.12.10 (6 packets)"
+    },
+    {
+      "window": "W4",
+      "label": "malicious",
+      "ts": 1523625020914663311,
+      "text": "Process rm deleted /usr/home/user/eraseme"
+    },
+    {
+      "window": "W4",
+      "label": "benign",
+      "ts": 1523625047264646037,
+      "text": "Process python2.7 created a socket/pipe"
+    },
+    {
+      "window": "W4",
+      "label": "malicious",
+      "ts": 1523625074974644925,
+      "text": "Process nginx changed permissions on /tmp/eWq10bVcx (file in temp directory)"
+    },
+    {
+      "window": "W4",
+      "label": "malicious",
+      "ts": 1523625074974644925,
+      "text": "Process nginx wrote to eWq10bVcx"
+    },
+    {
+      "window": "W4",
+      "label": "benign",
+      "ts": 1523625103834647178,
+      "text": "Process inetd accepted inbound connection from 128.55.12.110 (12 packets)"
+    },
+    {
+      "window": "W4",
+      "label": "benign",
+      "ts": 1523625103894644332,
+      "text": "Process imapd connected to 128.55.12.10 (96 packets)"
+    },
+    {
+      "window": "W4",
+      "label": "benign",
+      "ts": 1523625104444645483,
+      "text": "Process imapd wrote to <unknown>"
+    },
+    {
+      "window": "W4",
+      "label": "benign",
+      "ts": 1523625123184645425,
+      "text": "Process imapd wrote to <unknown>"
+    },
+    {
+      "window": "W4",
+      "label": "benign",
+      "ts": 1523625141864647873,
+      "text": "Process smtpd accepted inbound connection from 128.55.12.110 (4 packets)"
+    },
+    {
+      "window": "W4",
+      "label": "benign",
+      "ts": 1523625142094645068,
+      "text": "Process trivial-rewrite wrote to <unknown>"
+    },
+    {
+      "window": "W4",
+      "label": "benign",
+      "ts": 1523625142184645789,
+      "text": "Process cleanup modified process /var/spool/postfix"
+    },
+    {
+      "window": "W4",
+      "label": "benign",
+      "ts": 1523625142284645288,
+      "text": "Process trivial-rewrite wrote to <unknown>"
+    },
+    {
+      "window": "W4",
+      "label": "benign",
+      "ts": 1523625142484648267,
+      "text": "Process local connected to 127.0.0.1 (60 packets)"
+    },
+    {
+      "window": "W4",
+      "label": "benign",
+      "ts": 1523625142614644462,
+      "text": "Process master executed /usr/local/libexec/postfix/local"
+    },
+    {
+      "window": "W4",
+      "label": "benign",
+      "ts": 1523625143684643807,
+      "text": "Process imapd wrote to <unknown>"
+    },
+    {
+      "window": "W4",
+      "label": "benign",
+      "ts": 1523625146334648212,
+      "text": "Process sshd accepted inbound connection from 128.55.12.252 (1 packets)"
+    },
+    {
+      "window": "W4",
+      "label": "malicious",
+      "ts": 1523625146344650401,
+      "text": "Process sshd executed /tmp/pEja72mA (file in temp directory)"
+    },
+    {
+      "window": "W4",
+      "label": "malicious",
+      "ts": 1523625146354648690,
+      "text": "Process pEja72mA connected to 53.158.101.118 (111 packets)"
+    },
+    {
+      "window": "W4",
+      "label": "benign",
+      "ts": 1523625162994643437,
+      "text": "Process bash created a socket/pipe"
+    },
+    {
+      "window": "W4",
+      "label": "benign",
+      "ts": 1523625164264643390,
+      "text": "Process python2.7 created a socket/pipe"
+    },
+    {
+      "window": "W4",
+      "label": "benign",
+      "ts": 1523625224564646181,
+      "text": "Process lsof modified process a socket/pipe"
+    },
+    {
+      "window": "W4",
+      "label": "benign",
+      "ts": 1523625244484644833,
+      "text": "Process ps wrote to /dev/tty"
+    },
+    {
+      "window": "W4",
+      "label": "benign",
+      "ts": 1523625244494651782,
+      "text": "Process ps wrote to /dev/tty"
+    },
+    {
+      "window": "W4",
+      "label": "benign",
+      "ts": 1523625272674640533,
+      "text": "Process bash wrote to /dev/tty"
+    },
+    {
+      "window": "W4",
+      "label": "benign",
+      "ts": 1523625276954643701,
+      "text": "Process netstat wrote to /dev/tty"
+    },
+    {
+      "window": "W4",
+      "label": "benign",
+      "ts": 1523625367264640253,
+      "text": "Process python2.7 created a socket/pipe"
+    },
+    {
+      "window": "W4",
+      "label": "malicious",
+      "ts": 1523625386684642175,
+      "text": "Process sshd connected to 198.115.236.119 (5 packets)"
+    },
+    {
+      "window": "W4",
+      "label": "malicious",
+      "ts": 1523625429714638405,
+      "text": "Process pEja72mA wrote to memhelp.so (shared library / loadable module)"
+    },
+    {
+      "window": "W4",
+      "label": "benign",
+      "ts": 1523625440754637822,
+      "text": "Process pEja72mA wrote to /tmp/injectLog.txt (file in temp directory)"
+    },
+    {
+      "window": "W4",
+      "label": "benign",
+      "ts": 1523625440784638928,
+      "text": "Process pEja72mA wrote to /tmp/injectLog.txt (file in temp directory)"
+    },
+    {
+      "window": "W4",
+      "label": "benign",
+      "ts": 1523625440814640675,
+      "text": "Process pEja72mA wrote to /tmp/injectLog.txt (file in temp directory)"
+    },
+    {
+      "window": "W4",
+      "label": "benign",
+      "ts": 1523625440884638698,
+      "text": "Process pEja72mA wrote to /tmp/injectLog.txt (file in temp directory)"
+    },
+    {
+      "window": "W4",
+      "label": "benign",
+      "ts": 1523625440904646755,
+      "text": "Process pEja72mA wrote to /tmp/injectLog.txt (file in temp directory)"
+    },
+    {
+      "window": "W4",
+      "label": "benign",
+      "ts": 1523625440914645034,
+      "text": "Process pEja72mA wrote to /tmp/injectLog.txt (file in temp directory)"
+    },
+    {
+      "window": "W4",
+      "label": "benign",
+      "ts": 1523625441064637488,
+      "text": "Process pEja72mA wrote to /tmp/injectLog.txt (file in temp directory)"
+    },
+    {
+      "window": "W4",
+      "label": "benign",
+      "ts": 1523625441094637435,
+      "text": "Process pEja72mA wrote to /tmp/injectLog.txt (file in temp directory)"
+    },
+    {
+      "window": "W4",
+      "label": "benign",
+      "ts": 1523625441164638327,
+      "text": "Process pEja72mA wrote to /tmp/injectLog.txt (file in temp directory)"
+    },
+    {
+      "window": "W4",
+      "label": "benign",
+      "ts": 1523625441244648049,
+      "text": "Process pEja72mA wrote to /tmp/injectLog.txt (file in temp directory)"
+    },
+    {
+      "window": "W4",
+      "label": "benign",
+      "ts": 1523625441274646235,
+      "text": "Process pEja72mA wrote to /tmp/injectLog.txt (file in temp directory)"
+    },
+    {
+      "window": "W4",
+      "label": "benign",
+      "ts": 1523625441294646123,
+      "text": "Process pEja72mA wrote to /tmp/injectLog.txt (file in temp directory)"
+    },
+    {
+      "window": "W4",
+      "label": "benign",
+      "ts": 1523625441384639434,
+      "text": "Process pEja72mA wrote to /tmp/injectLog.txt (file in temp directory)"
+    },
+    {
+      "window": "W4",
+      "label": "benign",
+      "ts": 1523625441464642485,
+      "text": "Process pEja72mA wrote to /tmp/injectLog.txt (file in temp directory)"
+    },
+    {
+      "window": "W4",
+      "label": "benign",
+      "ts": 1523625441484640883,
+      "text": "Process pEja72mA wrote to /tmp/injectLog.txt (file in temp directory)"
+    },
+    {
+      "window": "W4",
+      "label": "benign",
+      "ts": 1523625442344641620,
+      "text": "Process pEja72mA wrote to /tmp/injectLog.txt (file in temp directory)"
+    },
+    {
+      "window": "W4",
+      "label": "benign",
+      "ts": 1523625442414641702,
+      "text": "Process pEja72mA wrote to /tmp/injectLog.txt (file in temp directory)"
+    },
+    {
+      "window": "W4",
+      "label": "benign",
+      "ts": 1523625442434641330,
+      "text": "Process pEja72mA wrote to /tmp/injectLog.txt (file in temp directory)"
+    },
+    {
+      "window": "W4",
+      "label": "benign",
+      "ts": 1523625442514644131,
+      "text": "Process pEja72mA wrote to /tmp/injectLog.txt (file in temp directory)"
+    },
+    {
+      "window": "W4",
+      "label": "benign",
+      "ts": 1523625442624638899,
+      "text": "Process pEja72mA wrote to /tmp/injectLog.txt (file in temp directory)"
+    },
+    {
+      "window": "W4",
+      "label": "benign",
+      "ts": 1523625442694637932,
+      "text": "Process pEja72mA wrote to /tmp/injectLog.txt (file in temp directory)"
+    },
+    {
+      "window": "W4",
+      "label": "benign",
+      "ts": 1523625442704639981,
+      "text": "Process pEja72mA wrote to /tmp/injectLog.txt (file in temp directory)"
+    },
+    {
+      "window": "W4",
+      "label": "benign",
+      "ts": 1523625442774637433,
+      "text": "Process pEja72mA wrote to /tmp/injectLog.txt (file in temp directory)"
+    },
+    {
+      "window": "W4",
+      "label": "benign",
+      "ts": 1523625442784640342,
+      "text": "Process pEja72mA wrote to /tmp/injectLog.txt (file in temp directory)"
+    },
+    {
+      "window": "W4",
+      "label": "benign",
+      "ts": 1523625442794637761,
+      "text": "Process pEja72mA wrote to /tmp/injectLog.txt (file in temp directory)"
+    },
+    {
+      "window": "W4",
+      "label": "benign",
+      "ts": 1523625442854638675,
+      "text": "Process pEja72mA wrote to /tmp/injectLog.txt (file in temp directory)"
+    },
+    {
+      "window": "W4",
+      "label": "benign",
+      "ts": 1523625442854638675,
+      "text": "Process pEja72mA wrote to /tmp/injectLog.txt (file in temp directory)"
+    },
+    {
+      "window": "W4",
+      "label": "benign",
+      "ts": 1523625442944642725,
+      "text": "Process pEja72mA wrote to /tmp/injectLog.txt (file in temp directory)"
+    },
+    {
+      "window": "W4",
+      "label": "benign",
+      "ts": 1523625442974642902,
+      "text": "Process pEja72mA wrote to /tmp/injectLog.txt (file in temp directory)"
+    },
+    {
+      "window": "W4",
+      "label": "benign",
+      "ts": 1523625443034639365,
+      "text": "Process pEja72mA wrote to /tmp/injectLog.txt (file in temp directory)"
+    },
+    {
+      "window": "W4",
+      "label": "benign",
+      "ts": 1523625443214643456,
+      "text": "Process pEja72mA wrote to /tmp/injectLog.txt (file in temp directory)"
+    },
+    {
+      "window": "W4",
+      "label": "benign",
+      "ts": 1523625443254642172,
+      "text": "Process pEja72mA wrote to /tmp/injectLog.txt (file in temp directory)"
+    },
+    {
+      "window": "W4",
+      "label": "benign",
+      "ts": 1523625443254642172,
+      "text": "Process pEja72mA wrote to /tmp/injectLog.txt (file in temp directory)"
+    },
+    {
+      "window": "W4",
+      "label": "benign",
+      "ts": 1523625443264640060,
+      "text": "Process pEja72mA wrote to /tmp/injectLog.txt (file in temp directory)"
+    },
+    {
+      "window": "W4",
+      "label": "benign",
+      "ts": 1523625443324640014,
+      "text": "Process pEja72mA wrote to /tmp/injectLog.txt (file in temp directory)"
+    },
+    {
+      "window": "W4",
+      "label": "benign",
+      "ts": 1523625443404640505,
+      "text": "Process pEja72mA wrote to /tmp/injectLog.txt (file in temp directory)"
+    },
+    {
+      "window": "W4",
+      "label": "benign",
+      "ts": 1523625443504640294,
+      "text": "Process pEja72mA wrote to /tmp/injectLog.txt (file in temp directory)"
+    },
+    {
+      "window": "W4",
+      "label": "benign",
+      "ts": 1523625443524643702,
+      "text": "Process pEja72mA wrote to /tmp/injectLog.txt (file in temp directory)"
+    },
+    {
+      "window": "W4",
+      "label": "benign",
+      "ts": 1523625443674638186,
+      "text": "Process pEja72mA wrote to /tmp/injectLog.txt (file in temp directory)"
+    },
+    {
+      "window": "W4",
+      "label": "benign",
+      "ts": 1523625443674638186,
+      "text": "Process pEja72mA wrote to /tmp/injectLog.txt (file in temp directory)"
+    },
+    {
+      "window": "W4",
+      "label": "benign",
+      "ts": 1523625443684637885,
+      "text": "Process pEja72mA wrote to /tmp/injectLog.txt (file in temp directory)"
+    },
+    {
+      "window": "W4",
+      "label": "benign",
+      "ts": 1523625443694640164,
+      "text": "Process pEja72mA wrote to /tmp/injectLog.txt (file in temp directory)"
+    },
+    {
+      "window": "W4",
+      "label": "benign",
+      "ts": 1523625443834640989,
+      "text": "Process pEja72mA wrote to /tmp/injectLog.txt (file in temp directory)"
+    },
+    {
+      "window": "W4",
+      "label": "benign",
+      "ts": 1523625443854642577,
+      "text": "Process pEja72mA wrote to /tmp/injectLog.txt (file in temp directory)"
+    },
+    {
+      "window": "W4",
+      "label": "benign",
+      "ts": 1523625443864641776,
+      "text": "Process pEja72mA wrote to /tmp/injectLog.txt (file in temp directory)"
+    },
+    {
+      "window": "W4",
+      "label": "benign",
+      "ts": 1523625473934637114,
+      "text": "Process bash executed /usr/bin/fortune"
+    },
+    {
+      "window": "W4",
+      "label": "benign",
+      "ts": 1523625501864637973,
+      "text": "Process alpine wrote to /dev/tty"
+    },
+    {
+      "window": "W4",
+      "label": "benign",
+      "ts": 1523625543384635241,
+      "text": "Process alpine wrote to /dev/tty"
+    },
+    {
+      "window": "W4",
+      "label": "benign",
+      "ts": 1523625570824633450,
+      "text": "Process alpine wrote to /dev/tty"
+    },
+    {
+      "window": "W4",
+      "label": "malicious",
+      "ts": 1523625580714634189,
+      "text": "Process pEja72mA wrote to eraseme"
+    },
+    {
+      "window": "W4",
+      "label": "benign",
+      "ts": 1523625586744645276,
+      "text": "Process imapd changed permissions on /home/charles/Archives.lock"
+    },
+    {
+      "window": "W4",
+      "label": "benign",
+      "ts": 1523625588504636926,
+      "text": "Process pEja72mA wrote to /tmp/injectLog.txt (file in temp directory)"
+    },
+    {
+      "window": "W4",
+      "label": "benign",
+      "ts": 1523625588544636071,
+      "text": "Process pEja72mA wrote to /tmp/injectLog.txt (file in temp directory)"
+    },
+    {
+      "window": "W4",
+      "label": "benign",
+      "ts": 1523625588644634290,
+      "text": "Process pEja72mA wrote to /tmp/injectLog.txt (file in temp directory)"
+    },
+    {
+      "window": "W4",
+      "label": "benign",
+      "ts": 1523625588744636110,
+      "text": "Process pEja72mA wrote to /tmp/injectLog.txt (file in temp directory)"
+    },
+    {
+      "window": "W4",
+      "label": "benign",
+      "ts": 1523625588764634897,
+      "text": "Process pEja72mA wrote to /tmp/injectLog.txt (file in temp directory)"
+    },
+    {
+      "window": "W4",
+      "label": "benign",
+      "ts": 1523625588834633250,
+      "text": "Process pEja72mA wrote to /tmp/injectLog.txt (file in temp directory)"
+    },
+    {
+      "window": "W4",
+      "label": "benign",
+      "ts": 1523625588834633250,
+      "text": "Process pEja72mA wrote to /tmp/injectLog.txt (file in temp directory)"
+    },
+    {
+      "window": "W4",
+      "label": "benign",
+      "ts": 1523625588994636703,
+      "text": "Process pEja72mA wrote to /tmp/injectLog.txt (file in temp directory)"
+    },
+    {
+      "window": "W4",
+      "label": "benign",
+      "ts": 1523625589014636850,
+      "text": "Process pEja72mA wrote to /tmp/injectLog.txt (file in temp directory)"
+    },
+    {
+      "window": "W4",
+      "label": "benign",
+      "ts": 1523625589194634031,
+      "text": "Process pEja72mA wrote to /tmp/injectLog.txt (file in temp directory)"
+    },
+    {
+      "window": "W4",
+      "label": "benign",
+      "ts": 1523625589304638499,
+      "text": "Process pEja72mA wrote to /tmp/injectLog.txt (file in temp directory)"
+    },
+    {
+      "window": "W4",
+      "label": "benign",
+      "ts": 1523625589424637046,
+      "text": "Process pEja72mA wrote to /tmp/injectLog.txt (file in temp directory)"
+    },
+    {
+      "window": "W4",
+      "label": "benign",
+      "ts": 1523625589534638524,
+      "text": "Process pEja72mA wrote to /tmp/injectLog.txt (file in temp directory)"
+    },
+    {
+      "window": "W4",
+      "label": "benign",
+      "ts": 1523625589854637519,
+      "text": "Process pEja72mA wrote to /tmp/injectLog.txt (file in temp directory)"
+    },
+    {
+      "window": "W4",
+      "label": "benign",
+      "ts": 1523625590064641497,
+      "text": "Process pEja72mA wrote to /tmp/injectLog.txt (file in temp directory)"
+    },
+    {
+      "window": "W4",
+      "label": "benign",
+      "ts": 1523625590144638658,
+      "text": "Process pEja72mA wrote to /tmp/injectLog.txt (file in temp directory)"
+    },
+    {
+      "window": "W4",
+      "label": "benign",
+      "ts": 1523625590174651855,
+      "text": "Process pEja72mA wrote to /tmp/injectLog.txt (file in temp directory)"
+    },
+    {
+      "window": "W4",
+      "label": "benign",
+      "ts": 1523625590224649879,
+      "text": "Process pEja72mA wrote to /tmp/injectLog.txt (file in temp directory)"
+    },
+    {
+      "window": "W4",
+      "label": "benign",
+      "ts": 1523625590284646793,
+      "text": "Process pEja72mA wrote to /tmp/injectLog.txt (file in temp directory)"
+    },
+    {
+      "window": "W4",
+      "label": "benign",
+      "ts": 1523625590434639337,
+      "text": "Process pEja72mA wrote to /tmp/injectLog.txt (file in temp directory)"
+    },
+    {
+      "window": "W4",
+      "label": "benign",
+      "ts": 1523625590494641830,
+      "text": "Process pEja72mA wrote to /tmp/injectLog.txt (file in temp directory)"
+    },
+    {
+      "window": "W4",
+      "label": "benign",
+      "ts": 1523625590524636397,
+      "text": "Process pEja72mA wrote to /tmp/injectLog.txt (file in temp directory)"
+    },
+    {
+      "window": "W4",
+      "label": "benign",
+      "ts": 1523625590574636051,
+      "text": "Process pEja72mA wrote to /tmp/injectLog.txt (file in temp directory)"
+    },
+    {
+      "window": "W4",
+      "label": "benign",
+      "ts": 1523625590754634542,
+      "text": "Process pEja72mA wrote to /tmp/injectLog.txt (file in temp directory)"
+    },
+    {
+      "window": "W4",
+      "label": "benign",
+      "ts": 1523625590764634931,
+      "text": "Process pEja72mA wrote to /tmp/injectLog.txt (file in temp directory)"
+    },
+    {
+      "window": "W4",
+      "label": "benign",
+      "ts": 1523625590794633408,
+      "text": "Process pEja72mA wrote to /tmp/injectLog.txt (file in temp directory)"
+    },
+    {
+      "window": "W4",
+      "label": "benign",
+      "ts": 1523625590884638428,
+      "text": "Process pEja72mA wrote to /tmp/injectLog.txt (file in temp directory)"
+    },
+    {
+      "window": "W4",
+      "label": "benign",
+      "ts": 1523625590904636386,
+      "text": "Process pEja72mA wrote to /tmp/injectLog.txt (file in temp directory)"
+    },
+    {
+      "window": "W4",
+      "label": "benign",
+      "ts": 1523625590954640360,
+      "text": "Process pEja72mA wrote to /tmp/injectLog.txt (file in temp directory)"
+    },
+    {
+      "window": "W4",
+      "label": "benign",
+      "ts": 1523625591034633351,
+      "text": "Process pEja72mA wrote to /tmp/injectLog.txt (file in temp directory)"
+    },
+    {
+      "window": "W4",
+      "label": "benign",
+      "ts": 1523625591084634856,
+      "text": "Process pEja72mA wrote to /tmp/injectLog.txt (file in temp directory)"
+    },
+    {
+      "window": "W4",
+      "label": "benign",
+      "ts": 1523625591104635814,
+      "text": "Process pEja72mA wrote to /tmp/injectLog.txt (file in temp directory)"
+    },
+    {
+      "window": "W4",
+      "label": "benign",
+      "ts": 1523625591274637336,
+      "text": "Process pEja72mA wrote to /tmp/injectLog.txt (file in temp directory)"
+    },
+    {
+      "window": "W4",
+      "label": "benign",
+      "ts": 1523625591374637295,
+      "text": "Process pEja72mA wrote to /tmp/injectLog.txt (file in temp directory)"
+    },
+    {
+      "window": "W4",
+      "label": "benign",
+      "ts": 1523625591404638631,
+      "text": "Process pEja72mA wrote to /tmp/injectLog.txt (file in temp directory)"
+    },
+    {
+      "window": "W4",
+      "label": "benign",
+      "ts": 1523625591414636330,
+      "text": "Process pEja72mA wrote to /tmp/injectLog.txt (file in temp directory)"
+    },
+    {
+      "window": "W4",
+      "label": "benign",
+      "ts": 1523625591514635120,
+      "text": "Process pEja72mA wrote to /tmp/injectLog.txt (file in temp directory)"
+    },
+    {
+      "window": "W4",
+      "label": "benign",
+      "ts": 1523625591594634811,
+      "text": "Process pEja72mA wrote to /tmp/injectLog.txt (file in temp directory)"
+    },
+    {
+      "window": "W4",
+      "label": "benign",
+      "ts": 1523625591644651066,
+      "text": "Process pEja72mA wrote to /tmp/injectLog.txt (file in temp directory)"
+    },
+    {
+      "window": "W4",
+      "label": "benign",
+      "ts": 1523625591654640284,
+      "text": "Process pEja72mA wrote to /tmp/injectLog.txt (file in temp directory)"
+    },
+    {
+      "window": "W4",
+      "label": "benign",
+      "ts": 1523625601254634175,
+      "text": "Process python2.7 created a socket/pipe"
+    },
+    {
+      "window": "W4",
+      "label": "malicious",
+      "ts": 1523625647144628789,
+      "text": "Process pEja72mA wrote to done.so (shared library / loadable module)"
+    },
+    {
+      "window": "W4",
+      "label": "benign",
+      "ts": 1523625667224635088,
+      "text": "Process imapd changed permissions on /var/mail/charles"
+    },
+    {
+      "window": "W4",
+      "label": "benign",
+      "ts": 1523625720114632380,
+      "text": "Process sh forked a socket/pipe"
+    },
+    {
+      "window": "W4",
+      "label": "benign",
+      "ts": 1523625766834629044,
+      "text": "Process imapd wrote to <unknown>"
+    },
+    {
+      "window": "W4",
+      "label": "benign",
+      "ts": 1523625766994630524,
+      "text": "Process imapd wrote to <unknown>"
+    },
+    {
+      "window": "W4",
+      "label": "benign",
+      "ts": 1523625768524629079,
+      "text": "Process master wrote to <unknown>"
+    },
+    {
+      "window": "W4",
+      "label": "benign",
+      "ts": 1523625828634629392,
+      "text": "Process bash executed /usr/bin/head"
+    },
+    {
+      "window": "W4",
+      "label": "benign",
+      "ts": 1523625950764626274,
+      "text": "Process bash executed /usr/local/sbin/lsof"
+    },
+    {
+      "window": "W4",
+      "label": "benign",
+      "ts": 1523625959064627084,
+      "text": "Process imapd linked /home/frank/Archives.lock"
+    },
+    {
+      "window": "W4",
+      "label": "benign",
+      "ts": 1523625979264627297,
+      "text": "Process smtpd changed memory protection on a socket/pipe"
+    },
+    {
+      "window": "W4",
+      "label": "benign",
+      "ts": 1523625979374631290,
+      "text": "Process proxymap changed privilege via a socket/pipe"
+    },
+    {
+      "window": "W4",
+      "label": "benign",
+      "ts": 1523625979824626442,
+      "text": "Process imapd modified process a socket/pipe"
+    },
+    {
+      "window": "W4",
+      "label": "benign",
+      "ts": 1523625979854627520,
+      "text": "Process imapd wrote to <unknown>"
+    },
+    {
+      "window": "W4",
+      "label": "benign",
+      "ts": 1523625980084628145,
+      "text": "Process local changed privilege via a socket/pipe"
+    },
+    {
+      "window": "W4",
+      "label": "benign",
+      "ts": 1523625991254624734,
+      "text": "Process python2.7 created a socket/pipe"
+    },
+    {
+      "window": "W4",
+      "label": "benign",
+      "ts": 1523626008434624416,
+      "text": "Process imapd modified process a socket/pipe"
+    },
+    {
+      "window": "W4",
+      "label": "benign",
+      "ts": 1523626037704637368,
+      "text": "Process cleanup wrote to <unknown>"
+    },
+    {
+      "window": "W4",
+      "label": "benign",
+      "ts": 1523626037804632181,
+      "text": "Process syslogd wrote to /var/log/maillog (file under system log directory)"
+    },
+    {
+      "window": "W4",
+      "label": "benign",
+      "ts": 1523626037854630668,
+      "text": "Process qmgr wrote to <unknown>"
+    },
+    {
+      "window": "W4",
+      "label": "benign",
+      "ts": 1523626037984631080,
+      "text": "Process local wrote to active/AA20629D15"
+    },
+    {
+      "window": "W4",
+      "label": "benign",
+      "ts": 1523626039244625581,
+      "text": "Process imapd wrote to <unknown>"
+    },
+    {
+      "window": "W4",
+      "label": "benign",
+      "ts": 1523626053784622557,
+      "text": "Process nginx accepted inbound connection from 128.55.12.122 (28 packets)"
+    },
+    {
+      "window": "W4",
+      "label": "benign",
+      "ts": 1523626153684628242,
+      "text": "Process imapd changed permissions on /home/charles/Archives.lock"
+    },
+    {
+      "window": "W4",
+      "label": "benign",
+      "ts": 1523626189524619784,
+      "text": "Process bash forked a socket/pipe"
+    },
+    {
+      "window": "W4",
+      "label": "benign",
+      "ts": 1523626192754624710,
+      "text": "Process bash forked a socket/pipe"
+    },
+    {
+      "window": "W4",
+      "label": "benign",
+      "ts": 1523626310544621966,
+      "text": "Process bash forked a socket/pipe"
+    },
+    {
+      "window": "W4",
+      "label": "benign",
+      "ts": 1523626367414623900,
+      "text": "Process smtpd wrote to <unknown>"
+    },
+    {
+      "window": "W4",
+      "label": "benign",
+      "ts": 1523626367674617283,
+      "text": "Process cleanup wrote to <unknown>"
+    },
+    {
+      "window": "W4",
+      "label": "benign",
+      "ts": 1523626367994619553,
+      "text": "Process local deleted /var/mail/charles.lock"
+    },
+    {
+      "window": "W4",
+      "label": "benign",
+      "ts": 1523626368024627891,
+      "text": "Process local changed privilege via a socket/pipe"
+    },
+    {
+      "window": "W4",
+      "label": "benign",
+      "ts": 1523626648264612737,
+      "text": "Process python2.7 created a socket/pipe"
+    },
+    {
+      "window": "W4",
+      "label": "benign",
+      "ts": 1523626668854609887,
+      "text": "Process pickup wrote to <unknown>"
+    },
+    {
+      "window": "W4",
+      "label": "benign",
+      "ts": 1523626772264605955,
+      "text": "Process python2.7 created a socket/pipe"
+    },
+    {
+      "window": "W4",
+      "label": "benign",
+      "ts": 1523626788884607465,
+      "text": "Process master wrote to <unknown>"
+    },
+    {
+      "window": "W4",
+      "label": "benign",
+      "ts": 1523626795604607946,
+      "text": "Process bash executed /bin/sleep"
+    },
+    {
+      "window": "W4",
+      "label": "benign",
+      "ts": 1523626797694607162,
+      "text": "Process bash executed /bin/date"
+    },
+    {
+      "window": "W4",
+      "label": "benign",
+      "ts": 1523626868264605223,
+      "text": "Process python2.7 created a socket/pipe"
+    },
+    {
+      "window": "W4",
+      "label": "benign",
+      "ts": 1523626951274603432,
+      "text": "Process python2.7 created a socket/pipe"
+    },
+    {
+      "window": "W4",
+      "label": "benign",
+      "ts": 1523626979154604006,
+      "text": "Process bash forked a socket/pipe"
+    },
+    {
+      "window": "W4",
+      "label": "benign",
+      "ts": 1523627031264601395,
+      "text": "Process python2.7 created a socket/pipe"
+    },
+    {
+      "window": "W4",
+      "label": "benign",
+      "ts": 1523627040084602459,
+      "text": "Process sh modified process a socket/pipe"
+    },
+    {
+      "window": "W4",
+      "label": "benign",
+      "ts": 1523627226274597061,
+      "text": "Process python2.7 created a socket/pipe"
+    },
+    {
+      "window": "W4",
+      "label": "benign",
+      "ts": 1523627378194593034,
+      "text": "Process inetd accepted inbound connection from 128.55.12.55 (4 packets)"
+    },
+    {
+      "window": "W4",
+      "label": "benign",
+      "ts": 1523627412894593432,
+      "text": "Process smtpd accepted inbound connection from 128.55.12.55 (1 packets)"
+    },
+    {
+      "window": "W4",
+      "label": "benign",
+      "ts": 1523627413354597082,
+      "text": "Process syslogd wrote to /var/log/maillog (file under system log directory)"
+    },
+    {
+      "window": "W4",
+      "label": "benign",
+      "ts": 1523627413694602560,
+      "text": "Process local changed privilege via a socket/pipe"
+    },
+    {
+      "window": "W4",
+      "label": "benign",
+      "ts": 1523627413734595437,
+      "text": "Process local changed privilege via a socket/pipe"
+    },
+    {
+      "window": "W4",
+      "label": "benign",
+      "ts": 1523627463444594463,
+      "text": "Process bash forked a socket/pipe"
+    },
+    {
+      "window": "W4",
+      "label": "benign",
+      "ts": 1523627513384592610,
+      "text": "Process master wrote to <unknown>"
+    },
+    {
+      "window": "W4",
+      "label": "benign",
+      "ts": 1523627933094583009,
+      "text": "Process login logged in via a socket/pipe"
+    },
+    {
+      "window": "W4",
+      "label": "benign",
+      "ts": 1523627956314581395,
+      "text": "Process sh wrote to /dev/tty"
+    }
+  ],
+  "communities": [
+    [
+      36,
+      98,
+      56,
+      57,
+      55,
+      37,
+      19,
+      58,
+      52,
+      51,
+      47,
+      99,
+      18,
+      16,
+      20,
+      41,
+      46,
+      48,
+      44,
+      45,
+      142,
+      141,
+      148,
+      54,
+      53
+    ],
+    [
+      136,
+      135,
+      123,
+      131,
+      139,
+      145,
+      8,
+      10,
+      29,
+      100,
+      33,
+      60,
+      104,
+      101,
+      118,
+      119,
+      6,
+      5,
+      13,
+      15
+    ],
+    [
+      113,
+      107,
+      116,
+      92,
+      82,
+      91,
+      63,
+      64,
+      73,
+      71,
+      68,
+      70,
+      75,
+      74,
+      76,
+      80,
+      62,
+      65,
+      67
+    ],
+    [
+      69,
+      77,
+      78,
+      85,
+      84,
+      90,
+      89,
+      88,
+      87,
+      86,
+      83
+    ],
+    [
+      4,
+      140,
+      146,
+      40,
+      149,
+      110,
+      17,
+      102
+    ],
+    [
+      79,
+      39,
+      127,
+      35
+    ],
+    [
+      27,
+      126,
+      155,
+      115
+    ],
+    [
+      108,
+      111,
+      117,
+      109
+    ],
+    [
+      3,
+      22,
+      106
+    ],
+    [
+      150,
+      94,
+      96
+    ],
+    [
+      121,
+      11,
+      125
+    ],
+    [
+      129,
+      134,
+      130
+    ],
+    [
+      180,
+      174,
+      185,
+      202,
+      175,
+      162,
+      203,
+      190,
+      176,
+      205,
+      213
+    ],
+    [
+      194,
+      198,
+      196,
+      195,
+      178
+    ],
+    [
+      158,
+      184,
+      183,
+      172
+    ],
+    [
+      219,
+      199,
+      182,
+      225
+    ],
+    [
+      160,
+      208,
+      204
+    ],
+    [
+      187,
+      193,
+      192
+    ],
+    [
+      215,
+      216,
+      217
+    ],
+    [
+      400,
+      444,
+      334,
+      335,
+      336,
+      430,
+      431,
+      491,
+      503,
+      568,
+      588,
+      640,
+      751,
+      375,
+      379,
+      380,
+      230,
+      397,
+      492,
+      636,
+      745,
+      228,
+      246,
+      247,
+      296,
+      304,
+      311,
+      348,
+      349,
+      368,
+      370,
+      372,
+      373,
+      374,
+      376,
+      381,
+      382,
+      387,
+      399,
+      402,
+      403,
+      405,
+      406,
+      407,
+      408,
+      409,
+      411,
+      432,
+      433,
+      440,
+      443,
+      445,
+      446,
+      448,
+      455,
+      457,
+      459,
+      464,
+      467,
+      496,
+      497,
+      500,
+      501,
+      504,
+      532,
+      545,
+      565,
+      569,
+      570,
+      578,
+      586,
+      587,
+      609,
+      610,
+      612,
+      616,
+      618,
+      620,
+      623,
+      626,
+      631,
+      633,
+      663,
+      664,
+      671,
+      672,
+      691,
+      702,
+      703,
+      704,
+      705,
+      706,
+      708,
+      709,
+      710,
+      715,
+      733,
+      734,
+      735,
+      736,
+      739,
+      740,
+      741,
+      743,
+      744,
+      746,
+      747,
+      748,
+      749,
+      750,
+      752,
+      753
+    ],
+    [
+      242,
+      244,
+      269,
+      273,
+      302,
+      307,
+      417,
+      462,
+      542,
+      597,
+      598,
+      713,
+      300,
+      561,
+      257,
+      259,
+      319,
+      320,
+      323,
+      324,
+      356,
+      358,
+      359,
+      360,
+      421,
+      422,
+      423,
+      427,
+      428,
+      473,
+      474,
+      486,
+      487,
+      488,
+      517,
+      520,
+      537,
+      540,
+      541,
+      553,
+      554,
+      591,
+      592,
+      594,
+      603,
+      604,
+      605,
+      607,
+      608,
+      657,
+      659,
+      679,
+      681,
+      682,
+      683,
+      684,
+      698,
+      699,
+      700,
+      701,
+      727,
+      729,
+      731,
+      250,
+      468,
+      275,
+      293,
+      465,
+      508,
+      298,
+      301,
+      510,
+      413,
+      668,
+      274,
+      637,
+      463
+    ],
+    [
+      391,
+      342,
+      233,
+      234,
+      235,
+      236,
+      238,
+      245,
+      254,
+      262,
+      263,
+      264,
+      276,
+      277,
+      279,
+      283,
+      284,
+      285,
+      289,
+      313,
+      328,
+      329,
+      333,
+      337,
+      338,
+      343,
+      344,
+      345,
+      347,
+      364,
+      385,
+      386,
+      388,
+      390,
+      393,
+      395,
+      396
+    ],
+    [
+      251,
+      253,
+      316,
+      352,
+      353,
+      355,
+      420,
+      469,
+      470,
+      471,
+      513,
+      534,
+      535,
+      546,
+      547,
+      552,
+      589,
+      652,
+      653,
+      654,
+      675,
+      677,
+      692,
+      693,
+      694,
+      695,
+      696,
+      720,
+      722,
+      723,
+      724
+    ],
+    [
+      505,
+      732,
+      714,
+      414,
+      418,
+      687,
+      270,
+      305,
+      306,
+      309,
+      369,
+      458,
+      476,
+      294,
+      340,
+      509,
+      265,
+      267,
+      271,
+      290,
+      331,
+      383,
+      389,
+      398,
+      412,
+      415,
+      524,
+      525,
+      581,
+      688
+    ],
+    [
+      258,
+      322,
+      357,
+      361,
+      521,
+      522,
+      539,
+      549,
+      590,
+      602,
+      656,
+      658,
+      728,
+      730,
+      326,
+      680,
+      282
+    ],
+    [
+      438,
+      261,
+      272,
+      308,
+      325,
+      363,
+      429,
+      516,
+      526,
+      527,
+      543,
+      560,
+      596,
+      655,
+      697,
+      712
+    ],
+    [
+      562,
+      577,
+      232,
+      494,
+      557,
+      564,
+      646,
+      647,
+      495,
+      483,
+      639
+    ],
+    [
+      281,
+      317,
+      318,
+      321,
+      472,
+      514,
+      515,
+      518,
+      555,
+      593,
+      737
+    ],
+    [
+      599,
+      630,
+      666,
+      645,
+      648,
+      662,
+      584,
+      566,
+      611,
+      673,
+      493
+    ],
+    [
+      252,
+      512,
+      280,
+      425,
+      533,
+      600,
+      651,
+      676,
+      721
+    ],
+    [
+      288,
+      419,
+      426,
+      424,
+      511,
+      551,
+      718,
+      719
+    ],
+    [
+      461,
+      499,
+      530,
+      583,
+      460,
+      572,
+      466,
+      502
+    ],
+    [
+      256,
+      260,
+      670,
+      686,
+      295,
+      434,
+      563
+    ],
+    [
+      580,
+      410,
+      480,
+      528,
+      573,
+      574,
+      707
+    ],
+    [
+      239,
+      292,
+      339,
+      249,
+      351
+    ],
+    [
+      241,
+      544,
+      595,
+      266,
+      660
+    ],
+    [
+      401,
+      742,
+      310,
+      297,
+      303
+    ],
+    [
+      346,
+      394,
+      366,
+      371,
+      456
+    ],
+    [
+      435,
+      436,
+      437,
+      478,
+      479
+    ],
+    [
+      519,
+      685,
+      489,
+      606,
+      538
+    ],
+    [
+      341,
+      365,
+      475,
+      490
+    ],
+    [
+      689,
+      726,
+      243,
+      268
+    ],
+    [
+      643,
+      632,
+      629,
+      644
+    ],
+    [
+      378,
+      447,
+      529,
+      404
+    ],
+    [
+      416,
+      439,
+      635,
+      665
+    ],
+    [
+      615,
+      614,
+      617,
+      622
+    ],
+    [
+      477,
+      312,
+      661
+    ],
+    [
+      315,
+      678,
+      690
+    ],
+    [
+      725,
+      548,
+      711
+    ],
+    [
+      229,
+      231,
+      558
+    ],
+    [
+      367,
+      716,
+      650
+    ],
+    [
+      441,
+      442,
+      484
+    ],
+    [
+      449,
+      450,
+      451
+    ],
+    [
+      506,
+      507,
+      576
+    ],
+    [
+      550,
+      556,
+      601
+    ],
+    [
+      827,
+      828,
+      829,
+      830,
+      831,
+      832,
+      833,
+      834,
+      835,
+      836,
+      837,
+      838,
+      839,
+      840,
+      841,
+      842,
+      843,
+      844,
+      845,
+      846,
+      847,
+      848,
+      849,
+      850,
+      851,
+      852,
+      853,
+      854,
+      855,
+      856,
+      857,
+      858,
+      859,
+      860,
+      861,
+      862,
+      863,
+      864,
+      865,
+      866,
+      867,
+      868,
+      869,
+      870,
+      871,
+      878,
+      879,
+      880,
+      881,
+      882,
+      883,
+      884,
+      885,
+      886,
+      887,
+      888,
+      889,
+      890,
+      891,
+      892,
+      893,
+      894,
+      895,
+      896,
+      897,
+      898,
+      899,
+      900,
+      901,
+      902,
+      903,
+      904,
+      905,
+      906,
+      907,
+      908,
+      909,
+      910,
+      911,
+      912,
+      913,
+      914,
+      915,
+      916,
+      917
+    ],
+    [
+      817,
+      759,
+      780,
+      942,
+      943,
+      944,
+      957,
+      966,
+      959,
+      921,
+      757,
+      760,
+      762,
+      763,
+      765,
+      766,
+      767,
+      768,
+      773,
+      776,
+      782,
+      789,
+      800,
+      818,
+      824,
+      918,
+      933,
+      949,
+      951,
+      955,
+      956,
+      958,
+      960
+    ],
+    [
+      922,
+      923,
+      931,
+      939,
+      790,
+      791,
+      805,
+      806,
+      813
+    ],
+    [
+      772,
+      775,
+      777,
+      873,
+      874,
+      875
+    ],
+    [
+      929,
+      932,
+      948,
+      964,
+      965
+    ],
+    [
+      770,
+      814,
+      771,
+      825
+    ],
+    [
+      820,
+      821,
+      969,
+      822
+    ],
+    [
+      877,
+      941,
+      920,
+      927
+    ],
+    [
+      761,
+      774,
+      953
+    ],
+    [
+      783,
+      940,
+      784
+    ],
+    [
+      793,
+      792,
+      801
+    ],
+    [
+      803,
+      961,
+      962
+    ],
+    [
+      924,
+      952,
+      967
+    ]
+  ],
+  "mal_comms": [
+    10,
+    11,
+    18,
+    28,
+    31,
+    42,
+    45,
+    52,
+    64,
+    65
+  ],
+  "community_triples": {
+    "10": {
+      "triples": [
+        {
+          "subject": "nginx",
+          "relation": "EXPLOITS_VULNERABILITY",
+          "target": "81_49_200_166"
+        },
+        {
+          "subject": "nginx",
+          "relation": "ESTABLISHES_C2",
+          "target": "200_36_109_214"
+        }
+      ],
+      "window": "W1"
+    },
+    "11": {
+      "triples": [
+        {
+          "subject": "nginx",
+          "relation": "WRITES_FILE",
+          "target": "tmp_vugefal"
+        },
+        {
+          "subject": "nginx",
+          "relation": "DELETES_FILE",
+          "target": "tmp_vugefal"
+        },
+        {
+          "subject": "nginx",
+          "relation": "CHANGES_PERMISSIONS",
+          "target": "tmp_vugefal"
+        }
+      ],
+      "window": "W1"
+    },
+    "18": {
+      "triples": [
+        {
+          "subject": "nginx",
+          "relation": "ESTABLISHES_C2",
+          "target": "76_56_184_25"
+        },
+        {
+          "subject": "nginx",
+          "relation": "ESTABLISHES_C2",
+          "target": "155_162_39_48"
+        }
+      ],
+      "window": "W2"
+    },
+    "28": {
+      "triples": [
+        {
+          "subject": "sshd",
+          "relation": "EXECUTES_PAYLOAD",
+          "target": "tmp_xim"
+        },
+        {
+          "subject": "xim",
+          "relation": "WRITES_FILE",
+          "target": "tmp_test"
+        },
+        {
+          "subject": "sshd",
+          "relation": "EXECUTES_PAYLOAD",
+          "target": "tmp_main"
+        },
+        {
+          "subject": "sshd",
+          "relation": "INJECTS_PROCESS",
+          "target": "sshd"
+        }
+      ],
+      "window": "W3"
+    },
+    "31": {
+      "triples": [
+        {
+          "subject": "nginx",
+          "relation": "CHANGES_PERMISSIONS",
+          "target": "tmp_tmux_1002"
+        },
+        {
+          "subject": "nginx",
+          "relation": "DELETES_FILE",
+          "target": "tmp_tmux_1002"
+        },
+        {
+          "subject": "nginx",
+          "relation": "WRITES_FILE",
+          "target": "tmux_1002"
+        }
+      ],
+      "window": "W3"
+    },
+    "42": {
+      "triples": [
+        {
+          "subject": "xim",
+          "relation": "CHANGES_PERMISSIONS",
+          "target": "tmp_test"
+        },
+        {
+          "subject": "xim",
+          "relation": "DELETES_FILE",
+          "target": "tmp_main"
+        },
+        {
+          "subject": "xim",
+          "relation": "CHANGES_PERMISSIONS",
+          "target": "tmp_main"
+        },
+        {
+          "subject": "xim",
+          "relation": "WRITES_FILE",
+          "target": "test"
+        }
+      ],
+      "window": "W3"
+    },
+    "45": {
+      "triples": [
+        {
+          "subject": "xim",
+          "relation": "CHANGES_PERMISSIONS",
+          "target": "var_log_netlog"
+        },
+        {
+          "subject": "xim",
+          "relation": "WRITES_FILE",
+          "target": "var_log_netlog"
+        },
+        {
+          "subject": "xim",
+          "relation": "DELETES_FILE",
+          "target": "var_log_netlog"
+        },
+        {
+          "subject": "xim",
+          "relation": "CHANGES_PERMISSIONS",
+          "target": "var_log_sendmail"
+        }
+      ],
+      "window": "W3"
+    },
+    "52": {
+      "triples": [
+        {
+          "subject": "nginx",
+          "relation": "ESTABLISHES_C2",
+          "target": "76_56_184_25"
+        },
+        {
+          "subject": "nginx",
+          "relation": "ESTABLISHES_C2",
+          "target": "155_162_39_48"
+        }
+      ],
+      "window": "W3"
+    },
+    "64": {
+      "triples": [
+        {
+          "subject": "nginx",
+          "relation": "EXPLOITS_VULNERABILITY",
+          "target": "25_159_96_207"
+        },
+        {
+          "subject": "nginx",
+          "relation": "ESTABLISHES_C2",
+          "target": "76_56_184_25"
+        }
+      ],
+      "window": "W4"
+    },
+    "65": {
+      "triples": [
+        {
+          "subject": "nginx",
+          "relation": "WRITES_FILE",
+          "target": "tmp_peja72ma"
+        },
+        {
+          "subject": "nginx",
+          "relation": "CHANGES_PERMISSIONS",
+          "target": "tmp_peja72ma"
+        },
+        {
+          "subject": "nginx",
+          "relation": "WRITES_FILE",
+          "target": "tmp_ewq10bvcx"
+        },
+        {
+          "subject": "nginx",
+          "relation": "CHANGES_PERMISSIONS",
+          "target": "tmp_ewq10bvcx"
+        }
+      ],
+      "window": "W4"
+    }
+  },
+  "results": [
+    {
+      "cid": 10,
+      "window": "W1",
+      "gt_set": [
+        "T1055",
+        "T1059",
+        "T1071",
+        "T1105",
+        "T1190",
+        "T1222"
+      ],
+      "pred": "T1190",
+      "pred_multi": [
+        "T1190"
+      ],
+      "dom_rel": "EXPLOITS_VULNERABILITY",
+      "parent": true
+    },
+    {
+      "cid": 11,
+      "window": "W1",
+      "gt_set": [
+        "T1055",
+        "T1059",
+        "T1071",
+        "T1105",
+        "T1190",
+        "T1222"
+      ],
+      "pred": "T1105",
+      "pred_multi": [
+        "T1105"
+      ],
+      "dom_rel": "WRITES_FILE",
+      "parent": true
+    },
+    {
+      "cid": 18,
+      "window": "W2",
+      "gt_set": [
+        "T1055",
+        "T1059",
+        "T1071",
+        "T1105",
+        "T1190"
+      ],
+      "pred": "T1071.001",
+      "pred_multi": [
+        "T1071",
+        "T1190"
+      ],
+      "dom_rel": "ESTABLISHES_C2",
+      "parent": true
+    },
+    {
+      "cid": 28,
+      "window": "W3",
+      "gt_set": [
+        "T1059",
+        "T1070.004",
+        "T1071",
+        "T1105",
+        "T1190",
+        "T1222"
+      ],
+      "pred": "T1105",
+      "pred_multi": [
+        "T1059"
+      ],
+      "dom_rel": "EXECUTES_PAYLOAD",
+      "parent": true
+    },
+    {
+      "cid": 31,
+      "window": "W3",
+      "gt_set": [
+        "T1059",
+        "T1070.004",
+        "T1071",
+        "T1105",
+        "T1190",
+        "T1222"
+      ],
+      "pred": "T1222",
+      "pred_multi": [
+        "T1222"
+      ],
+      "dom_rel": "CHANGES_PERMISSIONS",
+      "parent": true
+    },
+    {
+      "cid": 42,
+      "window": "W3",
+      "gt_set": [
+        "T1059",
+        "T1070.004",
+        "T1071",
+        "T1105",
+        "T1190",
+        "T1222"
+      ],
+      "pred": "T1222",
+      "pred_multi": [
+        "T1222"
+      ],
+      "dom_rel": "CHANGES_PERMISSIONS",
+      "parent": true
+    },
+    {
+      "cid": 45,
+      "window": "W3",
+      "gt_set": [
+        "T1059",
+        "T1070.004",
+        "T1071",
+        "T1105",
+        "T1190",
+        "T1222"
+      ],
+      "pred": "T1222",
+      "pred_multi": [
+        "T1222"
+      ],
+      "dom_rel": "CHANGES_PERMISSIONS",
+      "parent": true
+    },
+    {
+      "cid": 52,
+      "window": "W3",
+      "gt_set": [
+        "T1059",
+        "T1070.004",
+        "T1071",
+        "T1105",
+        "T1190",
+        "T1222"
+      ],
+      "pred": "T1071.001",
+      "pred_multi": [
+        "T1071",
+        "T1190"
+      ],
+      "dom_rel": "ESTABLISHES_C2",
+      "parent": true
+    },
+    {
+      "cid": 64,
+      "window": "W4",
+      "gt_set": [
+        "T1055",
+        "T1059",
+        "T1071",
+        "T1105",
+        "T1190",
+        "T1222"
+      ],
+      "pred": "T1190",
+      "pred_multi": [
+        "T1190"
+      ],
+      "dom_rel": "EXPLOITS_VULNERABILITY",
+      "parent": true
+    },
+    {
+      "cid": 65,
+      "window": "W4",
+      "gt_set": [
+        "T1055",
+        "T1059",
+        "T1071",
+        "T1105",
+        "T1190",
+        "T1222"
+      ],
+      "pred": "T1105",
+      "pred_multi": [
+        "T1105",
+        "T1222"
+      ],
+      "dom_rel": "WRITES_FILE",
+      "parent": true
+    }
+  ],
+  "baseline_results": [
+    {
+      "cid": 10,
+      "window": "W1",
+      "gt_set": [
+        "T1055",
+        "T1059",
+        "T1071",
+        "T1105",
+        "T1190",
+        "T1222"
+      ],
+      "pred": "T1090.002",
+      "pred_multi": [
+        "T1090.002",
+        "T1016.001",
+        "T1090.001",
+        "T1090",
+        "T1568.003"
+      ],
+      "parent": false
+    },
+    {
+      "cid": 11,
+      "window": "W1",
+      "gt_set": [
+        "T1055",
+        "T1059",
+        "T1071",
+        "T1105",
+        "T1190",
+        "T1222"
+      ],
+      "pred": "T1222.002",
+      "pred_multi": [
+        "T1222.002",
+        "T1222",
+        "T1574.010",
+        "T1070.004",
+        "T1574.005"
+      ],
+      "parent": true
+    },
+    {
+      "cid": 18,
+      "window": "W2",
+      "gt_set": [
+        "T1055",
+        "T1059",
+        "T1071",
+        "T1105",
+        "T1190"
+      ],
+      "pred": "T1568.003",
+      "pred_multi": [
+        "T1568.003",
+        "T1016.001",
+        "T1071.001",
+        "T1090.002",
+        "T1205"
+      ],
+      "parent": false
+    },
+    {
+      "cid": 28,
+      "window": "W3",
+      "gt_set": [
+        "T1059",
+        "T1070.004",
+        "T1071",
+        "T1105",
+        "T1190",
+        "T1222"
+      ],
+      "pred": "T1055.009",
+      "pred_multi": [
+        "T1055.009",
+        "T1036.011",
+        "T1003.007",
+        "T1564.013",
+        "T1055.002"
+      ],
+      "parent": false
+    },
+    {
+      "cid": 31,
+      "window": "W3",
+      "gt_set": [
+        "T1059",
+        "T1070.004",
+        "T1071",
+        "T1105",
+        "T1190",
+        "T1222"
+      ],
+      "pred": "T1574.010",
+      "pred_multi": [
+        "T1574.010",
+        "T1222",
+        "T1222.002",
+        "T1574.005",
+        "T1055.005"
+      ],
+      "parent": false
+    },
+    {
+      "cid": 42,
+      "window": "W3",
+      "gt_set": [
+        "T1059",
+        "T1070.004",
+        "T1071",
+        "T1105",
+        "T1190",
+        "T1222"
+      ],
+      "pred": "T1222.002",
+      "pred_multi": [
+        "T1222.002",
+        "T1222",
+        "T1574.005",
+        "T1036.011",
+        "T1574.010"
+      ],
+      "parent": true
+    },
+    {
+      "cid": 45,
+      "window": "W3",
+      "gt_set": [
+        "T1059",
+        "T1070.004",
+        "T1071",
+        "T1105",
+        "T1190",
+        "T1222"
+      ],
+      "pred": "T1070.002",
+      "pred_multi": [
+        "T1070.002",
+        "T1562.012",
+        "T1070.003",
+        "T1574.010",
+        "T1070.001"
+      ],
+      "parent": true
+    },
+    {
+      "cid": 52,
+      "window": "W3",
+      "gt_set": [
+        "T1059",
+        "T1070.004",
+        "T1071",
+        "T1105",
+        "T1190",
+        "T1222"
+      ],
+      "pred": "T1568.003",
+      "pred_multi": [
+        "T1568.003",
+        "T1016.001",
+        "T1071.001",
+        "T1090.002",
+        "T1205"
+      ],
+      "parent": false
+    },
+    {
+      "cid": 64,
+      "window": "W4",
+      "gt_set": [
+        "T1055",
+        "T1059",
+        "T1071",
+        "T1105",
+        "T1190",
+        "T1222"
+      ],
+      "pred": "T1016.001",
+      "pred_multi": [
+        "T1016.001",
+        "T1090.002",
+        "T1568.003",
+        "T1090.001",
+        "T1677"
+      ],
+      "parent": false
+    },
+    {
+      "cid": 65,
+      "window": "W4",
+      "gt_set": [
+        "T1055",
+        "T1059",
+        "T1071",
+        "T1105",
+        "T1190",
+        "T1222"
+      ],
+      "pred": "T1222.002",
+      "pred_multi": [
+        "T1222.002",
+        "T1548.001",
+        "T1222",
+        "T1548.006",
+        "T1574.010"
+      ],
+      "parent": true
+    }
+  ]
+}

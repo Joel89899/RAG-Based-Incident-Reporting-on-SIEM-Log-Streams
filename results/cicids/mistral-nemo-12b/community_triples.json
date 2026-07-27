@@ -1,0 +1,323 @@
+{
+  "0": [
+    {
+      "subject": "port_scanner",
+      "relation": "PERFORMS_PORT_SCAN",
+      "target": "multiple_service_ports"
+    },
+    {
+      "subject": "http_flood_source",
+      "relation": "CAUSES_DENIAL_OF_SERVICE",
+      "target": "http_port_80_service"
+    }
+  ],
+  "1": [
+    {
+      "subject": "ftp_scanner",
+      "relation": "PERFORMS_PORT_SCAN",
+      "target": "ftp_port_21_service"
+    }
+  ],
+  "2": [
+    {
+      "subject": "ssh_brute_force_client",
+      "relation": "BRUTE_FORCES_CREDENTIAL",
+      "target": "ssh_port_22_service"
+    }
+  ],
+  "3": [
+    {
+      "subject": "dns_scanner",
+      "relation": "PERFORMS_PORT_SCAN",
+      "target": "dns_port_53_service"
+    }
+  ],
+  "4": [
+    {
+      "subject": "port_scanner",
+      "relation": "PERFORMS_PORT_SCAN",
+      "target": "multiple_unknown_ports"
+    }
+  ],
+  "5": [
+    {
+      "subject": "port_scanner",
+      "relation": "PERFORMS_PORT_SCAN",
+      "target": "multiple_unknown_ports"
+    }
+  ],
+  "6": [
+    {
+      "subject": "https_scanner",
+      "relation": "PERFORMS_PORT_SCAN",
+      "target": "https_port_443_service"
+    }
+  ],
+  "7": [
+    {
+      "subject": "https_scanner",
+      "relation": "PERFORMS_PORT_SCAN",
+      "target": "https_port_443_service"
+    }
+  ],
+  "8": [
+    {
+      "subject": "port_scanner",
+      "relation": "PERFORMS_PORT_SCAN",
+      "target": "multiple_unknown_ports"
+    }
+  ],
+  "9": [
+    {
+      "subject": "port_scanner",
+      "relation": "PERFORMS_PORT_SCAN",
+      "target": "multiple_unknown_ports"
+    }
+  ],
+  "10": [
+    {
+      "subject": "port_scanner",
+      "relation": "PERFORMS_PORT_SCAN",
+      "target": "multiple_unknown_ports"
+    }
+  ],
+  "11": [
+    {
+      "subject": "port_scanner",
+      "relation": "PERFORMS_PORT_SCAN",
+      "target": "multiple_service_ports"
+    }
+  ],
+  "12": [
+    {
+      "subject": "port_scanner",
+      "relation": "PERFORMS_PORT_SCAN",
+      "target": "unknown_port_53884"
+    },
+    {
+      "subject": "flood_source",
+      "relation": "CAUSES_DENIAL_OF_SERVICE",
+      "target": "unknown_port_444"
+    }
+  ],
+  "13": [
+    {
+      "subject": "port_scanner",
+      "relation": "PERFORMS_PORT_SCAN",
+      "target": "multiple_unknown_ports"
+    }
+  ],
+  "14": [
+    {
+      "subject": "port_scanner",
+      "relation": "PERFORMS_PORT_SCAN",
+      "target": "multiple_unknown_ports"
+    }
+  ],
+  "15": [
+    {
+      "subject": "port_scanner",
+      "relation": "PERFORMS_PORT_SCAN",
+      "target": "multiple_service_ports"
+    }
+  ],
+  "16": [
+    {
+      "subject": "ldap_scanner",
+      "relation": "PERFORMS_PORT_SCAN",
+      "target": "ldap_port_389_service"
+    }
+  ],
+  "17": [
+    {
+      "subject": "port_scanner",
+      "relation": "PERFORMS_PORT_SCAN",
+      "target": "unknown_ports_9207_4443_9220"
+    }
+  ],
+  "18": [
+    {
+      "subject": "smb_scanner",
+      "relation": "PERFORMS_PORT_SCAN",
+      "target": "smb_port_445_service"
+    }
+  ],
+  "19": [
+    {
+      "subject": "flood_source",
+      "relation": "CAUSES_DENIAL_OF_SERVICE",
+      "target": "netbios_name_port_137_service"
+    }
+  ],
+  "20": [
+    {
+      "subject": "https_scanner",
+      "relation": "PERFORMS_PORT_SCAN",
+      "target": "https_port_443_service"
+    }
+  ],
+  "21": [
+    {
+      "subject": "port_scanner",
+      "relation": "PERFORMS_PORT_SCAN",
+      "target": "multiple_unknown_ports"
+    }
+  ],
+  "22": [
+    {
+      "subject": "unknown_port_scanner",
+      "relation": "PERFORMS_PORT_SCAN",
+      "target": "unknown_port_3546_service"
+    }
+  ],
+  "23": [
+    {
+      "subject": "netbios_scanner",
+      "relation": "PERFORMS_PORT_SCAN",
+      "target": "netbios_session_port_139"
+    }
+  ],
+  "24": [
+    {
+      "subject": "port_scanner",
+      "relation": "PERFORMS_PORT_SCAN",
+      "target": "multiple_service_ports"
+    }
+  ],
+  "25": [
+    {
+      "subject": "mssql_scanner",
+      "relation": "PERFORMS_PORT_SCAN",
+      "target": "mssql_port_1433_service"
+    }
+  ],
+  "26": [
+    {
+      "subject": "port_scanner",
+      "relation": "PERFORMS_PORT_SCAN",
+      "target": "unknown_ports_2959_4321_43"
+    }
+  ],
+  "27": [
+    {
+      "subject": "nntp_scanner",
+      "relation": "PERFORMS_PORT_SCAN",
+      "target": "nntp_port_119_service"
+    }
+  ],
+  "28": [
+    {
+      "subject": "smtp_scanner",
+      "relation": "PERFORMS_PORT_SCAN",
+      "target": "smtp_submission_port_587"
+    }
+  ],
+  "29": [
+    {
+      "subject": "rdp_scanner",
+      "relation": "PERFORMS_PORT_SCAN",
+      "target": "rdp_port_3389_service"
+    }
+  ],
+  "30": [
+    {
+      "subject": "imap_scanner",
+      "relation": "PERFORMS_PORT_SCAN",
+      "target": "imap_port_143_service"
+    }
+  ],
+  "31": [
+    {
+      "subject": "unknown_port_873_scanner",
+      "relation": "PERFORMS_PORT_SCAN",
+      "target": "unknown_port_873_service"
+    }
+  ],
+  "32": [
+    {
+      "subject": "https_scanner",
+      "relation": "PERFORMS_PORT_SCAN",
+      "target": "https_port_443_service"
+    }
+  ],
+  "33": [
+    {
+      "subject": "port_scanner",
+      "relation": "PERFORMS_PORT_SCAN",
+      "target": "unknown_port_668"
+    },
+    {
+      "subject": "port_scanner",
+      "relation": "PERFORMS_PORT_SCAN",
+      "target": "unknown_port_7443"
+    }
+  ],
+  "34": [
+    {
+      "subject": "unknown_port_666_scanner",
+      "relation": "PERFORMS_PORT_SCAN",
+      "target": "unknown_port_666_service"
+    }
+  ],
+  "35": [
+    {
+      "subject": "smtp_scanner",
+      "relation": "PERFORMS_PORT_SCAN",
+      "target": "smtps_port_465_service"
+    }
+  ],
+  "36": [
+    {
+      "subject": "unknown_port_4343_scanner",
+      "relation": "PERFORMS_PORT_SCAN",
+      "target": "unknown_port_4343_service"
+    }
+  ],
+  "37": [
+    {
+      "subject": "smtp_scanner",
+      "relation": "PERFORMS_PORT_SCAN",
+      "target": "smtps_port_465_service"
+    }
+  ],
+  "38": [
+    {
+      "subject": "netbios_scanner",
+      "relation": "PERFORMS_PORT_SCAN",
+      "target": "netbios_port_137_service"
+    }
+  ],
+  "39": [
+    {
+      "subject": "mysql_scanner",
+      "relation": "PERFORMS_PORT_SCAN",
+      "target": "mysql_port_3306_service"
+    }
+  ],
+  "40": [
+    {
+      "subject": "smtp_scanner",
+      "relation": "PERFORMS_PORT_SCAN",
+      "target": "smtp_port_25_service"
+    }
+  ],
+  "41": [
+    {
+      "subject": "pptp_scanner",
+      "relation": "PERFORMS_PORT_SCAN",
+      "target": "pptp_port_1723_service"
+    }
+  ],
+  "42": [],
+  "43": [],
+  "44": [],
+  "45": [],
+  "46": [],
+  "47": [],
+  "48": [],
+  "49": [],
+  "50": [],
+  "51": [],
+  "52": [],
+  "53": []
+}

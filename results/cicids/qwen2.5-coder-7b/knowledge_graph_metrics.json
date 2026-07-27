@@ -1,0 +1,20 @@
+{
+  "total_triples_processed": 46,
+  "invalid_triples_skipped": 0,
+  "behavioral_nodes": 67,
+  "attck_technique_nodes": 691,
+  "total_nodes": 758,
+  "behavioral_edges": 43,
+  "bridge_edges": 66,
+  "total_edges": 109,
+  "attck_nodes_reachable": 12,
+  "relation_distribution": {
+    "ESTABLISHES_C2": 3,
+    "ASSOCIATED_WITH": 66,
+    "CAUSES_DENIAL_OF_SERVICE": 31,
+    "BRUTE_FORCES_CREDENTIAL": 1,
+    "PERFORMS_RECONNAISSANCE": 5,
+    "EXPLOITS_VULNERABILITY": 1,
+    "PERFORMS_BEACONING": 2
+  }
+}

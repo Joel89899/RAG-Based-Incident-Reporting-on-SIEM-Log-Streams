@@ -1,0 +1,8 @@
+{
+  "n_reports": 18,
+  "completeness_rate": 1.0,
+  "summary_grounding_mean": 0.7274,
+  "evidence_grounding_mean": 0.5673,
+  "faithfulness_mean": 0.4779,
+  "name_consistency_rate": 0.9444
+}
