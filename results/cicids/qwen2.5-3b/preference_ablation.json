@@ -1,0 +1,160 @@
+{
+  "condition": "KG-scoped rerank with vs without the 90% preference-table rule",
+  "n_communities": 18,
+  "recomputed_matches_saved_assignment": "18/18",
+  "rule_fired_and_changed_prediction": 0,
+  "with_rule": {
+    "exact": 0.2778,
+    "macro": 0.0893
+  },
+  "without_rule": {
+    "exact": 0.2778,
+    "macro": 0.0893
+  },
+  "per_community": [
+    {
+      "community_id": 1,
+      "ground_truth": "T1110.001",
+      "saved_rag_id": "T1499",
+      "with_rule": "T1499",
+      "without_rule": "T1499",
+      "rule_changed_outcome": false
+    },
+    {
+      "community_id": 2,
+      "ground_truth": "T1110.001",
+      "saved_rag_id": "T1046",
+      "with_rule": "T1046",
+      "without_rule": "T1046",
+      "rule_changed_outcome": false
+    },
+    {
+      "community_id": 12,
+      "ground_truth": "T1203",
+      "saved_rag_id": "T1046",
+      "with_rule": "T1046",
+      "without_rule": "T1046",
+      "rule_changed_outcome": false
+    },
+    {
+      "community_id": 13,
+      "ground_truth": "T1046",
+      "saved_rag_id": "T1046",
+      "with_rule": "T1046",
+      "without_rule": "T1046",
+      "rule_changed_outcome": false
+    },
+    {
+      "community_id": 15,
+      "ground_truth": "T1046",
+      "saved_rag_id": "T1046",
+      "with_rule": "T1046",
+      "without_rule": "T1046",
+      "rule_changed_outcome": false
+    },
+    {
+      "community_id": 17,
+      "ground_truth": "T1046",
+      "saved_rag_id": "T1046",
+      "with_rule": "T1046",
+      "without_rule": "T1046",
+      "rule_changed_outcome": false
+    },
+    {
+      "community_id": 21,
+      "ground_truth": "T1071.001",
+      "saved_rag_id": "T1046",
+      "with_rule": "T1046",
+      "without_rule": "T1046",
+      "rule_changed_outcome": false
+    },
+    {
+      "community_id": 22,
+      "ground_truth": "T1046",
+      "saved_rag_id": "T1498",
+      "with_rule": "T1498",
+      "without_rule": "T1498",
+      "rule_changed_outcome": false
+    },
+    {
+      "community_id": 25,
+      "ground_truth": "T1046",
+      "saved_rag_id": "T1499",
+      "with_rule": "T1499",
+      "without_rule": "T1499",
+      "rule_changed_outcome": false
+    },
+    {
+      "community_id": 26,
+      "ground_truth": "T1046",
+      "saved_rag_id": "T1046",
+      "with_rule": "T1046",
+      "without_rule": "T1046",
+      "rule_changed_outcome": false
+    },
+    {
+      "community_id": 27,
+      "ground_truth": "T1046",
+      "saved_rag_id": "T1498",
+      "with_rule": "T1498",
+      "without_rule": "T1498",
+      "rule_changed_outcome": false
+    },
+    {
+      "community_id": 28,
+      "ground_truth": "T1046",
+      "saved_rag_id": "T1498",
+      "with_rule": "T1498",
+      "without_rule": "T1498",
+      "rule_changed_outcome": false
+    },
+    {
+      "community_id": 29,
+      "ground_truth": "T1046",
+      "saved_rag_id": "T1499",
+      "with_rule": "T1499",
+      "without_rule": "T1499",
+      "rule_changed_outcome": false
+    },
+    {
+      "community_id": 30,
+      "ground_truth": "T1046",
+      "saved_rag_id": "T1499",
+      "with_rule": "T1499",
+      "without_rule": "T1499",
+      "rule_changed_outcome": false
+    },
+    {
+      "community_id": 31,
+      "ground_truth": "T1046",
+      "saved_rag_id": "T1499.001",
+      "with_rule": "T1499.001",
+      "without_rule": "T1499.001",
+      "rule_changed_outcome": false
+    },
+    {
+      "community_id": 34,
+      "ground_truth": "T1046",
+      "saved_rag_id": "T1498",
+      "with_rule": "T1498",
+      "without_rule": "T1498",
+      "rule_changed_outcome": false
+    },
+    {
+      "community_id": 39,
+      "ground_truth": "T1046",
+      "saved_rag_id": "T1046",
+      "with_rule": "T1046",
+      "without_rule": "T1046",
+      "rule_changed_outcome": false
+    },
+    {
+      "community_id": 40,
+      "ground_truth": "T1046",
+      "saved_rag_id": "T1498",
+      "with_rule": "T1498",
+      "without_rule": "T1498",
+      "rule_changed_outcome": false
+    }
+  ]
+}
