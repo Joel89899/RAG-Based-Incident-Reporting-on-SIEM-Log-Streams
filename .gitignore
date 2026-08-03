@@ -27,6 +27,7 @@ data/
 embeddings/
 models/
 chromadb/
+Thesis_ppt/
 
 # ============================================
 # LOGS / TEMP / CACHE
@@ -51,6 +52,8 @@ Thumbs.db
 # THESIS / PERSONAL
 # ============================================
 My_thesis_document/
+My_thesis_document_SRH/
+My_thesis_document_KHAS/
 Thesis/
 Talk_with_professor.md
 the-humanizer.md
