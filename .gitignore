@@ -5,7 +5,7 @@ __pycache__/
 *.pyc
 *.pyo
 *.pyd
-*.ipynb_checkpoints/
+.ipynb_checkpoints/
 
 # ============================================
 # ENVIRONMENTS
@@ -16,21 +16,20 @@ venv/
 env/
 
 # ============================================
-# DATA (ALL RAW, PROCESSED, OR GENERATED)
+# DATA AND MODEL WEIGHTS
+# --------------------------------------------
+# Not published: ~37 GB of datasets and ~16 GB of GGUF weights, all of which are
+# redistributable only from their original sources. The README explains where to
+# obtain each one and where to place it.
 # ============================================
 data/
 !data/.gitkeep
-
-# ============================================
-# PROJECT-LEVEL LARGE DIRECTORIES
-# ============================================
-embeddings/
 models/
+embeddings/
 chromadb/
-Thesis_ppt/
 
 # ============================================
-# LOGS / TEMP / CACHE
+# GENERATED / REBUILDABLE
 # ============================================
 *.log
 *.tmp
@@ -38,46 +37,67 @@ Thesis_ppt/
 .cache/
 
 # ============================================
-# AGENTS / SKILLS
+# LATEX BUILD ARTEFACTS
+# --------------------------------------------
+# Note: *.pdf below is deliberate. Every figure this repo publishes is a PNG, so
+# the rule costs nothing here; drop it if a PDF ever needs to be tracked.
 # ============================================
-.agents/
+*.aux
+*.bbl
+*.blg
+*.fdb_latexmk
+*.fls
+*.lof
+*.lot
+*.nav
+*.out
+*.pdf
+*.snm
+*.synctex.gz
+*.toc
+*.vrb
+%OUTDIR%/
+.overleafconnect
 
 # ============================================
-# OS FILES
-# ============================================
-.DS_Store
-Thumbs.db
-
-# ============================================
-# THESIS / PERSONAL
+# WRITE-UPS: THESIS, SLIDES, PAPERS
+# --------------------------------------------
+# This repository publishes the code and the experimental results. The written
+# artefacts are excluded for two separate reasons.
+#
+# 1. Each directory below carries its OWN nested .git (they sync to Overleaf).
+#    Committing them from here produces a gitlink, i.e. a submodule pointer to a
+#    repository nobody else can resolve, so a fresh clone gets an empty folder.
+#    Ignoring them is what keeps a clone working AND keeps the Overleaf sync
+#    intact. Do not replace this with `git add` unless the nested .git is
+#    removed first.
+# 2. The conference papers are unpublished work under submission.
 # ============================================
 My_thesis_document/
 My_thesis_document_SRH/
 My_thesis_document_KHAS/
 Thesis/
+Thesis_ppt/
+paper_submission_LNCS/
+paper_submission_cyberMACS/
+
+# ============================================
+# PERSONAL / NOT FOR PUBLICATION
+# --------------------------------------------
+# Supervisor correspondence, examiner feedback, and personal defence prep.
+# ============================================
 Talk_with_professor.md
 Joel_Mwende_Master_Thesis_Evaluation.md
+DEFENCE_NOTES.md
+Thesis_PPT.pptx
 the-humanizer.md
-*:Zone.Identifier
 
-# Overleaf Connect
-.overleafconnect
-*.aux
-*.synctex.gz
-*.fls
-*.fdb_latexmk
-*.bbl
-*.blg
-*.out
-*.toc
-*.pdf
-*.nav
-*.snm
-*.vrb
-*.lot
-*.lof
-%OUTDIR%/
-
-# IDE / Editor / Agent skills
+# ============================================
+# TOOLING / EDITOR / OS
+# ============================================
 .claude/
+.agents/
 .vscode/
+.DS_Store
+Thumbs.db
+*:Zone.Identifier

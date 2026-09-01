@@ -2,7 +2,7 @@
 
 Reads rag_metrics.json for the three CIC-IDS models and renders the
 divergence between exact-match correctness and retrieval faithfulness.
-Output: My_thesis_document/figures/cicids_correctness_faithfulness.png
+Output: results/figures/cicids_correctness_faithfulness.png
 
 Run: .venv/bin/python revision_scripts/make_quadrant_figure.py
 """
@@ -14,7 +14,9 @@ matplotlib.use("Agg")
 import matplotlib.pyplot as plt
 
 ROOT = Path(__file__).resolve().parent.parent
-OUT = ROOT / "My_thesis_document/figures/cicids_correctness_faithfulness.png"
+# Written under results/ so the figure lands somewhere this repository actually
+# publishes. The thesis and paper sources keep their own copies.
+OUT = ROOT / "results/figures/cicids_correctness_faithfulness.png"
 
 LABELS = {
     "mistral-nemo-12b": "Mistral-Nemo-12B",
@@ -70,5 +72,6 @@ for spine in ["top", "right"]:
     ax.spines[spine].set_visible(False)
 
 fig.tight_layout()
+OUT.parent.mkdir(parents=True, exist_ok=True)
 fig.savefig(OUT, dpi=200)
 print(f"wrote {OUT}")
