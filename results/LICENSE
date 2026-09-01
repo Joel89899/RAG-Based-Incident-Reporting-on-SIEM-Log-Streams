@@ -1,0 +1,60 @@
+Licence for the experimental outputs in this directory
+======================================================
+
+Copyright 2026 Joel Isaria Mwende
+
+The experimental outputs in this directory are licensed under the
+Creative Commons Attribution 4.0 International Licence (CC BY 4.0).
+
+    Summary:    https://creativecommons.org/licenses/by/4.0/
+    Full text:  https://creativecommons.org/licenses/by/4.0/legalcode
+
+You are free to share and adapt this material for any purpose, including
+commercially, provided you give appropriate credit, link to the licence, and
+indicate whether changes were made. Attribution should cite the thesis; see
+CITATION.cff in the repository root.
+
+This covers the metrics, extracted triples, knowledge graphs, generated
+reports, confusion matrices, threshold sweeps, ablation outputs and figures
+produced by the pipeline.
+
+
+Material NOT covered by the licence above
+-----------------------------------------
+
+DERIVED DATASET COLUMNS. The files
+
+    results/cicids/<model>/community_assignments.csv
+
+carry, alongside the pipeline's own outputs, sixteen feature columns
+reproduced from the CIC-IDS-2017 dataset, including Flow Duration, Total Fwd
+Packets, SYN Flag Count, Flow Bytes/s, Average Packet Size and the class
+Label. Those columns are not original to this work and are not relicensed
+here. They remain subject to the terms set by the Canadian Institute for
+Cybersecurity, University of New Brunswick, which permit research use and
+require that the dataset be cited:
+
+    I. Sharafaldin, A. Habibi Lashkari and A. A. Ghorbani, "Toward Generating
+    a New Intrusion Detection Dataset and Intrusion Traffic Characterization,"
+    in Proceedings of the 4th International Conference on Information Systems
+    Security and Privacy (ICISSP), 2018.
+
+    https://www.unb.ca/cic/datasets/ids-2017.html
+
+The columns are included because they are what makes the clustering and the
+per-community scoring reproducible. If you redistribute these files, carry the
+CIC citation requirement with them.
+
+DARPA TRANSPARENT COMPUTING. Outputs under results/darpa/ are derived from the
+CADETS E3 engagement data and the accompanying ground-truth report, released
+by the DARPA Transparent Computing program. Ground-truth technique sets were
+transcribed by hand from that report.
+
+    https://github.com/darpa-i2o/Transparent-Computing
+
+MITRE ATT&CK. Technique identifiers, names and procedure descriptions are from
+the MITRE ATT&CK knowledge base, (c) The MITRE Corporation, and are used under
+MITRE's terms of use. ATT&CK is a registered trademark of The MITRE
+Corporation.
+
+    https://attack.mitre.org/resources/terms-of-use/

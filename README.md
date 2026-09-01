@@ -173,7 +173,8 @@ what each evaluation metric means and how to read the numbers it produces.
 
 ## Citation
 
-If you use this work, please cite the thesis:
+If you use this work, please cite the thesis. GitHub's "Cite this repository"
+button reads [`CITATION.cff`](CITATION.cff) and will export this for you.
 
 ```bibtex
 @mastersthesis{mwende2026fragmented,
@@ -187,9 +188,28 @@ If you use this work, please cite the thesis:
 }
 ```
 
-## License
+## Licensing
 
-No license has been chosen yet, so default copyright applies and the code is not
-yet reusable by others. Adding an OSI license (MIT or Apache-2.0 are the usual
-choices for research code) would let people build on this. Note that the datasets
-and model weights carry their own separate terms.
+Three layers apply, because code, generated results, and third-party data are
+not the same thing.
+
+| What | Licence | File |
+|---|---|---|
+| Source code (notebooks, analysis scripts) | Apache-2.0 | [`LICENSE`](LICENSE) |
+| Experimental outputs under `results/` | CC BY 4.0 | [`results/LICENSE`](results/LICENSE) |
+| Datasets and model weights | Original providers' terms | not redistributed here |
+
+Apache-2.0 was chosen over MIT for its explicit patent grant, which matters for
+a method someone might otherwise patent around.
+
+**One caveat if you reuse `results/`.** The
+`results/cicids/<model>/community_assignments.csv` files carry sixteen feature
+columns reproduced from CIC-IDS-2017 alongside the pipeline's own outputs. Those
+columns are not original to this work, are not relicensed here, and remain
+subject to the Canadian Institute for Cybersecurity's terms, which require
+citing Sharafaldin et al. (2018). They are included because they are what makes
+the clustering and per-community scoring reproducible. If you redistribute those
+files, carry the citation requirement with them. The same applies to DARPA
+Transparent Computing material under `results/darpa/`, and to MITRE ATT&CK
+identifiers and descriptions throughout. Details in
+[`results/LICENSE`](results/LICENSE).

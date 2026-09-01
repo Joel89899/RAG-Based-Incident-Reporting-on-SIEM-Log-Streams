@@ -1,0 +1,48 @@
+cff-version: 1.2.0
+title: >-
+  From Fragmented Alerts to Actionable Intelligence: behaviour-anchored
+  retrieval for incident reporting on SIEM log streams
+message: >-
+  If you use this software or its experimental outputs, please cite the thesis
+  below.
+type: software
+authors:
+  - given-names: Joel Isaria
+    family-names: Mwende
+    affiliation: >-
+      SRH Berlin University of Applied Sciences and Kadir Has University
+      (cyberMACS Erasmus Mundus Joint Master)
+repository-code: >-
+  https://github.com/Joel89899/RAG-Based-Incident-Reporting-on-SIEM-Log-Streams
+abstract: >-
+  A seven-stage pipeline that groups SIEM alerts into incident-level
+  communities, extracts behavioural subject-relation-target triples from each
+  community under a grammar-constrained decoder, and uses a knowledge graph
+  bridge into MITRE ATT&CK to restrict which techniques retrieval may return.
+  Anchoring retrieval in extracted behaviour converts an open-domain search
+  over 691 technique descriptions into a closed-set choice among candidates the
+  observed evidence supports. Runs entirely on local hardware within 4 GB of
+  video memory.
+keywords:
+  - security operations
+  - MITRE ATT&CK
+  - retrieval-augmented generation
+  - knowledge graphs
+  - large language models
+  - incident response
+  - SIEM
+license: Apache-2.0
+preferred-citation:
+  type: thesis
+  thesis-type: Master's thesis
+  title: >-
+    From Fragmented Alerts to Actionable Intelligence: Semantic Clustering,
+    Knowledge Graph Construction, and RAG-Based Incident Reporting on SIEM Log
+    Streams
+  authors:
+    - given-names: Joel Isaria
+      family-names: Mwende
+  institution:
+    name: >-
+      SRH Berlin University of Applied Sciences and Kadir Has University
+  year: 2026
