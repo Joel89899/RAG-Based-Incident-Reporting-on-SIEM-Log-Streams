@@ -202,7 +202,7 @@ not the same thing.
 Apache-2.0 was chosen over MIT for its explicit patent grant, which matters for
 a method someone might otherwise patent around.
 
-**One caveat if you reuse `results/`.** The
+** The
 `results/cicids/<model>/community_assignments.csv` files carry sixteen feature
 columns reproduced from CIC-IDS-2017 alongside the pipeline's own outputs. Those
 columns are not original to this work, are not relicensed here, and remain
