@@ -543,13 +543,14 @@ communities are produced.
 
 Maintenance is concentrated in the ATT\&CK corpus, the bridge mapping, and
 model validation. The STIX snapshot contains 691 retrievable technique records,
-so framework revisions require the corpus and mapping to be refreshed. Bridge
-coverage is also manual: the present mapping reaches 12 network-flow technique
-identifiers and 21 host-event identifiers, and each extension requires new
-curation. Replacing the language model is mechanically simpler, but not
-evidentially free. With identical prompts and graph logic, the tested models
-range from 11.1\% to 83.3\% exact match; any replacement must therefore be
-validated on labelled data.
+whereas the current ATT\&CK release distinguishes 222 techniques and 475
+sub-techniques. Framework revisions therefore require the corpus and mapping to
+be refreshed. Bridge coverage is also manual: the present mapping reaches 12
+network-flow technique identifiers and 21 host-event identifiers, and each
+extension requires new curation. Replacing the language model is mechanically
+simpler, but not evidentially free. With identical prompts and graph logic, the
+tested models range from 11.1\% to 83.3\% exact match; any replacement must
+therefore be validated on labelled data.
 
 ### RD-21 — Turnitin page 92; `chapters/results.tex`, dataset and corpus limits
 
@@ -676,7 +677,8 @@ part of ATT\&CK. Threshold selection favours purity and tightness; another
 objective could alter both the communities and their downstream scores.
 CIC-IDS further supplies one reference technique per community even though an
 operational incident may contain several, so the reported score cannot reflect
-partial multi-technique recovery.
+partial multi-technique recovery and should be treated as a lower bound on
+practical utility.
 
 ### C-06 — Turnitin pages 97–98; `chapters/conclusions.tex`, human evaluation
 
@@ -732,8 +734,8 @@ datasets used here.
 flow identifiers and 21 host-event identifiers, compared with more than 200
 techniques in ATT\&CK. Candidate mappings could be proposed automatically from
 procedure descriptions, but each would still require manual validation before
-use. Extending the bridge to lateral movement, persistence, privilege
-escalation, and defence evasion is therefore mainly a curation task; the
+use. Extending the bridge to Lateral Movement, Persistence, Privilege
+Escalation, and Defense Evasion is therefore mainly a curation task; the
 pipeline architecture need not change.
 
 ### C-13 — Turnitin page 100; `chapters/conclusions.tex`, live ingestion
@@ -757,10 +759,11 @@ them to recognised threat behaviour.
 
 The experiments show that a graph constructed from alert-derived relations can
 provide this connection by restricting retrieval to behaviourally supported
-ATT\&CK techniques. It does not replace the language model or supply new facts.
-Its purpose is narrower: to prevent the report generator from discussing
-techniques unsupported by the extracted evidence, leaving an assignment that
-an analyst can inspect in a recognised taxonomy.
+ATT\&CK techniques. This restriction improved both classification and grounding
+in the tested conditions. The graph does not replace the language model or
+supply new facts. Its purpose is narrower: to prevent the report generator from
+discussing techniques unsupported by the extracted evidence, leaving an
+assignment that an analyst can inspect in a recognised taxonomy.
 
 ### C-16 — Turnitin page 101; `chapters/conclusions.tex`, final hardware statement
 
